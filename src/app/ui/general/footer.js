@@ -23,7 +23,7 @@ const Footer = ({ data }) => {
 
   return (
     <footer className="bg-[#D9D9D9] text-white py-6">
-      <div className="container mx-auto flex flex-col lg:flex-row ">
+      <div className="contenedor-custom flex flex-col lg:flex-row ">
         <div className="flex flex-col w-full lg:w-1/2 gap-y-5">
           {/* Footer Logo */}
           <div className="footer-logo mb-6 lg:mb-0">

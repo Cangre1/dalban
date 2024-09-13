@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 const Header = ({ data }) => {
-  const { logo, navigation, ctaButton, socialIcons } = data;
+  const { logo, logoMenu, navigation, ctaButton, socialIcons } = data;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -15,8 +15,8 @@ const Header = ({ data }) => {
   );
 
   return (
-    <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
-      <div className="container mx-auto flex justify-between items-center py-6 ">
+    <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50 py-6">
+      <div className="contenedor-custom flex justify-between items-end lg:items-center">
         {/* Logo */}
         <div className="logo">
           <a href={logo.link}>
@@ -26,27 +26,9 @@ const Header = ({ data }) => {
 
         {/* Menu toggle (hamburger) */}
         <div className="lg:hidden">
-          <button
-            onClick={toggleMenu}
-            className="text-gray-800 focus:outline-none"
-          >
-            <svg
-              className="w-8 h-8"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d={
-                  isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"
-                }
-              ></path>
-            </svg>
-          </button>
+          <a onClick={toggleMenu}>
+            <img src={logoMenu.src} alt={logo.alt} className="w-8" />
+          </a>
         </div>
 
         {/* Navigation (Desktop & Mobile) */}

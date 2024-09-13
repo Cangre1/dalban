@@ -4,7 +4,7 @@ import Play from "../../../../public/assets/play.png";
 
 const VideoHero = () => {
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-[60vh] lg:h-screen">
       {/* Imagen de fondo */}
       <Image
         src={Hero}

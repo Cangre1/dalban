@@ -9,6 +9,11 @@
     "alt": "Logo de Dalban",
     "link": "/"
   },
+  "logoMenu": {
+    "src": "assets/icon-menu.png",
+    "alt": "Logo de menu",
+    "link": "/"
+  },
   "paragraph": "Atributos materiales e inmateriales. Físicos e intangibles. Sinergia. Combinación que originó Dalban S.A. incomparable desde todo punto de vista.",
   "copyright": "Copyright © 2024 Site developed by MG54. All Rights Reserved.",
   "navigation": [
