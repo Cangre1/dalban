@@ -1,0 +1,83 @@
+{
+  "aboutUs": {
+    "title": "Sobre <span class='font-bold'>Nosotros</span>",
+    "paragraph": "Nuevo concepto en Logística Integral de Mercaderías, pionero y líder en la industria farmaceutica en la Republica Argentina.<br><br>Nos especializamos en ofrecer <span class='font-bold' style='color: #0099A8;'>soluciones de transporte y logística personalizadas e integradas</span>. Nuestro enfoque proactivo nos impulsa a buscar constantemente formas de optimizar su cadena de suministro, asegurando así un servicio eficiente y confiable."
+  },
+  "stats": {
+    "paragraph": "Estadísticas que superamos año a año",
+    "stats": [
+      {
+        "number": "1121",
+        "text": "Empleados",
+        "src": "/assets/icon-empleados.png",
+        "alt": "Empleados",
+        "width": 80,
+        "height": 80
+      },
+      {
+        "number": "7204",
+        "text": "Productos almacenados",
+        "src": "/assets/icon-productos.png",
+        "alt": "Productos almacenados",
+        "width": 50,
+        "height": 50
+      },
+      {
+        "number": "437",
+        "text": "Clientes",
+        "src": "/assets/icon-clientes.png",
+        "alt": "Clientes",
+        "width": 60,
+        "height": 60
+      },
+      {
+        "number": "250.000",
+        "text": "mts2 en depósitos y plantas",
+        "src": "/assets/icon-depositos.png",
+        "alt": "mts2 en depósitos y plantas",
+        "width": 70,
+        "height": 70
+      }
+    ]
+  },
+  "solutions": {
+    "title": "Nuestras <span class='font-bold'>Soluciones</span>",
+    "grid1": [
+      {
+        "src": "/assets/solutions-logistica.png",
+        "title": "Logística",
+        "btn": "Conocé más",
+        "href": "/"
+      },
+      {
+        "src": "/assets/solutions-pharma.png",
+        "title": "Pharma",
+        "btn": "Conocé más",
+        "href": "/"
+      },
+      {
+        "src": "/assets/solutions-full-service.png",
+        "title": "Full Service",
+        "btn": "Conocé más",
+        "href": "/"
+      }
+    ],
+    "grid2": [
+      {
+        "src": "/assets/icon-tecnologia.png",
+        "title": "Tecnología",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
+      },
+      {
+        "src": "/assets/icon-calidad.png",
+        "title": "Control de Calidad",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
+      },
+      {
+        "src": "/assets/icon-logistica.png",
+        "title": "Logística",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "logo": {
+    "src": "assets/logo.png",
+    "alt": "Logo de Dalban",
+    "link": "/"
+  },
+  "logoFooter": {
+    "src": "assets/logo-footer.png",
+    "alt": "Logo de Dalban",
+    "link": "/"
+  },
+  "paragraph": "Atributos materiales e inmateriales. Físicos e intangibles. Sinergia. Combinación que originó Dalban S.A. incomparable desde todo punto de vista.",
+  "copyright": "Copyright © 2024 Site developed by MG54. All Rights Reserved.",
+  "navigation": [
+    {
+      "label": "Nosotros",
+      "link": "/nosotros"
+    },
+    {
+      "label": "Servicios",
+      "link": "/servicios",
+      "options": [
+        {
+          "label": "Distribución y<br> Almacenamiento",
+          "link": "/servicio/distribucion-y-almacenamiento"
+        },
+        {
+          "label": "Pharma",
+          "link": "/servicio/pharma"
+        },
+        {
+          "label": "Full Service",
+          "link": "/servicio/full-service"
+        }
+      ]
+    },
+    {
+      "label": "Industria",
+      "link": "/industria"
+    },
+    {
+      "label": "Insights",
+      "link": "/insights"
+    },
+    {
+      "label": "Contacto",
+      "link": "/contacto",
+      "options": [
+        {
+          "label": "EE.UU. 5231 - Tortuguitas -<br>Buenos Aires - Argentina",
+          "link": ""
+        },
+        {
+          "label": "Laplace 3554 - Tortuguitas -<br>Buenos Aires - Argentina",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "label": "Informacion",
+      "link": "/informacion",
+      "options": [
+        {
+          "label": "Sobre nosotros",
+          "link": "/sobre-nosotros"
+        },
+        {
+          "label": "Historia",
+          "link": "/historia"
+        },
+        {
+          "label": "Industrias",
+          "link": "/industrias"
+        },
+        {
+          "label": "Insights",
+          "link": "/insights"
+        }
+      ]
+    }
+  ],
+  "ctaButton": {
+    "text": "Acceso Clientes",
+    "link": "/acceso-clientes"
+  },
+  "socialIcons": [
+    {
+      "platform": "Twitter",
+      "link": "https://twitter.com/tuempresa",
+      "icon": "assets/twitter.png"
+    },
+    {
+      "platform": "Facebook",
+      "link": "https://facebook.com/tuempresa",
+      "icon": "assets/facebook.png"
+    },
+    {
+      "platform": "Instagram",
+      "link": "https://instagram.com/tuempresa",
+      "icon": "assets/instagram.png"
+    },
+    {
+      "platform": "Google",
+      "link": "https://google.com/tuempresa",
+      "icon": "assets/google.png"
+    }
+  ]
+}
