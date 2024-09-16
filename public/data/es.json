@@ -116,5 +116,121 @@
     "btn": "Postularme",
     "href": "/",
     "src": "/assets/jobs.png"
+  },
+  "logistics": {
+    "title": "Logística",
+    "src": "/assets/hero-logistics.png",
+    "paragraph": "Desde la infraestructura edilicia propia construida en base a requerimientos Clase A hasta la <span class='font-bold' style='color: #0099A8;'>tecnología de las handhelds</span> aplicadas a la operación, cuenta también con atributos que van más allá de lo material o visible. <span class='font-bold' style='color: #0099A8;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente. Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #0099A8;'>pick & pack</span> o la <span class='font-bold' style='color: #0099A8;'>distribución de venta directa en Capital, GBA e Interior.</span>",
+    "infrastructure": {
+      "title": "Infraestructura",
+      "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
+      "src": "/assets/bg-infrastructure-logistics.png"
+    }
+  },
+  "pharma": {
+    "title": "pharma",
+    "src": "/assets/hero-pharma.png",
+    "paragraph": "Desde la infraestructura edilicia propia construida en base a requerimientos Clase A hasta la <span class='font-bold' style='color: #0099A8;'>tecnología de las handhelds</span> aplicadas a la operación, cuenta también con atributos que van más allá de lo material o visible. <span class='font-bold' style='color: #0099A8;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente. Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #0099A8;'>pick & pack</span> o la <span class='font-bold' style='color: #0099A8;'>distribución de venta directa en Capital, GBA e Interior.</span>",
+    "infrastructure": {
+      "title": "Infraestructura",
+      "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
+      "src": "/assets/bg-infrastructure-pharma.png"
+    }
+  },
+  "full-service": {
+    "title": "Full Service",
+    "src": "/assets/hero-full-service.png",
+    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  "farma-san": {
+    "title": "Sector Farmacéutico y Sanitario",
+    "src": "/assets/hero-contact.png"
+  },
+  "contact": {
+    "title": "Contacto",
+    "src": "/assets/hero-contact.png"
+  },
+  "services": {
+    "title": "Servicios",
+    "grid": [
+      {
+        "src": "/assets/icon-depositos.png",
+        "title": "Básicos",
+        "caracteristics": [
+          "Recepción & Almacenamiento",
+          "Control de Inventario",
+          "Picking & Preparación de Pedidos",
+          "Despachos",
+          "Transporte & Distribución"
+        ]
+      },
+      {
+        "src": "/assets/icon-adicionales.png",
+        "title": "Adicionales",
+        "caracteristics": [
+          "Reprocesos de Mercaderías",
+          "Conformacion de Packs",
+          "Pedidos Especiales",
+          "Etiquetados",
+          "Empaques Adicionales"
+        ]
+      },
+      {
+        "src": "/assets/icon-comercio.png",
+        "title": "Comercio Exterior",
+        "caracteristics": [
+          "Desconsolidado de Contenedores",
+          "Etiquetados Fiscales",
+          "Liberaciones",
+          "Retrabajos",
+          "Empaques Adicionales"
+        ]
+      }
+    ]
+  },
+  "characteristics": {
+    "title": null,
+    "grid": [
+      {
+        "src": "/assets/icon-access.png",
+        "title": "Accesilibidad",
+        "caracteristics": [
+          "Zorras Hidráulicas",
+          "Eléctricas Autoelevadores",
+          "Apiladores Eléctricos"
+        ]
+      },
+      {
+        "src": "/assets/icon-security.png",
+        "title": "Seguridad",
+        "caracteristics": [
+          "Red de Incendio (según Normas NFPASprinklers)",
+          "Hidrantes Bombas con sello NFPA / FM",
+          "Sistemas de Detección"
+        ]
+      },
+      {
+        "src": "/assets/icon-distr.png",
+        "title": "Distribucion",
+        "caracteristics": [
+          "Sector Segregados",
+          "Sector Psicotrópicos",
+          "Zona Devoluciones",
+          "Zona de Transferencia",
+          "Zona de Pick & Pack"
+        ]
+      }
+    ]
+  },
+  "map": {
+    "title": "Ubicación",
+    "paragraph": "Contamos con una excelente ubicación y accesibilidad para la conexión con nuestros proveedores, clientes y servicios de transporte para el cumpliemiento de nuestras actividades y servicios.",
+    "items": [
+      "Excelente Accesibilidad por Ambos Ramales de la Autopista Panamericana.",
+      "Distancia al Puerto de Buenos Aires: 20 kms.",
+      "Latitud: 34º 27´ 19” Sur",
+      "Longitud: 58º 42´ 5” Oeste"
+    ],
+    "href": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.470414122264!2d-58.6065699!3d-34.4909566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbb2f400db6f9%3A0x4a3ef1c8876d327b!2sRoberto%20Laplace%203554%2C%20B1611%20Don%20Torcuato%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1726517489649!5m2!1ses!2sar"
   }
 }
