@@ -6,7 +6,7 @@ const Description = ({ data }) => {
         {/* Columna del título */}
         <div>
           <h1
-            className="text-2xl lg:text-4xl  text-gray-800"
+            className="text-2xl lg:text-4xl  text-black"
             dangerouslySetInnerHTML={{ __html: aboutUs.title }}
           ></h1>
         </div>
@@ -14,7 +14,7 @@ const Description = ({ data }) => {
         {/* Columna del párrafo */}
         <div>
           <p
-            className="text-base lg:text-lg text-gray-600"
+            className="text-base lg:text-lg text-black"
             dangerouslySetInnerHTML={{ __html: aboutUs.paragraph }}
           ></p>
         </div>

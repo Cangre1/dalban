@@ -79,5 +79,42 @@
         "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
       }
     ]
+  },
+  "insights": {
+    "title": "<span class='font-bold'>Insights</span>",
+    "paragraph": "Descubre las novedades y tendencias de la industría farmacéutica.",
+    "grid": [
+      {
+        "src": "/assets/insights-1.png",
+        "category": "Categoría",
+        "title": "Lorem Ipsuom",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+      },
+      {
+        "src": "/assets/insights-2.png",
+        "category": "Categoría",
+        "title": "Lorem Ipsuom",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+      },
+      {
+        "src": "/assets/insights-3.png",
+        "category": "Categoría",
+        "title": "Lorem Ipsuom",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+      },
+      {
+        "src": "/assets/insights-4.png",
+        "category": "Categoría",
+        "title": "Lorem Ipsuom",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+      }
+    ]
+  },
+  "jobs": {
+    "title": "Sumate a  <span class='font-bold'>Dalban</span>",
+    "paragraph": "Es nuestro motor y orgullo la vocación de relacionarnos e interactuar con todos aquellos que compartan nuestra pasión por brindar un servicio integral de excelencia.",
+    "btn": "Postularme",
+    "href": "/",
+    "src": "/assets/jobs.png"
   }
 }
