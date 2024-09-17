@@ -124,7 +124,34 @@
     "infrastructure": {
       "title": "Infraestructura",
       "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
-      "src": "/assets/bg-infrastructure-logistics.png"
+      "src": "/assets/bg-infrastructure-pharma.png"
+    },
+    "premium": {
+      "title": "Servicio <span class='font-bold'>Premium</span>",
+      "paragraph": "Disponibilidad para oficinas operativas y/o administrativas. Contamos con <span class='font-bold' style='color: #0099A8;'>Sistema WMS</span> para la Administración de Inventario Sistema de Trazabilidad de Productos, <span class='font-bold' style='color: #0099A8;'>Lectoras Handheld</span> para Administración de Stocks. Actividades reguladas por <span class='font-bold' style='color: #0099A8;'>Standard Operating Proceedures (SOPs)</span> & guías escritas en conformidad con parámetros locales e internacionales.",
+      "src": "/assets/bg-infrastructure-logistics.png",
+      "stats": [
+        {
+          "number": "44.000 m2",
+          "text": "Área"
+        },
+        {
+          "number": "22.400 m2",
+          "text": "Superficie cubierta"
+        },
+        {
+          "number": "4.500 m2",
+          "text": "Playa de maniobras"
+        },
+        {
+          "number": "29.000",
+          "text": "Capacidad de palets"
+        },
+        {
+          "number": "10 mts",
+          "text": "Altura libre"
+        }
+      ]
     }
   },
   "pharma": {
@@ -135,12 +162,80 @@
       "title": "Infraestructura",
       "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
       "src": "/assets/bg-infrastructure-pharma.png"
+    },
+    "premium": {
+      "title": "Servicio <span class='font-bold'>Premium</span>",
+      "paragraph": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.",
+      "src": [
+        {
+          "src": "/assets/premium-pharma-1.png",
+          "alt": "Habilitación ANMAT",
+          "span": "Habilitación ANMAT como operador logístico de medicamentos"
+        },
+        {
+          "src": "/assets/premium-pharma-2.png",
+          "alt": "Sistema de trazabilidadde productos",
+          "span": "Sistema de trazabilidadde productos"
+        },
+        {
+          "src": "/assets/premium-pharma-3.png",
+          "alt": "Temperatura & Humedad controladas",
+          "span": "Temperatura & Humedad controladas (15ºC - 25ºC)"
+        },
+        {
+          "src": "/assets/premium-pharma-4.png",
+          "alt": "Cámara de Vacunas",
+          "span": "Cámara de Vacunas (2ºC - 8ºC)"
+        }
+      ],
+      "stats": [
+        {
+          "number": "30.100 m2",
+          "text": "Área"
+        },
+        {
+          "number": "18.300 m2",
+          "text": "Superficie cubierta"
+        },
+        {
+          "number": "8.400 m2",
+          "text": "Playa de maniobras"
+        },
+        {
+          "number": "22.000",
+          "text": "Capacidad de palets"
+        },
+        {
+          "number": "10 mts",
+          "text": "Altura libre"
+        }
+      ]
     }
   },
   "full-service": {
     "title": "Full Service",
     "src": "/assets/hero-full-service.png",
-    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "grid": [
+      {
+        "src": "/assets/grid-fullservice-1.png",
+        "title": "What is Lorem Ipsum?",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.",
+        "bg": "#d9d9d9"
+      },
+      {
+        "src": "/assets/grid-fullservice-2.png",
+        "title": "What is Lorem Ipsum?",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.",
+        "bg": "#ffffff"
+      },
+      {
+        "src": "/assets/grid-fullservice-3.png",
+        "title": "What is Lorem Ipsum?",
+        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.",
+        "bg": "#d9d9d9"
+      }
+    ]
   },
   "farma-san": {
     "title": "Sector Farmacéutico y Sanitario",
@@ -232,5 +327,21 @@
       "Longitud: 58º 42´ 5” Oeste"
     ],
     "href": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.470414122264!2d-58.6065699!3d-34.4909566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbb2f400db6f9%3A0x4a3ef1c8876d327b!2sRoberto%20Laplace%203554%2C%20B1611%20Don%20Torcuato%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1726517489649!5m2!1ses!2sar"
+  },
+  "informationBanner": {
+    "title": "¿Necesitas más información sobre nuestros servicios?",
+    "btn": "Contactanos",
+    "href": "/contacto"
+  },
+  "phraseBanner": {
+    "paragraph": "“La combinación de atributos materiales e inmateriales, físicos e intangibles en los productos de Dalban S.A. crea una sinergia incomparable desde todo punto de vista”",
+    "btnA": {
+      "text": "Comenzar",
+      "href": "/"
+    },
+    "btnB": {
+      "text": "Ver video",
+      "href": "/"
+    }
   }
 }

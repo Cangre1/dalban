@@ -1,6 +1,6 @@
 import React from "react";
 
-const ContentSection = ({ data }) => {
+const Jobs = ({ data }) => {
   const { jobs } = data;
   return (
     <div className="contenedor-custom !py-12 lg:!py-28 ">
@@ -41,4 +41,4 @@ const ContentSection = ({ data }) => {
   );
 };
 
-export default ContentSection;
+export default Jobs;
