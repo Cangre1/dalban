@@ -12,9 +12,9 @@ const PremiumLogistics = ({ data }) => {
         ></h1>
 
         {/* Contenedor de dos columnas */}
-        <div className="grid md:grid-cols-2 gap-10 justify-between">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-between">
           {/* Texto y CTA a la izq */}
-          <div className="flex flex-col w-3/4 gap-y-5 mr-auto justify-center">
+          <div className="flex flex-col w-full lg:w-3/4 gap-y-5 mr-auto justify-center">
             <p
               className="text-base lg:text-lg text-black"
               dangerouslySetInnerHTML={{ __html: logistics.premium.paragraph }}
@@ -25,11 +25,11 @@ const PremiumLogistics = ({ data }) => {
             <img
               src={logistics.premium.src}
               alt="Imagen descriptiva"
-              className="w-3/4 h-auto rounded-lg shadow-lg ml-auto"
+              className=" w-full lg:w-3/4 h-auto rounded-lg shadow-lg ml-auto"
             />
           </div>
         </div>
-        <div className="flex justify-between items-center w-full">
+        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
           {logistics.premium.stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center gap-y-2">
               <span className="text-4xl font-bold text-[#10CFC9]">

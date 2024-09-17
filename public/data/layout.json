@@ -26,16 +26,16 @@
       "link": "/servicios",
       "options": [
         {
-          "label": "Distribución y<br> Almacenamiento",
-          "link": "/servicio/distribucion-y-almacenamiento"
+          "label": "Logistica",
+          "link": "/logistica"
         },
         {
           "label": "Pharma",
-          "link": "/servicio/pharma"
+          "link": "/pharma"
         },
         {
           "label": "Full Service",
-          "link": "/servicio/full-service"
+          "link": "/full-service"
         }
       ]
     },

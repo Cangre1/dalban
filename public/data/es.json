@@ -47,19 +47,19 @@
         "src": "/assets/solutions-logistica.png",
         "title": "Logística",
         "btn": "Conocé más",
-        "href": "/"
+        "href": "/logistica"
       },
       {
         "src": "/assets/solutions-pharma.png",
         "title": "Pharma",
         "btn": "Conocé más",
-        "href": "/"
+        "href": "/pharma"
       },
       {
         "src": "/assets/solutions-full-service.png",
         "title": "Full Service",
         "btn": "Conocé más",
-        "href": "/"
+        "href": "/full-service"
       }
     ],
     "grid2": [

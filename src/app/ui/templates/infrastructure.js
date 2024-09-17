@@ -54,14 +54,14 @@ const Infrastructure = ({ data }) => {
             }}
           ></h1>
           <p
-            className="text-base lg:text-lg text-black text-center w-2/3 mx-auto"
+            className="text-base lg:text-lg text-black text-center w-full lg:w-2/3 mx-auto"
             dangerouslySetInnerHTML={{
               __html: currentData.infrastructure.paragraph,
             }}
           ></p>
         </div>
       </div>
-      <div className="relative w-full py-80">
+      <div className="relative w-full py-40 lg:py-80">
         {/* Imagen de fondo */}
         <Image
           src={currentData.infrastructure.src}

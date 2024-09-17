@@ -15,7 +15,7 @@ const ServicesBanner = ({ data }) => {
           {data.grid.map((item, index) => (
             <div key={index} className="flex  space-y-4 justify-center">
               {/* Imagen y Título en una misma fila */}
-              <div className="flex items-start w-full justify-center gap-x-10">
+              <div className="flex flex-col lg:flex-row items-center lg:items-start w-full justify-center gap-10 text-center lg:text-start">
                 <Image
                   src={item.src}
                   alt={item.title}

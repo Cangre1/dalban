@@ -9,7 +9,7 @@ const PhraseBanner = ({ data }) => {
           className="text-2xl lg:text-4xl text-[#019DAA] text-center"
           dangerouslySetInnerHTML={{ __html: phraseBanner.paragraph }}
         ></p>
-        <div className="flex justify-center gap-x-10">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-y-5 lg:gap-y-0 gap-x-10">
           <a
             href={phraseBanner.btnA.href}
             className="bg-[#10CFC9] border-2 border-[#019DAA] text-white px-14 py-3 rounded-full text-center  transition duration-300 w-fit uppercase hover:bg-transparent hover:text-[#019DAA]"

@@ -40,9 +40,12 @@ const PremiumPharma = ({ data }) => {
           </div>
         ))}
       </div>
-      <div className="flex justify-between items-center w-full">
+      <div className="flex flex-col lg:flex-row justify-between items-center w-full">
         {pharma.premium.stats.map((stat, index) => (
-          <div key={index} className="flex flex-col gap-y-2">
+          <div
+            key={index}
+            className="flex flex-col gap-y-2 items-center lg:items-start"
+          >
             <span className="text-4xl font-bold text-[#10CFC9]">
               {stat.number}
             </span>

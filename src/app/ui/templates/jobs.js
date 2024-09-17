@@ -18,19 +18,19 @@ const Jobs = ({ data }) => {
             <img
               src={jobs.src}
               alt="Imagen descriptiva"
-              className="w-2/3 h-auto rounded-lg shadow-lg mx-auto"
+              className=" w-full lg:w-2/3 h-auto rounded-lg shadow-lg mx-auto"
             />
           </div>
 
           {/* Texto y CTA a la derecha */}
-          <div className="flex flex-col w-2/3 gap-y-5 mx-auto justify-center">
+          <div className="flex flex-col w-full lg:w-2/3 gap-y-5 mx-auto justify-center">
             <p
               className="text-base lg:text-lg text-black"
               dangerouslySetInnerHTML={{ __html: jobs.paragraph }}
             ></p>
             <a
               href={jobs.href}
-              className="bg-[#10CFC9] text-white px-14 py-3 rounded-full text-center  transition duration-300 w-fit uppercase hover:bg-[#69c2bf]"
+              className="bg-[#10CFC9] text-white px-14 py-3 rounded-full text-center  transition duration-300 w-fit uppercase hover:bg-transparent hover:text-[#10CFC9] border border-[#10CFC9]"
             >
               {jobs.btn}
             </a>
