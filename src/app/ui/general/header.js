@@ -56,13 +56,15 @@ const Header = ({ data }) => {
             {filteredNavigation.map((item, index) => (
               <li
                 key={index}
-                className={`relative ${item.options ? "group" : ""}`}
+                className={`relative ${
+                  item.label === "Servicios" ? "group" : ""
+                }`}
                 ref={item.label === "Servicios" ? servicesRef : null}
               >
                 <a
                   href={item.link}
                   onClick={
-                    item.options
+                    item.label === "Servicios"
                       ? (e) => {
                           e.preventDefault();
                           toggleSubMenu(item.label);
@@ -72,7 +74,7 @@ const Header = ({ data }) => {
                   className="flex items-center text-gray-800 text-lg hover:text-[#0099A8] transition-colors duration-300"
                 >
                   {item.label}
-                  {item.options && (
+                  {item.label === "Servicios" && (
                     <svg
                       className={`ml-2 w-4 h-4 transition-transform duration-300 ${
                         openSubMenu === item.label ? "rotate-180" : ""
@@ -92,7 +94,7 @@ const Header = ({ data }) => {
                   )}
                 </a>
 
-                {item.options && openSubMenu === item.label && (
+                {item.label === "Servicios" && openSubMenu === item.label && (
                   <ul
                     ref={subMenuRef}
                     className="fixed bg-white !top-16  shadow-2xl rounded-md  w-52 z-50"

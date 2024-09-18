@@ -174,8 +174,8 @@
         },
         {
           "src": "/assets/premium-pharma-2.png",
-          "alt": "Sistema de trazabilidadde productos",
-          "span": "Sistema de trazabilidadde productos"
+          "alt": "Sistema de trazabilidad de productos",
+          "span": "Sistema de trazabilidad de productos"
         },
         {
           "src": "/assets/premium-pharma-3.png",
@@ -237,9 +237,68 @@
       }
     ]
   },
-  "farma-san": {
-    "title": "Sector Farmacéutico y Sanitario",
-    "src": "/assets/hero-contact.png"
+  "industria": {
+    "title": "Industria",
+    "src": "/assets/hero-contact.png",
+    "solutions": {
+      "title": "Nuestras <span class='font-bold'>Soluciones</span>",
+      "paragraph": "Estos son algunos de nuestros servicios más destacados para el almacenamiento, acondicionamiento y cadena de frio de los productos que tratamos.",
+      "src": [
+        {
+          "src": "/assets/premium-pharma-1.png",
+          "alt": "Habilitación ANMAT",
+          "span": "Habilitación ANMAT como operador logístico de medicamentos"
+        },
+        {
+          "src": "/assets/premium-pharma-2.png",
+          "alt": "Sistema de trazabilidad de productos",
+          "span": "Sistema de trazabilidad de productos"
+        },
+        {
+          "src": "/assets/premium-pharma-3.png",
+          "alt": "Temperatura & Humedad controladas",
+          "span": "Temperatura & Humedad controladas (15ºC - 25ºC)"
+        },
+        {
+          "src": "/assets/premium-pharma-4.png",
+          "alt": "Cámara de Vacunas",
+          "span": "Cámara de Vacunas (2ºC - 8ºC)"
+        }
+      ],
+      "stats": [
+        {
+          "number": null,
+          "text": null
+        },
+        {
+          "number": null,
+          "text": null
+        },
+        {
+          "number": null,
+          "text": null
+        },
+        {
+          "number": null,
+          "text": null
+        },
+        {
+          "number": null,
+          "text": null
+        }
+      ]
+    },
+    "vision": {
+      "title": "Visión de la <span class='font-bold'>Industria</span>",
+      "span": "¿Existe un sector más delicado que el de la salud? ",
+      "paragraph": "Nuestras soluciones integrales permiten añadir valor a todas las partes de la cadena de suministro de la asistencia sanitaria",
+      "src": {
+        "src": "/assets/vision.png",
+        "alt": "Vision",
+        "title": "Nuestras soluciones farmacéuticas centradas en las necesidades del cliente",
+        "paragraph": "En este sector dinámico y en constante evolución, la eficiencia, precisión y conocimiento del producto son fundamentales. Nuestro equipo de expertos está listo para ofrecerle soluciones y servicios completos y conformes para optimizar la logística de su cadena de suministro. Confíe en nosotros para mantener su operación en marcha sin problemas."
+      }
+    }
   },
   "contact": {
     "title": "Contacto",
@@ -343,5 +402,16 @@
       "text": "Ver video",
       "href": "/"
     }
+  },
+  "partners": {
+    "title": "Confian en <span class='font-bold'>Nosotros</span>",
+    "paragraph": "Nuestra vasta experiencia en la Industria Farmacéutica está respaldada por la satisfacción de nuestros clientes destacados.",
+    "src": [
+      { "src": "/assets/partner-1.png", "alt": "partner" },
+      { "src": "/assets/partner-2.png", "alt": "partner" },
+      { "src": "/assets/partner-3.png", "alt": "partner" },
+      { "src": "/assets/partner-4.png", "alt": "partner" },
+      { "src": "/assets/partner-5.png", "alt": "partner" }
+    ]
   }
 }

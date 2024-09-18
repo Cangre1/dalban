@@ -13,7 +13,7 @@ export default function Pharma() {
       <HeroPages data={data} />
       <Descriptionv2 data={data} />
       <ServicesBanner data={data.services} />
-      <PremiumPharma data={data} />
+      <PremiumPharma data={data.pharma.premium} />
       <Infrastructure data={data} />
       <ServicesBanner data={data.characteristics} />
       <Map data={data} />
