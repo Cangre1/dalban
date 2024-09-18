@@ -70,3 +70,39 @@ body {
 .contenedor-custom {
   @apply container mx-auto max-w-screen-xl 2xl:max-w-screen-2xl;
 }
+
+/*Animate scroll custom for clients component*/
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.animate-scroll-custom {
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.animate-scroll-reverse-custom {
+  animation: scroll-reverse 10s linear infinite;
+}
+
+@media (min-width: 768px) {
+  .animate-scroll-custom {
+    animation: scroll 30s linear infinite;
+  }
+
+  .animate-scroll-reverse-custom {
+    animation: scroll-reverse 30s linear infinite;
+  }
+}

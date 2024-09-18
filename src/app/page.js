@@ -5,6 +5,8 @@ import StatisticsBanner from "./ui/templates/statisticsBanner";
 import Solutions from "./ui/templates/solutions";
 import Insights from "./ui/templates/insights";
 import Jobs from "./ui/templates/jobs";
+import Partners from "./ui/templates/partners";
+
 export default function Home() {
   return (
     <div>
@@ -14,6 +16,7 @@ export default function Home() {
       <Solutions data={data} />
       <Insights data={data} />
       <Jobs data={data} />
+      <Partners data={data} />
     </div>
   );
 }

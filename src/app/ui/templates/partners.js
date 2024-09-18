@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SlidingLogos from "./slidingLogos";
 
 const Partners = ({ data }) => {
   const { partners } = data;
@@ -16,20 +17,8 @@ const Partners = ({ data }) => {
             dangerouslySetInnerHTML={{ __html: partners.paragraph }}
           ></p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-          {partners.src.map((partner, index) => (
-            <div key={index} className="flex items-center justify-center">
-              <Image
-                src={partner.src}
-                alt={partner.alt}
-                width={150} // Ajusta según el tamaño necesario
-                height={150} // Ajusta según el tamaño necesario
-                objectFit="contain"
-              />
-            </div>
-          ))}
-        </div>
       </div>
+      <SlidingLogos />
     </div>
   );
 };
