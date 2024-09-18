@@ -31,6 +31,18 @@ const logosB = [
   { src: "/assets/partners/logo-masnet.png", width: 127, height: 14 },
   { src: "/assets/partners/logo-isard.jpeg", width: 87, height: 63 },
   { src: "/assets/partners/logo-newell.png", width: 139, height: 54 },
+  { src: "/assets/partners/logo-beckman.png", width: 66, height: 26 },
+  { src: "/assets/partners/logo-easy.png", width: 109, height: 28 },
+  { src: "/assets/partners/logo-pall.png", width: 86, height: 21 },
+  { src: "/assets/partners/logo-masnet.png", width: 127, height: 14 },
+  { src: "/assets/partners/logo-isard.jpeg", width: 87, height: 63 },
+  { src: "/assets/partners/logo-newell.png", width: 139, height: 54 },
+  { src: "/assets/partners/logo-beckman.png", width: 66, height: 26 },
+  { src: "/assets/partners/logo-easy.png", width: 109, height: 28 },
+  { src: "/assets/partners/logo-pall.png", width: 86, height: 21 },
+  { src: "/assets/partners/logo-masnet.png", width: 127, height: 14 },
+  { src: "/assets/partners/logo-isard.jpeg", width: 87, height: 63 },
+  { src: "/assets/partners/logo-newell.png", width: 139, height: 54 },
 ];
 
 const duplicateLogosA = (logosA, times) => {
