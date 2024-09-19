@@ -66,29 +66,29 @@ const SlidingLogos = () => {
   const logosDuplicatedB = duplicateLogosB(logosB, 3); // Duplicar los logos suficientes veces para cubrir el ancho
 
   return (
-    <div className="bg-darkGray py-4 pb-[176px] overflow-hidden space-y-10">
-      <div className="space-y-5">
-        <h1 className="text-2xl lg:text-4xl  text-black text-center">Pharma</h1>
-        <div className="flex animate-scroll-custom  items-center">
+    <div className="overflow-hidden space-y-24">
+      <div className="space-y-10">
+        <h1 className="titles uppercase !text-[#0099A8] text-center">Pharma</h1>
+        <div className="flex animate-scroll-custom items-center gap-x-16">
           {logosDuplicatedA.map((logo, index) => (
-            <div key={index} className="flex-shrink-0 items-center flex pl-8">
+            <div key={index} className="flex-shrink-0 items-center flex">
               <Image
                 src={logo.src}
                 alt={`Logo ${index + 1}`}
-                width={100}
-                height={100}
+                width={120}
+                height={120}
               />
             </div>
           ))}
         </div>
       </div>
-      <div>
-        <h1 className="text-2xl lg:text-4xl  text-black text-center">
+      <div className="space-y-10">
+        <h1 className="titles uppercase !text-[#0099A8] text-center">
           No Pharma
         </h1>
-        <div className="flex animate-scroll-reverse-custom items-center mt-12">
+        <div className="flex animate-scroll-reverse-custom items-center gap-x-16">
           {logosDuplicatedB.map((logo, index) => (
-            <div key={index} className="flex-shrink-0 items-center flex pl-8">
+            <div key={index} className="flex-shrink-0 items-center flex">
               <Image
                 src={logo.src}
                 alt={`Logo ${index + 1}`}

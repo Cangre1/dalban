@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const ServicesBanner = ({ data }) => {
   return (
-    <div className="bg-[#D9D9D9]">
+    <div className="bg-gray-100">
       <div className="contenedor-custom !py-12 lg:!py-28 space-y-16 lg:space-y-28">
         {/* Párrafo centrado */}
         <h1
-          className="text-2xl lg:text-4xl  text-black text-center"
+          className="titles text-center"
           dangerouslySetInnerHTML={{ __html: data.title }}
         ></h1>
 
@@ -24,8 +24,8 @@ const ServicesBanner = ({ data }) => {
                   className="mr-4"
                 />
                 <div className="space-y-4 text-black">
-                  <h3 className="text-3xl ">{item.title}</h3>
-                  <ul className="text-lg">
+                  <h3 className="titles-secondary">{item.title}</h3>
+                  <ul className="paragraphs-secondary">
                     {item.caracteristics.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}

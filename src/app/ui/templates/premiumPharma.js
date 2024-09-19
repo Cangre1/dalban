@@ -6,13 +6,13 @@ const PremiumPharma = ({ data }) => {
     <div className="contenedor-custom !py-12 lg:!py-28 space-y-16 ">
       <div className="flex items-center justify-center flex-col gap-y-10">
         <h1
-          className="text-2xl lg:text-4xl text-black"
+          className="titles"
           dangerouslySetInnerHTML={{
             __html: data.title,
           }}
         ></h1>
         <p
-          className="text-base lg:text-lg text-black text-center w-2/3 mx-auto"
+          className="paragraphs text-center w-2/3 mx-auto"
           dangerouslySetInnerHTML={{
             __html: data.paragraph,
           }}
@@ -31,7 +31,7 @@ const PremiumPharma = ({ data }) => {
               />
             </div>
             <div
-              className="text-base lg:text-lg text-black font-bold"
+              className="paragraphs font-bold"
               dangerouslySetInnerHTML={{
                 __html: item.span,
               }}
@@ -45,12 +45,8 @@ const PremiumPharma = ({ data }) => {
             key={index}
             className="flex flex-col gap-y-2 items-center lg:items-start"
           >
-            <span className="text-4xl font-bold text-[#10CFC9]">
-              {stat.number}
-            </span>
-            <span className="text-lg font-bold uppercase text-black">
-              {stat.text}
-            </span>
+            <span className="stats-number">{stat.number}</span>
+            <span className="stats-text">{stat.text}</span>
           </div>
         ))}
       </div>

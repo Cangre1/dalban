@@ -3,12 +3,12 @@ import React from "react";
 const Map = ({ data }) => {
   const { map } = data;
   return (
-    <div>
+    <div className="bg-gray-100">
       <div className="contenedor-custom !py-12 lg:!py-28 space-y-16">
         {/* Título centrado */}
         <div className="text-center">
           <h1
-            className="text-2xl lg:text-4xl  text-black"
+            className="titles"
             dangerouslySetInnerHTML={{ __html: map.title }}
           ></h1>
         </div>
@@ -18,14 +18,14 @@ const Map = ({ data }) => {
           {/* Párrafo a la izquierda */}
           <div>
             <p
-              className="text-base lg:text-lg text-black"
+              className="paragraphs"
               dangerouslySetInnerHTML={{ __html: map.paragraph }}
             ></p>
           </div>
 
           {/* Lista a la derecha */}
           <div>
-            <ul className="list-disc pl-5 text-base lg:text-lg text-[#0099A8]">
+            <ul className="list-disc pl-5 paragraphs !text-[#0099A8]">
               {map.items.map((item, index) => (
                 <li key={index} className="mb-2">
                   {item}

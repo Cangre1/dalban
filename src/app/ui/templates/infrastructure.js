@@ -44,17 +44,17 @@ const Infrastructure = ({ data }) => {
   }
 
   return (
-    <div>
+    <div className="bg-gray-100">
       <div className="contenedor-custom !py-12 lg:!py-28">
         <div className="flex items-center justify-center flex-col gap-y-10">
           <h1
-            className="text-2xl lg:text-4xl text-black"
+            className="titles"
             dangerouslySetInnerHTML={{
               __html: currentData.infrastructure.title,
             }}
           ></h1>
           <p
-            className="text-base lg:text-lg text-black text-center w-full lg:w-2/3 mx-auto"
+            className="paragraphs text-center w-full lg:w-2/3 mx-auto"
             dangerouslySetInnerHTML={{
               __html: currentData.infrastructure.paragraph,
             }}

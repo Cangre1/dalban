@@ -11,7 +11,7 @@ const InformationBanner = ({ data }) => {
       <div className="flex justify-center">
         <a
           href={informationBanner.href}
-          className="bg-[#10CFC9] text-white px-14 py-3 rounded-full text-center  transition duration-300 w-fit uppercase hover:bg-[#69c2bf]"
+          className="btn px-14 py-3 rounded-full text-center"
         >
           {informationBanner.btn}
         </a>

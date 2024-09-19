@@ -23,12 +23,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className=" scroll-smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header data={data} />
-        <div className="bg-white min-h-screen">{children}</div>
+        <div className="bg-white">{children}</div>
         <Footer data={data} />
       </body>
     </html>

@@ -14,12 +14,12 @@
     "alt": "Logo de menu",
     "link": "/"
   },
-  "paragraph": "Atributos materiales e inmateriales. Físicos e intangibles. Sinergia. Combinación que originó Dalban S.A. incomparable desde todo punto de vista.",
+  "paragraph": "Atributos materiales e inmateriales. Físicos e intangibles. Sinergia. Combinación que originó Dalban S.A. Incomparable desde todo punto de vista.",
   "copyright": "Copyright © 2024 Site developed by MG54. All Rights Reserved.",
   "navigation": [
     {
       "label": "Nosotros",
-      "link": "/nosotros"
+      "link": "/#nosotros"
     },
     {
       "label": "Servicios",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "label": "Informacion",
+      "label": "Información",
       "link": "/informacion",
       "options": [
         {

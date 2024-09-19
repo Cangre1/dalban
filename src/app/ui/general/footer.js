@@ -13,12 +13,24 @@ const Footer = ({ data }) => {
 
   // Filtrar los elementos de navegación que no quieres mostrar
   const filteredNavigation = navigation
-    .filter((item) =>
-      ["Informacion", "Servicios", "Contacto"].includes(item.label)
-    )
+    .filter((item) => {
+      const normalizedLabel = item.label
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+      return ["informacion", "servicios", "contacto"].includes(normalizedLabel);
+    })
     .sort((a, b) => {
-      const order = ["Informacion", "Servicios", "Contacto"];
-      return order.indexOf(a.label) - order.indexOf(b.label);
+      const order = ["informacion", "servicios", "contacto"];
+      const normalizedA = a.label
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+      const normalizedB = b.label
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+      return order.indexOf(normalizedA) - order.indexOf(normalizedB);
     });
 
   return (

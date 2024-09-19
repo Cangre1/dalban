@@ -7,13 +7,13 @@ const GridFullService = ({ data }) => {
       {fullService.grid.map((item, index) => (
         <div
           key={index}
-          className={`flex gap-10 justify-between w-full py-5  lg:py-10 ${
-            index === 1 ? "bg-white" : "bg-[#d9d9d9]"
+          className={`flex gap-10 justify-between w-full py-5 lg:py-10 ${
+            index === 1 || index === 3 ? "bg-white" : "bg-[#d9d9d9]"
           }`}
         >
           <div
             className={`contenedor-custom flex flex-col lg:flex-row w-full gap-y-5 ${
-              index === 1 ? "flex-row-reverse" : ""
+              index === 1 || index === 3 ? "lg:flex-row-reverse" : "lg:flex-row"
             }`}
           >
             <div className="flex flex-col w-full lg:w-3/4 gap-y-5 mr-auto justify-center">
@@ -31,7 +31,7 @@ const GridFullService = ({ data }) => {
                 src={item.src}
                 alt="Imagen descriptiva"
                 className={`w-full lg:w-2/3 h-auto rounded-lg shadow-lg ${
-                  index === 1 ? "mr-auto" : "ml-auto"
+                  index === 1 || index === 3 ? "mr-auto" : "ml-auto"
                 }`}
               />
             </div>

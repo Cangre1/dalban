@@ -1,7 +1,7 @@
 {
   "aboutUs": {
     "title": "Sobre <span class='font-bold'>Nosotros</span>",
-    "paragraph": "Nuevo concepto en Logística Integral de Mercaderías, pionero y líder en la industria farmaceutica en la Republica Argentina.<br><br>Nos especializamos en ofrecer <span class='font-bold' style='color: #0099A8;'>soluciones de transporte y logística personalizadas e integradas</span>. Nuestro enfoque proactivo nos impulsa a buscar constantemente formas de optimizar su cadena de suministro, asegurando así un servicio eficiente y confiable."
+    "paragraph": "La logística es un componente crítico que garantiza el manejo eficiente y seguro de los bienes de nuestros clientes.<br><br>Manejamos productos altamente sensibles y regulados para lo que se requiere una organización precisa de todos nuestros procesos donde se consideran todos los aspectos de la calidad. Nuestro concepto en Logística Integral de Mercaderías, es pionero y líder en la industria farmacéutica en la República Argentina.<br><br> Nos especializamos en ofrecer <span class='font-bold' style='color: #0099A8;'>soluciones de transporte y logística personalizadas e integradas.</span><br><br>Nuestro enfoque proactico nos impulsa a buscar constantemente formas de optimizar su cadena de suministro, asegurando así un servicio eficiente y confiable."
   },
   "stats": {
     "paragraph": "Estadísticas que superamos año a año",
@@ -66,17 +66,17 @@
       {
         "src": "/assets/icon-tecnologia.png",
         "title": "Tecnología",
-        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
+        "paragraph": "Creemos en el valor de la <span class='font-bold' style='color: #0099A8;'>tecnología</span> en los procesos logísticos y productivos incorporando herramientas que optimicen cada etapa.<br><br> Damos soporte en la información con herramientas de Business Intelligence según las necesidades de cada operación.<br><br> Brindamos un servicio integral y hecho a la medida de cada cliente con Soluciones modulares, flexibles y escalables acompañando las necesidades del negocio."
       },
       {
         "src": "/assets/icon-calidad.png",
         "title": "Control de Calidad",
-        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
+        "paragraph": "Contamos con los mejores <span class='font-bold' style='color: #0099A8;'>Depósitos</span> para desarrollar nuestras actividades logísticas.<br><br>Distribuimos a todo el país."
       },
       {
         "src": "/assets/icon-logistica.png",
         "title": "Logística",
-        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
+        "paragraph": "Acompañamos la <span class='font-bold' style='color: #0099A8;'>Gestión de Calidad</span> de nuestros clientes con profesionales reconocidos en la industria y procesos robustos que aseguran la gestión integral de la calidad de nuestros clientes.<br><br>Estamos comprometidos a cumplir y superar las expectativas de nuestros clientes y de los clientes de nuestros clientes."
       }
     ]
   },
@@ -108,6 +108,62 @@
         "title": "Lorem Ipsuom",
         "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
       }
+    ],
+    "grid2": [
+      {
+        "src": "/assets/insights-grid-1.png",
+        "title": "Where does it come from?",
+        "paragraph": "When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "btn": {
+          "title": "Leer más",
+          "href": "/"
+        }
+      },
+      {
+        "src": "/assets/insights-grid-2.png",
+        "title": "What is Lorem Ipsum?",
+        "paragraph": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.",
+        "btn": {
+          "title": "Leer más",
+          "href": "/"
+        }
+      },
+      {
+        "src": "/assets/insights-grid-3.png",
+        "title": "Why do we use it?",
+        "paragraph": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "btn": {
+          "title": "Leer más",
+          "href": "/"
+        }
+      },
+      {
+        "src": "/assets/insights-grid-4.png",
+        "title": "Where can I get some?",
+        "paragraph": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.",
+        "btn": {
+          "title": "Leer más",
+          "href": "/"
+        }
+      },
+      {
+        "src": "/assets/insights-grid-5.png",
+        "title": "There are many variations",
+        "paragraph": "Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum.",
+        "btn": {
+          "title": "Leer más",
+          "href": "/"
+        }
+      },
+      {
+        "src": "/assets/insights-grid-6.png",
+        "title": "Non-characteristic words",
+        "paragraph": "By injected humour, or randomised words which don't look even slightly believable.",
+        "btn": {
+          "title": "Leer más",
+          "href": "/"
+        }
+      }
     ]
   },
   "jobs": {
@@ -120,7 +176,7 @@
   "logistics": {
     "title": "Logística",
     "src": "/assets/hero-logistics.png",
-    "paragraph": "Desde la infraestructura edilicia propia construida en base a requerimientos Clase A hasta la <span class='font-bold' style='color: #0099A8;'>tecnología de las handhelds</span> aplicadas a la operación, cuenta también con atributos que van más allá de lo material o visible. <span class='font-bold' style='color: #0099A8;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente. Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #0099A8;'>pick & pack</span> o la <span class='font-bold' style='color: #0099A8;'>distribución de venta directa en Capital, GBA e Interior.</span>",
+    "paragraph": "Desde la infraestructura edilicia propia construida en base a requerimientos Clase A hasta la <span class='font-bold' style='color: #0099A8;'>tecnología de las handhelds</span> aplicadas a la operación, cuenta también con atributos que van más allá de lo material o visible.<br><br> <span class='font-bold' style='color: #0099A8;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente.<br><br> Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #0099A8;'>pick & pack</span> o la <span class='font-bold' style='color: #0099A8;'>distribución de venta directa en Capital, GBA e Interior.</span>",
     "infrastructure": {
       "title": "Infraestructura",
       "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
@@ -128,7 +184,7 @@
     },
     "premium": {
       "title": "Servicio <span class='font-bold'>Premium</span>",
-      "paragraph": "Disponibilidad para oficinas operativas y/o administrativas. Contamos con <span class='font-bold' style='color: #0099A8;'>Sistema WMS</span> para la Administración de Inventario Sistema de Trazabilidad de Productos, <span class='font-bold' style='color: #0099A8;'>Lectoras Handheld</span> para Administración de Stocks. Actividades reguladas por <span class='font-bold' style='color: #0099A8;'>Standard Operating Proceedures (SOPs)</span> & guías escritas en conformidad con parámetros locales e internacionales.",
+      "paragraph": "Disponibilidad para oficinas operativas y/o administrativas. Contamos con Sistemas de: <span class='font-bold' style='color: #0099A8;'>Gestion de Almacenes (WMS), Gestion de Transporte (TMS), Gestion de Playa (YMS) y Gestion en calle.</span> Trazabilidad de Productos.<br><br> Actividades Reguladas por <span class='font-bold' style='color: #0099A8;'>Standard Operating Proceedures (SOPs)</span> & guias escritas en conformidad con parámetros locales e internacionales.",
       "src": "/assets/bg-infrastructure-logistics.png",
       "stats": [
         {
@@ -155,9 +211,9 @@
     }
   },
   "pharma": {
-    "title": "pharma",
+    "title": "Pharma",
     "src": "/assets/hero-pharma.png",
-    "paragraph": "Desde la infraestructura edilicia propia construida en base a requerimientos Clase A hasta la <span class='font-bold' style='color: #0099A8;'>tecnología de las handhelds</span> aplicadas a la operación, cuenta también con atributos que van más allá de lo material o visible. <span class='font-bold' style='color: #0099A8;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente. Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #0099A8;'>pick & pack</span> o la <span class='font-bold' style='color: #0099A8;'>distribución de venta directa en Capital, GBA e Interior.</span>",
+    "paragraph": "Desde la infraestructura edilicia propia construida en base a requerimientos Clase A hasta la <span class='font-bold' style='color: #0099A8;'>tecnología de las handhelds</span> aplicadas a la operación, cuenta también con atributos que van más allá de lo material o visible.<br><br><span class='font-bold' style='color: #0099A8;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente.<br><br> Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #0099A8;'>pick & pack</span> o la <span class='font-bold' style='color: #0099A8;'>distribución de venta directa en Capital, GBA e Interior.</span>",
     "infrastructure": {
       "title": "Infraestructura",
       "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
@@ -215,24 +271,30 @@
   "full-service": {
     "title": "Full Service",
     "src": "/assets/hero-full-service.png",
-    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "paragraph": "Es un concepto pensado en brindar a nuestros clientes, la posibilidad de tener, bajo un mismo proveedor, todo el circuito logístico de manera integrada.",
     "grid": [
       {
         "src": "/assets/grid-fullservice-1.png",
-        "title": "What is Lorem Ipsum?",
-        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.",
+        "title": "Paso 1: MRP",
+        "paragraph": "<span class='font-bold' style='color: #0099A8;'>Confección del MRP:</span> Según demanda.<br><br><span class='font-bold' style='color: #0099A8;'>Contacto:</span> Con elaboradores calificados y certificados por el cliente.<br><br><span class='font-bold' style='color: #0099A8;'>Generación de Órdenes de Compra para:</span> Proveedores locales y proveedores internacionales.<br><br><span class='font-bold' style='color: #0099A8;'>Coordinación:</span> Fechas de entrega y envíos a Dalban Pharma.<br><br><span class='font-bold' style='color: #0099A8;'>Gestion de Pagos.</span><br><br><span class='font-bold' style='color: #0099A8;'>Rendición de compras realizadas por el cliente.</span>",
         "bg": "#d9d9d9"
       },
       {
         "src": "/assets/grid-fullservice-2.png",
-        "title": "What is Lorem Ipsum?",
-        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.",
+        "title": "Paso 2: SOURCE",
+        "paragraph": "<span class='font-bold' style='color: #0099A8;'>Picking y preparación de órdenes de producción:</span> API’s (fraccionadas), excipientes, materiales empaque primario, materiales empaque secundario, insumos productivos, insumos no productivos.<br><br><span class='font-bold' style='color: #0099A8;'>Envío de órdenes de producción a terceros:</span> Preparación de órdenes de producción según planificación, proceso de picking de materiales e insumos, envíos a terceros productores.<br><br><span class='font-bold' style='color: #0099A8;'>Envío de órdenes de producción a Dalban Pharma (Haedo):</span> Preparación de órdenes de producción según planificación, proceso de picking de materiales e insumos, envíos a Dalban Pharma (Haedo).",
         "bg": "#ffffff"
       },
       {
         "src": "/assets/grid-fullservice-3.png",
-        "title": "What is Lorem Ipsum?",
-        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.",
+        "title": "Paso 3: MAKE",
+        "paragraph": "<span class='font-bold' style='color: #0099A8; text-decoration:underline'>Formas solidas (cápsulas, tabletas y comprimidos)</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento primario</span><br><span class='font-bold' style='color: #0099A8;'>Blisteado de:</span> Comprimidos, Capsulas rígidas y blandeas, productos especiales con blisteras que cuentan con sistemas de visión de control, balanzas dinámicas a final de línea.<br> <span class='font-bold' style='color: #0099A8;'>Materiales de formado:</span> Termoplásticos, PVC, PVdC, PVC-Aclar, etc. Cold forming foil.<br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento secundario</span><br><span class='font-bold' style='color: #0099A8;'>Estuchado de:</span> Sobres, blisters, frascos, ampollas, jeringas, etc.<br> <span class='font-bold' style='color: #0099A8;'>Etiquetado de:</span> Sobres, blisters, frascos, estuches, etc.<br><span class='font-bold' style='color: #0099A8;'>Codificado de:</span> Estuches, etiquetas, cajas, ampollas, etc.<br><span class='font-bold' style='color: #0099A8;'>Anulado de:</span> Troqueles.<br><span class='font-bold' style='color: #0099A8;'>Codificado de los datos productivos con tecnología Inkjet.<br>Termosellado y Termocontraible.<br>Codificación de Trazabilidad.</span><br><br><span class='font-bold' style='color: #0099A8; text-decoration:underline'>Formas semisolidas (pomadas, pastas cremas y jaleas)</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento secundario</span><br><br><span class='font-bold' style='color: #0099A8; text-decoration:underline'>Formas líquidas (inyectables, jarabes, emulsiones, suspenciones y colirios)</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento secundario</span>",
+        "bg": "#d9d9d9"
+      },
+      {
+        "src": "/assets/grid-fullservice-3.png",
+        "title": "Paso 4: DELIVERY",
+        "paragraph": "<span class='font-bold' style='color: #0099A8;'>Almacenamiento de:</span> Productos terminados.<br><br><span class='font-bold' style='color: #0099A8;'>Picking y preparación de:</span> Órdenes de entrega para clientes.<br><br><span class='font-bold' style='color: #0099A8;'>Control de:</span> Salidas por FIFO, FEFO, etc.<br><br><span class='font-bold' style='color: #0099A8;'>Impresión de:</span> Remitos y Facturas.<br><br><span class='font-bold' style='color: #0099A8;'>Distribución de:</span> Pedidos a nivel nacional.<br><br><span class='font-bold' style='color: #0099A8;'>Control de:</span> Entregas y reportes.<br><br><span class='font-bold' style='color: #0099A8;'>Servicio de:</span> Entregas con contra reembolso.<br><br><span class='font-bold' style='color: #0099A8;'>Rendición de:</span> Remitos conformes y valores.<br><br><span class='font-bold' style='color: #0099A8;'>Retiros y devoluciones.</span>",
         "bg": "#d9d9d9"
       }
     ]
@@ -291,7 +353,7 @@
     "vision": {
       "title": "Visión de la <span class='font-bold'>Industria</span>",
       "span": "¿Existe un sector más delicado que el de la salud? ",
-      "paragraph": "Nuestras soluciones integrales permiten añadir valor a todas las partes de la cadena de suministro de la asistencia sanitaria",
+      "paragraph": "Nuestras soluciones integrales permiten añadir valor a todas las partes de la cadena de suministro de la asistencia sanitaria.",
       "src": {
         "src": "/assets/vision.png",
         "alt": "Vision",
@@ -315,7 +377,8 @@
           "Control de Inventario",
           "Picking & Preparación de Pedidos",
           "Despachos",
-          "Transporte & Distribución"
+          "Transporte & Distribución",
+          "CrossDocking"
         ]
       },
       {
@@ -326,7 +389,12 @@
           "Conformacion de Packs",
           "Pedidos Especiales",
           "Etiquetados",
-          "Empaques Adicionales"
+          "Empaques Adicionales",
+          "Acondicionamiento Secundario",
+          "Cobro en Destino",
+          "Repaletizado",
+          "Trazabilidad",
+          "Serializacion"
         ]
       },
       {
@@ -343,7 +411,7 @@
     ]
   },
   "characteristics": {
-    "title": null,
+    "title": "Características",
     "grid": [
       {
         "src": "/assets/icon-access.png",
@@ -358,20 +426,28 @@
         "src": "/assets/icon-security.png",
         "title": "Seguridad",
         "caracteristics": [
-          "Red de Incendio (según Normas NFPASprinklers)",
+          "Red de Incendio (según Normas NFPA Sprinklers)",
           "Hidrantes Bombas con sello NFPA / FM",
-          "Sistemas de Detección"
+          "Sistemas de detección de humo",
+          "Personal de seguridad las 24hs",
+          "Contamos con CCTV en todas las áreas",
+          "Alarmas",
+          "Control de accesos"
         ]
       },
       {
         "src": "/assets/icon-distr.png",
-        "title": "Distribucion",
+        "title": "Distribución",
         "caracteristics": [
           "Sector Segregados",
           "Sector Psicotrópicos",
           "Zona Devoluciones",
           "Zona de Transferencia",
-          "Zona de Pick & Pack"
+          "Zona de Pick & Pack",
+          "Zona de Pick & Pack",
+          "Zona de Recall",
+          "Zona de Scrap",
+          "Cámara de frio"
         ]
       }
     ]

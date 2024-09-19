@@ -5,17 +5,21 @@ const Solutions = ({ data }) => {
 
   return (
     <div className="bg-white">
-      <div className="contenedor-custom !py-12 lg:!py-28">
+      <div className="contenedor-custom !py-12 lg:!py-28 space-y-10">
         {/* Titular centrado */}
-        <h2
-          className="text-center text-2xl lg:text-3xl text-gray-800 mb-12"
+        <h1
+          className="titles text-center"
           dangerouslySetInnerHTML={{ __html: solutions.title }}
-        ></h2>
+        ></h1>
 
         {/* Primera Grilla - 3 columnas */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {solutions.grid1.map((item, index) => (
-            <div key={index} className="relative group">
+            <a
+              href={item.href}
+              key={index}
+              className="relative group shadow-lg rounded-2xl hover:shadow-2xl transition-all ease-in-out duration-300 transform hover:-translate-y-1"
+            >
               {/* Imagen */}
               <Image
                 src={item.src}
@@ -32,14 +36,11 @@ const Solutions = ({ data }) => {
               {/* Título y Call to Action */}
               <div className="absolute inset-0 flex flex-col justify-center items-center text-white  transition-opacity duration-300">
                 <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
-                <a
-                  href={item.href}
-                  className=" text-white hover:underline text-lg "
-                >
+                <span className=" text-white hover:underline text-lg ">
                   {item.btn}
-                </a>
+                </span>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
@@ -56,11 +57,14 @@ const Solutions = ({ data }) => {
                   height={50}
                   className="mr-4"
                 />
-                <h3 className="text-xl text-black ">{item.title}</h3>
+                <h3 className="titles-secondary">{item.title}</h3>
               </div>
 
               {/* Párrafo */}
-              <p className="text-black">{item.paragraph}</p>
+              <p
+                className="text-black paragraphs-secondary"
+                dangerouslySetInnerHTML={{ __html: item.paragraph }}
+              ></p>
             </div>
           ))}
         </div>

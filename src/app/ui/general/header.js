@@ -25,13 +25,17 @@ const Header = ({ data }) => {
   }, [openSubMenu]);
 
   // Filtrar los elementos de navegación que no quieres mostrar
-  const filteredNavigation = navigation.filter(
-    (item) => item.label !== "Informacion"
-  );
+  const filteredNavigation = navigation.filter((item) => {
+    const normalizedLabel = item.label
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase();
+    return normalizedLabel !== "informacion";
+  });
 
   return (
-    <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50 py-2">
-      <div className="contenedor-custom flex justify-between items-end lg:items-center">
+    <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50 py-4 lg:py-2">
+      <div className="contenedor-custom flex justify-between items-end lg:items-center w-full">
         {/* Logo */}
         <div className="logo">
           <a href={logo.link}>
@@ -50,7 +54,7 @@ const Header = ({ data }) => {
         <nav
           className={`${
             isMenuOpen ? "max-h-[400px] opacity-100" : "max-h-0 opacity-0"
-          } lg:max-h-full lg:opacity-100 lg:flex lg:items-center shadow-2xl lg:shadow-none lg:space-x-6 lg:relative bg-white top-full left-0 w-full lg:w-auto lg:px-0 lg:mt-0 contenedor-custom !py-5 overflow-hidden transition-all duration-500 ease-in-out`}
+          } lg:max-h-full lg:opacity-100 absolute lg:flex lg:items-center shadow-2xl lg:shadow-none lg:space-x-6 lg:relative bg-white top-full left-0 w-full lg:w-auto lg:px-0 lg:mt-0 contenedor-custom !py-5 overflow-hidden transition-all duration-500 ease-in-out`}
         >
           <ul className="lg:flex lg:space-x-14 space-y-4 lg:space-y-0">
             {filteredNavigation.map((item, index) => (
@@ -71,7 +75,7 @@ const Header = ({ data }) => {
                         }
                       : undefined
                   }
-                  className="flex items-center text-gray-800 text-lg hover:text-[#0099A8] transition-colors duration-300"
+                  className="flex items-center link-nav"
                 >
                   {item.label}
                   {item.label === "Servicios" && (
@@ -97,7 +101,7 @@ const Header = ({ data }) => {
                 {item.label === "Servicios" && openSubMenu === item.label && (
                   <ul
                     ref={subMenuRef}
-                    className="fixed bg-white !top-16  shadow-2xl rounded-md  w-52 z-50"
+                    className="lg:fixed bg-white !top-16  lg:shadow-2xl rounded-md  w-52 z-50"
                   >
                     {item.options.map((option, idx) => (
                       <li key={idx}>
@@ -117,10 +121,7 @@ const Header = ({ data }) => {
 
         {/* CTA Button */}
         <div className="hidden lg:block">
-          <a
-            href={ctaButton.link}
-            className="bg-[#0099A8] border border-[#0099A8] text-white py-2 px-6 rounded-lg hover:bg-transparent hover:text-[#0099A8] transition-colors duration-300"
-          >
+          <a href={ctaButton.link} className="link-nav-access">
             {ctaButton.text}
           </a>
         </div>

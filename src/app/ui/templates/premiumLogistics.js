@@ -7,7 +7,7 @@ const PremiumLogistics = ({ data }) => {
       <div className=" flex flex-col items-center gap-y-20">
         {/* Título centrado */}
         <h1
-          className="text-2xl lg:text-4xl  text-black"
+          className="titles"
           dangerouslySetInnerHTML={{ __html: logistics.premium.title }}
         ></h1>
 
@@ -16,7 +16,7 @@ const PremiumLogistics = ({ data }) => {
           {/* Texto y CTA a la izq */}
           <div className="flex flex-col w-full lg:w-3/4 gap-y-5 mr-auto justify-center">
             <p
-              className="text-base lg:text-lg text-black"
+              className="paragraphs"
               dangerouslySetInnerHTML={{ __html: logistics.premium.paragraph }}
             ></p>
           </div>
@@ -32,12 +32,8 @@ const PremiumLogistics = ({ data }) => {
         <div className="flex flex-col lg:flex-row justify-between items-center w-full">
           {logistics.premium.stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center gap-y-2">
-              <span className="text-4xl font-bold text-[#10CFC9]">
-                {stat.number}
-              </span>
-              <span className="text-lg font-bold uppercase text-black">
-                {stat.text}
-              </span>
+              <span className="stats-number">{stat.number}</span>
+              <span className="stats-text">{stat.text}</span>
             </div>
           ))}
         </div>
