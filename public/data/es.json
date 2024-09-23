@@ -1,13 +1,14 @@
 {
   "aboutUs": {
     "title": "Sobre <span class='font-bold'>Nosotros</span>",
-    "paragraph": "La logística es un componente crítico que garantiza el manejo eficiente y seguro de los bienes de nuestros clientes.<br><br>Manejamos productos altamente sensibles y regulados para lo que se requiere una organización precisa de todos nuestros procesos donde se consideran todos los aspectos de la calidad. Nuestro concepto en Logística Integral de Mercaderías, es pionero y líder en la industria farmacéutica en la República Argentina.<br><br> Nos especializamos en ofrecer <span class='font-bold' style='color: #0099A8;'>soluciones de transporte y logística personalizadas e integradas.</span><br><br>Nuestro enfoque proactico nos impulsa a buscar constantemente formas de optimizar su cadena de suministro, asegurando así un servicio eficiente y confiable."
+
+    "paragraph": "La logística es un componente crítico que garantiza el manejo eficiente y seguro de los bienes de nuestros clientes.<br><br>Manejamos productos altamente sensibles y regulados para lo que se requiere una organización precisa de todos nuestros procesos donde se consideran todos los aspectos de la calidad.<br><br> Nuestro concepto en Logística Integral de Mercaderías es pionero y líder en la industria farmacéutica en la República Argentina.<br><br>Nos especializamos en ofrecer <span class='font-bold' style='color: #0099A8;'>soluciones de transporte y logística personalizadas e integradas.</span><br><br>Nuestro enfoque proactivo nos impulsa a buscar constantemente formas de optimizar su cadena de suministro, asegurando así un servicio eficiente y confiable."
   },
   "stats": {
     "paragraph": "Estadísticas que superamos año a año",
     "stats": [
       {
-        "number": "1121",
+        "number": "+ 170",
         "text": "Empleados",
         "src": "/assets/icon-empleados.png",
         "alt": "Empleados",
@@ -15,7 +16,7 @@
         "height": 80
       },
       {
-        "number": "7204",
+        "number": "+ 9.000",
         "text": "Productos almacenados",
         "src": "/assets/icon-productos.png",
         "alt": "Productos almacenados",
@@ -23,7 +24,7 @@
         "height": 50
       },
       {
-        "number": "437",
+        "number": "+ 40",
         "text": "Clientes",
         "src": "/assets/icon-clientes.png",
         "alt": "Clientes",
@@ -31,8 +32,8 @@
         "height": 60
       },
       {
-        "number": "250.000",
-        "text": "mts2 en depósitos y plantas",
+        "number": "+ 68.000 m2",
+        "text": "Depósitos y plantas",
         "src": "/assets/icon-depositos.png",
         "alt": "mts2 en depósitos y plantas",
         "width": 70,
@@ -66,17 +67,17 @@
       {
         "src": "/assets/icon-tecnologia.png",
         "title": "Tecnología",
-        "paragraph": "Creemos en el valor de la <span class='font-bold' style='color: #0099A8;'>tecnología</span> en los procesos logísticos y productivos incorporando herramientas que optimicen cada etapa.<br><br> Damos soporte en la información con herramientas de Business Intelligence según las necesidades de cada operación.<br><br> Brindamos un servicio integral y hecho a la medida de cada cliente con Soluciones modulares, flexibles y escalables acompañando las necesidades del negocio."
+        "paragraph": "Creemos en el valor de la <span class='font-bold' style='color: #0099A8;'>tecnología</span> en los procesos logísticos y productivos incorporando herramientas que optimicen cada etapa.<br><br> Damos soporte en la información con herramientas de Business Intelligence según las necesidades de cada operación."
       },
       {
         "src": "/assets/icon-calidad.png",
         "title": "Control de Calidad",
-        "paragraph": "Contamos con los mejores <span class='font-bold' style='color: #0099A8;'>Depósitos</span> para desarrollar nuestras actividades logísticas.<br><br>Distribuimos a todo el país."
+        "paragraph": "Acompañamos la <span class='font-bold' style='color: #0099A8;'>Gestión de Calidad</span> de nuestros clientes con profesionales reconocidos en la industria y procesos robustos que aseguran la gestión integral de la calidad de nuestros clientes.<br><br> Estamos comprometidos a cumplir y superar las expectativas de nuestros clientes y de los clientes de nuestros clientes."
       },
       {
         "src": "/assets/icon-logistica.png",
         "title": "Logística",
-        "paragraph": "Acompañamos la <span class='font-bold' style='color: #0099A8;'>Gestión de Calidad</span> de nuestros clientes con profesionales reconocidos en la industria y procesos robustos que aseguran la gestión integral de la calidad de nuestros clientes.<br><br>Estamos comprometidos a cumplir y superar las expectativas de nuestros clientes y de los clientes de nuestros clientes."
+        "paragraph": "Brindamos un servicio integral y hecho a la medida de cada cliente con Soluciones modulares, flexibles y escalables acompañando las necesidades del negocio.<br><br>Contamos con los mejores Depósitos para desarrollar nuestras <span class='font-bold' style='color: #0099A8;'>actividades logísticas.</span> Distribuimos a todo el país."
       }
     ]
   },
@@ -86,21 +87,21 @@
     "grid": [
       {
         "src": "/assets/insights-1.png",
-        "category": "Categoría",
-        "title": "Lorem Ipsuom",
-        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        "category": "Novedades",
+        "title": "Dalban",
+        "paragraph": "*Adecuación de Dalban Laplace para recibir productos de temperatura controlada. Contandocon la habitación de la ANMAT.<br>*Habilitación de la Provincia de Buenos Aires, para la ampliación de las ubicaciones.<br>*Damos la Bienvenida a Knight SA, cliente que se integra a la familia Dalban."
       },
       {
         "src": "/assets/insights-2.png",
-        "category": "Categoría",
-        "title": "Lorem Ipsuom",
-        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        "category": "Novedades",
+        "title": "Dalban Pharma",
+        "paragraph": "*Habilitación Área de Inyectables.<br>*Damos la Bienvenida a XXX, nuevo integrante de la familia Dalban Pharma."
       },
       {
         "src": "/assets/insights-3.png",
-        "category": "Categoría",
-        "title": "Lorem Ipsuom",
-        "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been."
+        "category": "Novedades",
+        "title": "Mercado",
+        "paragraph": "*Farmaplus compra Farmacias Lider.<br>*L’oreal compra el 10% de Galderma."
       },
       {
         "src": "/assets/insights-4.png",
