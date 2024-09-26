@@ -177,31 +177,31 @@
   "logistics": {
     "title": "Logística",
     "src": "/assets/hero-logistics.png",
-    "paragraph": "Desde la infraestructura edilicia propia construida en base a requerimientos Clase A hasta la <span class='font-bold' style='color: #0099A8;'>tecnología de las handhelds</span> aplicadas a la operación, cuenta también con atributos que van más allá de lo material o visible.<br><br> <span class='font-bold' style='color: #0099A8;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente.<br><br> Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #0099A8;'>pick & pack</span> o la <span class='font-bold' style='color: #0099A8;'>distribución de venta directa en Capital, GBA e Interior.</span>",
+    "paragraph": "Desde la infrastructura edilicia propia construida en base a requerimientos Clase A hasta la <span class='font-bold' style='color: #0099A8;'>tecnología de las handhelds</span> aplicadas a la operación, cuenta también con atributos que van más allá de lo material o visible.<br><br> <span class='font-bold' style='color: #0099A8;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente.<br><br> Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #0099A8;'>pick & pack</span> o la <span class='font-bold' style='color: #0099A8;'>distribución de venta directa en Capital, GBA e Interior.</span>",
     "infrastructure": {
-      "title": "Infraestructura",
-      "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
+      "title": "Infrastructura",
+      "paragraph": "En nuestra empresa, contamos con una infrastructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
       "src": "/assets/bg-infrastructure-pharma.png"
     },
     "premium": {
       "title": "Servicio <span class='font-bold'>Premium</span>",
-      "paragraph": "Disponibilidad para oficinas operativas y/o administrativas. Contamos con Sistemas de: <span class='font-bold' style='color: #0099A8;'>Gestion de Almacenes (WMS), Gestion de Transporte (TMS), Gestion de Playa (YMS) y Gestion en calle.</span> Trazabilidad de Productos.<br><br> Actividades Reguladas por <span class='font-bold' style='color: #0099A8;'>Standard Operating Proceedures (SOPs)</span> & guias escritas en conformidad con parámetros locales e internacionales.",
+      "paragraph": "Disponibilidad para oficinas operativas y/o administrativas. Contamos con Sistemas de: <span class='font-bold' style='color: #0099A8;'>Gestion de Almacenes (WMS), Gestion de Transporte (TMS), Gestion de Playa (YMS) y Gestion en calle.</span><br><br> Trazabilidad de Productos.<br><br> Actividades Reguladas por <span class='font-bold' style='color: #0099A8;'>Standard Operating Proceedures (SOPs)</span> & guias escritas en conformidad con parámetros locales e internacionales.",
       "src": "/assets/bg-infrastructure-logistics.png",
       "stats": [
         {
-          "number": "44.000 m2",
+          "number": "66.000 m2",
           "text": "Área"
         },
         {
-          "number": "22.400 m2",
+          "number": "42.000 m2",
           "text": "Superficie cubierta"
         },
         {
-          "number": "4.500 m2",
+          "number": "18.500 m2",
           "text": "Playa de maniobras"
         },
         {
-          "number": "29.000",
+          "number": "18.500",
           "text": "Capacidad de palets"
         },
         {
@@ -214,52 +214,52 @@
   "pharma": {
     "title": "Pharma",
     "src": "/assets/hero-pharma.png",
-    "paragraph": "Desde la infraestructura edilicia propia construida en base a requerimientos Clase A hasta la <span class='font-bold' style='color: #0099A8;'>tecnología de las handhelds</span> aplicadas a la operación, cuenta también con atributos que van más allá de lo material o visible.<br><br><span class='font-bold' style='color: #0099A8;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente.<br><br> Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #0099A8;'>pick & pack</span> o la <span class='font-bold' style='color: #0099A8;'>distribución de venta directa en Capital, GBA e Interior.</span>",
+    "paragraph": "Dalban Pharma S.A. se formó en el año 2020, con el fin de dedicarse a la <span class='font-bold' style='color: #0099A8;'>elaboración, envasado y acondicionamiento de especialidades medicinales, productos médicos y cosméticos</span> para terceros.<br><br> Nuestra planta fabril se encuentra ubicada en Haedo - PBA, contando con manufactura propia, depósitos y oficinas administrativas.",
     "infrastructure": {
-      "title": "Infraestructura",
-      "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
+      "title": "Infrastructura",
+      "paragraph": "En nuestra empresa, contamos con una infrastructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
       "src": "/assets/bg-infrastructure-pharma.png"
     },
     "premium": {
       "title": "Servicio <span class='font-bold'>Premium</span>",
-      "paragraph": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.",
+      "paragraph": "Con el equipamiento y la infrastructura que posee la Planta, se puede realizar la producción de las siguientes formas farmacéuticas:",
       "src": [
         {
           "src": "/assets/premium-pharma-1.png",
-          "alt": "Habilitación ANMAT",
-          "span": "Habilitación ANMAT como operador logístico de medicamentos"
+          "alt": "Acondicionamiento secundario",
+          "span": "Acondicionamiento secundario de especialidades medicinales, cosméticos y dispositivos médicos."
         },
         {
           "src": "/assets/premium-pharma-2.png",
-          "alt": "Sistema de trazabilidad de productos",
-          "span": "Sistema de trazabilidad de productos"
+          "alt": "Cremas y Líquidos No Estériles",
+          "span": "Cremas y Líquidos No Estériles"
         },
         {
           "src": "/assets/premium-pharma-3.png",
-          "alt": "Temperatura & Humedad controladas",
-          "span": "Temperatura & Humedad controladas (15ºC - 25ºC)"
+          "alt": "Acondicionamiento primario y secundario de Sólidos",
+          "span": "Acondicionamiento primario y secundario de Sólidos"
         },
         {
           "src": "/assets/premium-pharma-4.png",
-          "alt": "Cámara de Vacunas",
-          "span": "Cámara de Vacunas (2ºC - 8ºC)"
+          "alt": "Líquidos estériles inyectables",
+          "span": "Líquidos estériles inyectables: Ampollas - Frasco Ampolla"
         }
       ],
       "stats": [
         {
-          "number": "30.100 m2",
+          "number": "5.530 m2",
           "text": "Área"
         },
         {
-          "number": "18.300 m2",
+          "number": "7.830 m2",
           "text": "Superficie cubierta"
         },
         {
-          "number": "8.400 m2",
+          "number": "500 m2",
           "text": "Playa de maniobras"
         },
         {
-          "number": "22.000",
+          "number": "930",
           "text": "Capacidad de palets"
         },
         {
@@ -289,7 +289,7 @@
       {
         "src": "/assets/grid-fullservice-3.png",
         "title": "Paso 3: MAKE",
-        "paragraph": "<span class='font-bold' style='color: #0099A8; text-decoration:underline'>Formas solidas (cápsulas, tabletas y comprimidos)</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento primario</span><br><span class='font-bold' style='color: #0099A8;'>Blisteado de:</span> Comprimidos, Capsulas rígidas y blandeas, productos especiales con blisteras que cuentan con sistemas de visión de control, balanzas dinámicas a final de línea.<br> <span class='font-bold' style='color: #0099A8;'>Materiales de formado:</span> Termoplásticos, PVC, PVdC, PVC-Aclar, etc. Cold forming foil.<br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento secundario</span><br><span class='font-bold' style='color: #0099A8;'>Estuchado de:</span> Sobres, blisters, frascos, ampollas, jeringas, etc.<br> <span class='font-bold' style='color: #0099A8;'>Etiquetado de:</span> Sobres, blisters, frascos, estuches, etc.<br><span class='font-bold' style='color: #0099A8;'>Codificado de:</span> Estuches, etiquetas, cajas, ampollas, etc.<br><span class='font-bold' style='color: #0099A8;'>Anulado de:</span> Troqueles.<br><span class='font-bold' style='color: #0099A8;'>Codificado de los datos productivos con tecnología Inkjet.<br>Termosellado y Termocontraible.<br>Codificación de Trazabilidad.</span><br><br><span class='font-bold' style='color: #0099A8; text-decoration:underline'>Formas semisolidas (pomadas, pastas cremas y jaleas)</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento secundario</span><br><br><span class='font-bold' style='color: #0099A8; text-decoration:underline'>Formas líquidas (inyectables, jarabes, emulsiones, suspenciones y colirios)</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento secundario</span>",
+        "paragraph": "<span class='font-bold' style='color: #0099A8; text-decoration:underline'>Formas solidas (cápsulas, tabletas y comprimidos)</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento primario</span><br><span class='font-bold' style='color: #0099A8;'>Blisteado de:</span> Comprimidos, Capsulas rígidas y blandeas, productos especiales con blisteras que cuentan con sistemas de visión de control, balanzas dinámicas a final de línea.<br> <span class='font-bold' style='color: #0099A8;'>Materiales de formado:</span> Termoplásticos, PVC, PVdC, PVC-Aclar, etc.<br><span class='font-bold' style='color: #0099A8;'>Cold forming foil.</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento secundario</span><br><span class='font-bold' style='color: #0099A8;'>Estuchado de:</span> Sobres, blisters, frascos, ampollas, jeringas, etc.<br> <span class='font-bold' style='color: #0099A8;'>Etiquetado de:</span> Sobres, blisters, frascos, estuches, etc.<br><span class='font-bold' style='color: #0099A8;'>Codificado de:</span> Estuches, etiquetas, cajas, ampollas, etc.<br><span class='font-bold' style='color: #0099A8;'>Anulado de:</span> Troqueles.<br><span class='font-bold' style='color: #0099A8;'>Codificado de los datos productivos con tecnología Inkjet.<br>Termosellado y Termocontraible.<br>Codificación de Trazabilidad.</span><br><br><span class='font-bold' style='color: #0099A8; text-decoration:underline'>Formas semisolidas (pomadas, pastas cremas y jaleas)</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento secundario</span><br><br><span class='font-bold' style='color: #0099A8; text-decoration:underline'>Formas líquidas (inyectables, jarabes, emulsiones, suspenciones y colirios)</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento secundario</span>",
         "bg": "#d9d9d9"
       },
       {
@@ -427,13 +427,13 @@
         "src": "/assets/icon-security.png",
         "title": "Seguridad",
         "caracteristics": [
-          "Red de Incendio (según Normas NFPA Sprinklers)",
-          "Hidrantes Bombas con sello NFPA / FM",
-          "Sistemas de detección de humo",
-          "Personal de seguridad las 24hs",
+          "Red de Incendio (según Normas NFPA Sprinklers).",
+          "Hidrantes Bombas con sello NFPA/FM",
+          "Sistemas de Detección de Humo",
+          "Personal de Seguridad las 24hs",
           "Contamos con CCTV en todas las áreas",
           "Alarmas",
-          "Control de accesos"
+          "Control de Accesos"
         ]
       },
       {
@@ -445,10 +445,9 @@
           "Zona Devoluciones",
           "Zona de Transferencia",
           "Zona de Pick & Pack",
-          "Zona de Pick & Pack",
           "Zona de Recall",
           "Zona de Scrap",
-          "Cámara de frio"
+          "Cámara de Frío"
         ]
       }
     ]
