@@ -11,7 +11,7 @@ const Vision = ({ data }) => {
             }}
           ></h1>
           <p
-            className="titles-secondary !text-[#019DAA] font-bold"
+            className="titles-secondary !text-[#0099A8] font-bold"
             dangerouslySetInnerHTML={{
               __html: industria.vision.span,
             }}
@@ -25,16 +25,16 @@ const Vision = ({ data }) => {
         </div>
         <div className="flex gap-10 justify-between w-full py-5 lg:py-10">
           <div className="flex flex-col lg:flex-row w-full gap-y-5">
-            <div className="w-full lg:w-3/4">
+            <div className="w-full lg:w-2/4">
               <img
                 src={industria.vision.src.src} // Cambia esta ruta según tu imagen
                 alt="Imagen descriptiva"
-                className="w-full lg:w-2/3 h-auto rounded-lg shadow-lg mr-auto"
+                className="w-full lg:w-10/12 h-auto rounded-lg shadow-lg mr-auto"
               />
             </div>
-            <div className="flex flex-col w-full lg:w-3/4 gap-y-5 mr-auto justify-center">
+            <div className="flex flex-col w-full lg:w-2/4 gap-y-5 mr-auto justify-center">
               <h1
-                className="titles-secondary !text-[#019DAA] font-bold"
+                className="titles-secondary !text-[#0099A8] font-bold"
                 dangerouslySetInnerHTML={{
                   __html: industria.vision.src.title,
                 }}

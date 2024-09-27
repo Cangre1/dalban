@@ -4,8 +4,8 @@ const Solutions = ({ data }) => {
   const { solutions } = data;
 
   return (
-    <div className="bg-white">
-      <div className="contenedor-custom !py-12 lg:!py-28 space-y-10">
+    <div className="bg-white" id="servicios">
+      <div className="contenedor-custom !py-12 lg:!py-28 space-y-10 lg:space-y-24">
         {/* Titular centrado */}
         <h1
           className="titles text-center"
@@ -31,7 +31,7 @@ const Solutions = ({ data }) => {
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-[#0099A8] bg-opacity-70 opacity-50 rounded-2xl group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-[#0099A8] bg-opacity-80 opacity-50 rounded-2xl group-hover:opacity-100 transition-opacity duration-300"></div>
 
               {/* Título y Call to Action */}
               <div className="absolute inset-0 flex flex-col justify-center items-center text-white  transition-opacity duration-300">

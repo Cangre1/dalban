@@ -68,7 +68,7 @@ const SlidingLogos = () => {
   return (
     <div className="overflow-hidden space-y-24">
       <div className="space-y-10">
-        <h1 className="titles uppercase !text-[#0099A8] text-center">Pharma</h1>
+        <h1 className="text-3xl !text-[#0099A8] text-center">Pharma</h1>
         <div className="flex animate-scroll-custom items-center gap-x-16">
           {logosDuplicatedA.map((logo, index) => (
             <div key={index} className="flex-shrink-0 items-center flex">
@@ -83,9 +83,7 @@ const SlidingLogos = () => {
         </div>
       </div>
       <div className="space-y-10">
-        <h1 className="titles uppercase !text-[#0099A8] text-center">
-          No Pharma
-        </h1>
+        <h1 className="text-3xl !text-[#0099A8] text-center">No Pharma</h1>
         <div className="flex animate-scroll-reverse-custom items-center gap-x-16">
           {logosDuplicatedB.map((logo, index) => (
             <div key={index} className="flex-shrink-0 items-center flex">

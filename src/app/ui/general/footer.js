@@ -34,7 +34,7 @@ const Footer = ({ data }) => {
     });
 
   return (
-    <footer className="bg-[#D9D9D9] text-white py-6">
+    <footer className="bg-[#D9D9D9] text-white py-10">
       <div className="contenedor-custom flex flex-col lg:flex-row ">
         <div className="flex flex-col w-full lg:w-1/2 gap-y-5">
           {/* Footer Logo */}
@@ -53,17 +53,13 @@ const Footer = ({ data }) => {
           <p className="text-black text-sm lg:pr-72">{paragraph}</p>
 
           {/* Social Icons */}
-          <div className="flex space-x-4 mt-6 lg:mt-0 ">
+          <div className="flex space-x-2 mt-6 lg:mt-0 ">
             {socialIcons.map((icon, index) => (
-              <a
-                key={index}
-                href={icon.link || "#"}
-                className="hover:opacity-75 transition-opacity bg-[#0099A8] p-2 rounded-full"
-              >
+              <a key={index} href={icon.link || "#"} className="">
                 <img
                   src={icon.icon}
                   alt={icon.platform || "Social Icon"}
-                  className="w-3 h-3"
+                  className="w-7"
                 />
               </a>
             ))}

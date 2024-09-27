@@ -25,13 +25,11 @@ const StatisticsBanner = ({ data }) => {
 
               <div className="flex flex-col space-y-2">
                 {/* Número */}
-                <p className="text-2xl lg:text-4xl font-bold text-[#10CFC9]">
-                  {stat.number}
-                </p>
+                <p className="stats-number">{stat.number}</p>
 
                 {/* Texto */}
                 <span
-                  className="text-base lg:text-xl text-black"
+                  className="stats-text"
                   dangerouslySetInnerHTML={{ __html: stat.text }}
                 ></span>
               </div>

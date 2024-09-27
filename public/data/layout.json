@@ -53,11 +53,15 @@
       "options": [
         {
           "label": "EE.UU. 5231 - Tortuguitas -<br>Buenos Aires - Argentina",
-          "link": ""
+          "link": "#"
         },
         {
           "label": "Laplace 3554 - Tortuguitas -<br>Buenos Aires - Argentina",
-          "link": ""
+          "link": "https://www.google.com/maps/place/Centro+De+Distribuci%C3%B3n+Dalban/@-34.452349,-58.7134403,15z/data=!4m2!3m1!1s0x0:0x974e2bb0999d951e?sa=X&ved=1t:2428&ictx=111"
+        },
+        {
+          "label": "Directorio 701 - Haedo -<br>Buenos Aires - Argentina",
+          "link": "https://www.google.com/maps/place/Dalban+Pharma/@-34.638969,-58.587128,14z/data=!4m6!3m5!1s0x95bcc70edfcf6773:0x2e4421cabcfacd!8m2!3d-34.6389687!4d-58.5871277!16s%2Fg%2F11t75q4yrf?hl=es&entry=ttu&g_ep=EgoyMDI0MDkyNC4wIKXMDSoASAFQAw%3D%3D"
         }
       ]
     },
@@ -66,20 +70,24 @@
       "link": "/informacion",
       "options": [
         {
-          "label": "Sobre nosotros",
-          "link": "/sobre-nosotros"
+          "label": "Nosotros",
+          "link": "/#nosotros"
         },
         {
-          "label": "Historia",
-          "link": "/historia"
+          "label": "Servicios",
+          "link": "/#servicios"
         },
         {
-          "label": "Industrias",
-          "link": "/industrias"
+          "label": "Industria",
+          "link": "/industria"
         },
         {
           "label": "Insights",
           "link": "/insights"
+        },
+        {
+          "label": "Contacto",
+          "link": "/contacto"
         }
       ]
     }
@@ -90,11 +98,6 @@
   },
   "socialIcons": [
     {
-      "platform": "Twitter",
-      "link": "https://twitter.com/tuempresa",
-      "icon": "assets/twitter.png"
-    },
-    {
       "platform": "Facebook",
       "link": "https://facebook.com/tuempresa",
       "icon": "assets/facebook.png"
@@ -103,11 +106,6 @@
       "platform": "Instagram",
       "link": "https://instagram.com/tuempresa",
       "icon": "assets/instagram.png"
-    },
-    {
-      "platform": "Google",
-      "link": "https://google.com/tuempresa",
-      "icon": "assets/google.png"
     }
   ]
 }

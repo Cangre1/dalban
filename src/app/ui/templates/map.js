@@ -1,7 +1,6 @@
 import React from "react";
 
 const Map = ({ data }) => {
-  const { map } = data;
   return (
     <div className="bg-gray-100">
       <div className="contenedor-custom !py-12 lg:!py-28 space-y-16">
@@ -9,7 +8,7 @@ const Map = ({ data }) => {
         <div className="text-center">
           <h1
             className="titles"
-            dangerouslySetInnerHTML={{ __html: map.title }}
+            dangerouslySetInnerHTML={{ __html: data.title }}
           ></h1>
         </div>
 
@@ -19,14 +18,14 @@ const Map = ({ data }) => {
           <div>
             <p
               className="paragraphs"
-              dangerouslySetInnerHTML={{ __html: map.paragraph }}
+              dangerouslySetInnerHTML={{ __html: data.paragraph }}
             ></p>
           </div>
 
           {/* Lista a la derecha */}
           <div>
             <ul className="list-disc pl-5 paragraphs !text-[#0099A8]">
-              {map.items.map((item, index) => (
+              {data.items.map((item, index) => (
                 <li key={index} className="mb-2">
                   {item}
                 </li>
@@ -39,7 +38,7 @@ const Map = ({ data }) => {
       <div>
         <iframe
           className="w-full h-[500px]"
-          src={map.href}
+          src={data.href}
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"

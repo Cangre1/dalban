@@ -59,6 +59,32 @@ const Infrastructure = ({ data }) => {
               __html: currentData.infrastructure.paragraph,
             }}
           ></p>
+
+          {/* Renderizar la lista solo si lastPartOfUrl es 'pharma' */}
+          {lastPartOfUrl === "pharma" && (
+            <div className="grid grid-cols-2 gap-10">
+              <div className="list-disc text-[#0099A8] ">
+                {currentData.infrastructure.list
+                  .slice(0, 8)
+                  .map((item, index) => (
+                    <li key={index}>
+                      <span className="font-bold text-[#0099A8]">
+                        {item.span}
+                      </span>
+                    </li>
+                  ))}
+              </div>
+              <div className="list-disc text-[#0099A8] ">
+                {currentData.infrastructure.list.slice(8).map((item, index) => (
+                  <li key={index}>
+                    <span className="font-bold text-[#0099A8]">
+                      {item.span}
+                    </span>
+                  </li>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
       <div className="relative w-full py-40 lg:py-80">
@@ -73,7 +99,7 @@ const Infrastructure = ({ data }) => {
         />
 
         {/* Overlay oscuro */}
-        <div className="absolute top-0 left-0 w-full h-full bg-[#27817a] opacity-50 z-10"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-[#0099A8] opacity-50 z-10"></div>
 
         {/* Botón de Play */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">

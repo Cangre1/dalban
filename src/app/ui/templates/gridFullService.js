@@ -18,11 +18,11 @@ const GridFullService = ({ data }) => {
           >
             <div className="flex flex-col w-full lg:w-3/4 gap-y-5 mr-auto justify-center">
               <h1
-                className="text-2xl lg:text-4xl text-[#0099A8]"
+                className="text-2xl lg:text-4xl text-[#0099A8] uppercase underline"
                 dangerouslySetInnerHTML={{ __html: item.title }}
               ></h1>
               <p
-                className="text-base lg:text-lg text-black"
+                className="text-base lg:text-lg xl:text-xl text-black"
                 dangerouslySetInnerHTML={{ __html: item.paragraph }}
               ></p>
             </div>
@@ -30,7 +30,7 @@ const GridFullService = ({ data }) => {
               <img
                 src={item.src}
                 alt="Imagen descriptiva"
-                className={`w-full lg:w-2/3 h-auto rounded-lg shadow-lg ${
+                className={`w-full lg:w-11/12 h-auto rounded-lg  shadow-lg ${
                   index === 1 || index === 3 ? "mr-auto" : "ml-auto"
                 }`}
               />

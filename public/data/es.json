@@ -181,11 +181,13 @@
     "infrastructure": {
       "title": "Infrastructura",
       "paragraph": "En nuestra empresa, contamos con una infrastructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
+      "list": null,
       "src": "/assets/bg-infrastructure-pharma.png"
     },
     "premium": {
       "title": "Servicio <span class='font-bold'>Premium</span>",
-      "paragraph": "Disponibilidad para oficinas operativas y/o administrativas. Contamos con Sistemas de: <span class='font-bold' style='color: #0099A8;'>Gestion de Almacenes (WMS), Gestion de Transporte (TMS), Gestion de Playa (YMS) y Gestion en calle.</span><br><br> Trazabilidad de Productos.<br><br> Actividades Reguladas por <span class='font-bold' style='color: #0099A8;'>Standard Operating Proceedures (SOPs)</span> & guias escritas en conformidad con parámetros locales e internacionales.",
+      "subtitle": "“La eficiencia es hacer cosas bien; la efectividad es hacer las cosas correctas”. Peter Drucker.",
+      "paragraph": "Disponibilidad para oficinas operativas y/o administrativas.<br>Contamos con Sistemas de:<br/><br/><div class='list-disc text-[#0099A8] '><li><span class='font-bold text-[#0099A8]'>Gestión de Almacenes (WMS)</span></li><li><span class='font-bold text-[#0099A8]'>Gestión de Transporte (TMS)</span></li><li><span class='font-bold text-[#0099A8]'>Gestión de Playa (YMS)</span></li><li><span class='font-bold text-[#0099A8]'>Gestión en Calle</span></li></div><br>Trazabilidad de Productos.<br><br>Actividades Reguladas por <span class='font-bold' style='color: #0099A8;'>Standard Operating Proceedures (SOPs)</span> & guias escritas en conformidad con parámetros locales e internacionales.",
       "src": "/assets/bg-infrastructure-logistics.png",
       "stats": [
         {
@@ -218,6 +220,56 @@
     "infrastructure": {
       "title": "Infrastructura",
       "paragraph": "En nuestra empresa, contamos con una infrastructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
+      "list": [
+        {
+          "span": "Estuchadora CAM AV con Balanza dinámica Termo Scientific."
+        },
+        {
+          "span": "Etiquetadora NERI."
+        },
+        {
+          "span": "Enfardadora CAM ASB38 Capacidad: 55 un/min."
+        },
+        {
+          "span": "Central de pesada SABELLA."
+        },
+        {
+          "span": "Sopladora de frascos CAM TS 1000."
+        },
+        {
+          "span": "Llenadora CAM LA Capacidad: 55 un/min."
+        },
+        {
+          "span": "Llenadora COMADIS 960 pomo aluminio (Cap. 50 un/min)."
+        },
+        {
+          "span": "Llenadora COMADIS 1060 pomo trilaminado (Cap. 50 un/min)."
+        },
+        {
+          "span": "Llenadora de potes PALMAC (Cap. 25 un/min)."
+        },
+        {
+          "span": "Llenadora GF de ampollas y frascos-ampolla."
+        },
+        {
+          "span": "Lavadora y túnel de despirogenado STERILINE."
+        },
+        {
+          "span": "Generador de agua WFI y vapor puro BRAM-COR."
+        },
+        {
+          "span": "Revisadora."
+        },
+        {
+          "span": "Etiquetadora."
+        },
+        {
+          "span": "TOC."
+        },
+        {
+          "span": "Dobladora de Prospectos."
+        }
+      ],
       "src": "/assets/bg-infrastructure-pharma.png"
     },
     "premium": {
@@ -272,7 +324,7 @@
   "full-service": {
     "title": "Full Service",
     "src": "/assets/hero-full-service.png",
-    "paragraph": "Es un concepto pensado en brindar a nuestros clientes, la posibilidad de tener, bajo un mismo proveedor, todo el circuito logístico de manera integrada.",
+    "paragraph": "Es un concepto pensado en brindar a nuestros clientes, la posibilidad de tener, bajo un mismo proveedor, todo el <span class='font-bold' style='color: #0099A8;'>circuito logístico de manera integrada.</span>",
     "grid": [
       {
         "src": "/assets/grid-fullservice-1.png",
@@ -369,6 +421,7 @@
   },
   "services": {
     "title": "Servicios",
+    "paragraph": "“Calidad de Servicio no es lo que tu das. Es lo que el Cliente recibe.” Peter Drucker.",
     "grid": [
       {
         "src": "/assets/icon-depositos.png",
@@ -462,6 +515,17 @@
       "Longitud: 58º 42´ 5” Oeste"
     ],
     "href": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.470414122264!2d-58.6065699!3d-34.4909566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbb2f400db6f9%3A0x4a3ef1c8876d327b!2sRoberto%20Laplace%203554%2C%20B1611%20Don%20Torcuato%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1726517489649!5m2!1ses!2sar"
+  },
+  "mapHaedo": {
+    "title": "Ubicación",
+    "paragraph": "Contamos con una excelente ubicación y accesibilidad para la conexión con nuestros proveedores, clientes y servicios de transporte para el cumpliemiento de nuestras actividades y servicios.",
+    "items": [
+      "Lorem ipsum",
+      "Lorem ipsum",
+      "Latitud: completar",
+      "Longitud: completar"
+    ],
+    "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13130.491604068848!2d-58.5871277!3d-34.6389687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc70edfcf6773%3A0x2e4421cabcfacd!2sDalban%20Pharma!5e0!3m2!1ses!2sar!4v1727451103783!5m2!1ses!2sar"
   },
   "informationBanner": {
     "title": "¿Necesitas más información sobre nuestros servicios?",

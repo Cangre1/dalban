@@ -5,14 +5,20 @@ const PremiumLogistics = ({ data }) => {
   return (
     <div className="contenedor-custom !py-12 lg:!py-28 ">
       <div className=" flex flex-col items-center gap-y-20">
-        {/* Título centrado */}
-        <h1
-          className="titles"
-          dangerouslySetInnerHTML={{ __html: logistics.premium.title }}
-        ></h1>
+        <div className="space-y-5">
+          {/* Título centrado */}
+          <h1
+            className="titles text-center"
+            dangerouslySetInnerHTML={{ __html: logistics.premium.title }}
+          ></h1>
+          <p
+            className="paragraphs text-center italic"
+            dangerouslySetInnerHTML={{ __html: logistics.premium.subtitle }}
+          ></p>
+        </div>
 
         {/* Contenedor de dos columnas */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-between">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 justify-between">
           {/* Texto y CTA a la izq */}
           <div className="flex flex-col w-full lg:w-3/4 gap-y-5 mr-auto justify-center">
             <p
@@ -25,7 +31,7 @@ const PremiumLogistics = ({ data }) => {
             <img
               src={logistics.premium.src}
               alt="Imagen descriptiva"
-              className=" w-full lg:w-3/4 h-auto rounded-lg shadow-lg ml-auto"
+              className=" w-full lg:w-11/12 h-auto rounded-lg shadow-lg ml-auto"
             />
           </div>
         </div>

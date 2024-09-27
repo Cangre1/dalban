@@ -4,11 +4,17 @@ const ServicesBanner = ({ data }) => {
   return (
     <div className="bg-gray-100">
       <div className="contenedor-custom !py-12 lg:!py-28 space-y-16 lg:space-y-28">
-        {/* Párrafo centrado */}
-        <h1
-          className="titles text-center"
-          dangerouslySetInnerHTML={{ __html: data.title }}
-        ></h1>
+        <div className="space-y-5">
+          {/* Párrafo centrado */}
+          <h1
+            className="titles text-center"
+            dangerouslySetInnerHTML={{ __html: data.title }}
+          ></h1>
+          <p
+            className="paragraphs text-center italic"
+            dangerouslySetInnerHTML={{ __html: data.paragraph }}
+          ></p>
+        </div>
 
         {/* Grilla de servicios */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

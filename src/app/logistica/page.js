@@ -29,7 +29,7 @@ export default function Logistics() {
           <Infrastructure data={data} />
           <ServicesBanner data={data.characteristics} />
           <PhraseBanner data={data} />
-          <Map data={data} />
+          <Map data={data.map} />
           <InformationBanner data={data} />
         </>
       )}

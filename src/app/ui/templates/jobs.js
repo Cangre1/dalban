@@ -6,18 +6,18 @@ const Jobs = ({ data }) => {
     <div className="contenedor-custom !py-12 lg:!py-28 ">
       <div className=" flex flex-col items-center gap-y-20">
         {/* Contenedor de dos columnas */}
-        <div className="grid md:grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 gap-10 w-full">
           {/* Imagen a la izquierda */}
-          <div className="">
+          <div className="w-full">
             <img
               src={jobs.src}
               alt="Imagen descriptiva"
-              className=" w-full lg:w-2/3 h-auto rounded-lg shadow-lg mr-auto"
+              className=" w-full lg:w-10/12  h-auto rounded-lg shadow-lg mr-auto"
             />
           </div>
 
           {/* Texto y CTA a la derecha */}
-          <div className="flex flex-col w-full lg:w-2/3 gap-y-5 ml-auto justify-center">
+          <div className="flex flex-col w-full lg:w-3/4  gap-y-5 ml-auto justify-center">
             <h1
               className="titles"
               dangerouslySetInnerHTML={{ __html: jobs.title }}

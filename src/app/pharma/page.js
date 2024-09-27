@@ -29,7 +29,7 @@ export default function Pharma() {
           <Infrastructure data={data} />
           <ServicesBanner data={data.characteristics} />
           <PhraseBanner data={data} />
-          <Map data={data} />
+          <Map data={data.mapHaedo} />
           <InformationBanner data={data} />
         </>
       )}
