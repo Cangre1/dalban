@@ -1,6 +1,6 @@
 {
   "logo": {
-    "src": "assets/logo.png",
+    "src": "assets/symbol.png",
     "alt": "Logo de Dalban",
     "link": "/"
   },
@@ -27,15 +27,18 @@
       "options": [
         {
           "label": "Logistica",
-          "link": "/logistica"
+          "link": "/logistica",
+          "src": "assets/solutions-logistica.png"
         },
         {
           "label": "Pharma",
-          "link": "/pharma"
+          "link": "/pharma",
+          "src": "assets/solutions-pharma.png"
         },
         {
           "label": "Full Service",
-          "link": "/full-service"
+          "link": "/full-service",
+          "src": "assets/solutions-full-service.png"
         }
       ]
     },

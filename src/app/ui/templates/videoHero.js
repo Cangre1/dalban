@@ -5,11 +5,21 @@ import Play from "../../../../public/assets/play.png";
 const VideoHero = () => {
   return (
     <div>
-      <div className="hidden lg:block h-screen relative">
+      <div className="hidden lg:flex h-screen relative">
         {/* Overlay oscuro */}
         <div className="absolute top-0 left-0 w-full h-full bg-[#0099A8] opacity-30 z-10"></div>
         <video
-          className="w-full h-full object-cover"
+          className=" h-full object-cover w-1/2"
+          autoPlay
+          loop
+          muted // El video está silenciado
+          playsInline // Para que funcione correctamente en dispositivos móviles
+        >
+          <source src="assets/video.mp4" type="video/mp4" />
+          Tu navegador no soporta el video.
+        </video>
+        <video
+          className="w-1/2 h-full object-cover"
           autoPlay
           loop
           muted // El video está silenciado

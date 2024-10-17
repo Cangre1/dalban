@@ -34,12 +34,12 @@ const Header = ({ data }) => {
   });
 
   return (
-    <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50 py-4 lg:py-2">
+    <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50 py-4 lg:py-0">
       <div className="contenedor-custom flex justify-between items-end lg:items-center w-full">
         {/* Logo */}
         <div className="logo">
           <a href={logo.link}>
-            <img src={logo.src} alt={logo.alt} className="w-32" />
+            <img src={logo.src} alt={logo.alt} className=" w-12" />
           </a>
         </div>
 
@@ -101,15 +101,24 @@ const Header = ({ data }) => {
                 {item.label === "Servicios" && openSubMenu === item.label && (
                   <ul
                     ref={subMenuRef}
-                    className="lg:fixed bg-white !top-16  lg:shadow-2xl rounded-md  w-52 z-50"
+                    className="lg:fixed !top-[4.3rem] lg:shadow-2xl rounded-md w-auto z-50 bg-white flex p-5 gap-x-10"
                   >
                     {item.options.map((option, idx) => (
-                      <li key={idx}>
+                      <li
+                        key={idx}
+                        className="flex flex-col justify-center items-center space-y-4"
+                      >
                         <a
                           href={option.link}
-                          className="block text-gray-700 hover:text-[#0099A8] hover:bg-gray-200  py-2 px-4 rounded-md transition-all ease-in-out duration-300"
-                          dangerouslySetInnerHTML={{ __html: option.label }}
-                        />
+                          className="relative flex justify-center items-center text-white transition-all ease-in-out duration-300 bg-[#0099A8] opacity-80 hover:opacity-100 rounded-md"
+                        >
+                          <img src={option.src} alt="" className="w-44" />
+
+                          <span
+                            className="absolute inset-0 flex justify-center items-center z-20 text-xl"
+                            dangerouslySetInnerHTML={{ __html: option.label }}
+                          />
+                        </a>
                       </li>
                     ))}
                   </ul>
