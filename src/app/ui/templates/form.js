@@ -45,7 +45,7 @@ export default function ContactForm() {
               value={formData.name}
               onChange={handleChange}
               placeholder="Nombre y Apellido"
-              className="w-full px-3 py-2 border-b border-gray-300 focus:outline-none text-lg placeholder:text-gray-400 text-gray-400"
+              className="w-full px-3 py-2 border-b border-[#0099A8] focus:outline-none text-lg placeholder:text-gray-400 text-gray-400"
               required
             />
           </div>
@@ -58,7 +58,7 @@ export default function ContactForm() {
               value={formData.email}
               onChange={handleChange}
               placeholder="Mail"
-              className="w-full px-3 py-2 border-b border-gray-300 focus:outline-none text-lg placeholder:text-gray-400 text-gray-400"
+              className="w-full px-3 py-2 border-b border-[#0099A8] focus:outline-none text-lg placeholder:text-gray-400 text-gray-400"
               required
             />
           </div>
@@ -73,7 +73,7 @@ export default function ContactForm() {
               value={formData.phone}
               onChange={handleChange}
               placeholder="Teléfono"
-              className="w-full px-3 py-2 border-b border-gray-300 focus:outline-none text-lg placeholder:text-gray-400 text-gray-400"
+              className="w-full px-3 py-2 border-b border-[#0099A8] focus:outline-none text-lg placeholder:text-gray-400 text-gray-400"
               required
             />
           </div>
@@ -83,7 +83,7 @@ export default function ContactForm() {
               name="service"
               value={formData.service}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-gray-300 focus:outline-none h-full rounded-lg  text-lg placeholder:text-gray-400 text-gray-400 "
+              className="w-full px-3 py-2 border border-[#0099A8] focus:outline-none h-full rounded-lg  text-lg placeholder:text-gray-400 text-gray-400 "
               required
             >
               <option value="">Servicio</option>
@@ -101,7 +101,7 @@ export default function ContactForm() {
             value={formData.message}
             onChange={handleChange}
             placeholder="Mensaje"
-            className="w-full px-3 py-2 border rounded-lg border-black focus:outline-none text-lg placeholder:text-black text-black"
+            className="w-full px-3 py-2 border-2 rounded-lg border-[#0099A8] focus:outline-none text-lg placeholder:text-gray-400 text-black"
             rows="5"
             required
           />
@@ -110,7 +110,7 @@ export default function ContactForm() {
         <div>
           <button
             type="submit"
-            className="btn px-14 py-3 rounded-full text-center"
+            className="btn px-14 py-3 rounded-full text-center text-white"
           >
             Enviar
           </button>

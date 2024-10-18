@@ -140,9 +140,9 @@ body {
 }
 
 .stats-number {
-  @apply text-2xl lg:text-4xl font-bold text-[#0099A8];
+  @apply text-2xl lg:text-4xl font-bold text-black;
 }
 
 .stats-text {
-  @apply text-base lg:text-xl text-[#0099A8] font-semibold uppercase;
+  @apply text-base lg:text-xl text-black font-semibold uppercase;
 }

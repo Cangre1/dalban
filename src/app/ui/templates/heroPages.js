@@ -43,7 +43,7 @@ const Hero = ({ data }) => {
 
   return (
     <div
-      className="h-[60vh] lg:h-screen 2xl:h-[80vh] bg-cover bg-center relative flex items-center"
+      className="h-[60vh] lg:h-screen 2xl:h-[60vh] bg-cover bg-center relative flex items-center"
       style={{
         backgroundImage: `linear-gradient(to right, #0099A8 10%, rgba(0,0,0,0) 50%), url(${currentData.src})`,
       }}

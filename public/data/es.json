@@ -10,7 +10,7 @@
       {
         "number": "+ 170",
         "text": "Empleados",
-        "src": "/assets/icon-empleados.png",
+        "src": "/assets/empleados.png",
         "alt": "Empleados",
         "width": 80,
         "height": 80
@@ -18,23 +18,23 @@
       {
         "number": "+ 9.000",
         "text": "Productos almacenados",
-        "src": "/assets/icon-productos.png",
+        "src": "/assets/almacenados.png",
         "alt": "Productos almacenados",
-        "width": 50,
-        "height": 50
+        "width": 80,
+        "height": 80
       },
       {
         "number": "+ 40",
         "text": "Clientes",
-        "src": "/assets/icon-clientes.png",
+        "src": "/assets/clientes.png",
         "alt": "Clientes",
-        "width": 60,
-        "height": 60
+        "width": 80,
+        "height": 80
       },
       {
         "number": "+ 68.000 m2",
         "text": "Depósitos y plantas",
-        "src": "/assets/icon-depositos.png",
+        "src": "/assets/depositos.png",
         "alt": "mts2 en depósitos y plantas",
         "width": 70,
         "height": 70
@@ -65,17 +65,17 @@
     ],
     "grid2": [
       {
-        "src": "/assets/icon-tecnologia.png",
+        "src": "/assets/tecnologia.png",
         "title": "Tecnología",
         "paragraph": "Creemos en el valor de la <span class='font-bold' style='color: #0099A8;'>tecnología</span> en los procesos logísticos y productivos incorporando herramientas que optimicen cada etapa.<br><br> Damos soporte en la información con herramientas de Business Intelligence según las necesidades de cada operación."
       },
       {
-        "src": "/assets/icon-calidad.png",
+        "src": "/assets/calidad.png",
         "title": "Control de Calidad",
         "paragraph": "Acompañamos la <span class='font-bold' style='color: #0099A8;'>Gestión de Calidad</span> de nuestros clientes con profesionales reconocidos en la industria y procesos robustos que aseguran la gestión integral de la calidad de nuestros clientes.<br><br> Estamos comprometidos a cumplir y superar las expectativas de nuestros clientes y de los clientes de nuestros clientes."
       },
       {
-        "src": "/assets/icon-logistica.png",
+        "src": "/assets/logistica.png",
         "title": "Logística",
         "paragraph": "Brindamos un servicio integral y hecho a la medida de cada cliente con Soluciones modulares, flexibles y escalables acompañando las necesidades del negocio.<br><br>Contamos con los mejores Depósitos para desarrollar nuestras <span class='font-bold' style='color: #0099A8;'>actividades logísticas.</span> Distribuimos a todo el país."
       }

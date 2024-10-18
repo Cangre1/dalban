@@ -12,7 +12,7 @@ const Jobs = ({ data }) => {
             <img
               src={jobs.src}
               alt="Imagen descriptiva"
-              className=" w-full lg:w-10/12  h-auto rounded-lg shadow-lg mr-auto"
+              className=" w-full lg:w-12/12 object-cover aspect-video  h-auto rounded-lg shadow-lg mr-auto"
             />
           </div>
 
@@ -26,7 +26,10 @@ const Jobs = ({ data }) => {
               className="paragraphs"
               dangerouslySetInnerHTML={{ __html: jobs.paragraph }}
             ></p>
-            <a href={jobs.href} className="btn px-14 py-3 rounded-full">
+            <a
+              href={jobs.href}
+              className="btn px-14 py-3 rounded-full text-white"
+            >
               {jobs.btn}
             </a>
           </div>

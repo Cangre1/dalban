@@ -2,19 +2,12 @@
 import React, { useState, useRef, useEffect } from "react";
 
 const Header = ({ data }) => {
-  const { logo, logoMenu, navigation, ctaButton, socialIcons } = data;
+  const { logo, logoMenu, navigation, ctaButton } = data;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [openSubMenu, setOpenSubMenu] = useState(null);
+  const [openSubMenu, setOpenSubMenu] = useState(false); // Para controlar el hover en "Servicios"
   const subMenuRef = useRef(null);
   const servicesRef = useRef(null);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  const toggleSubMenu = (label) => {
-    setOpenSubMenu(openSubMenu === label ? null : label);
-  };
+  let closeSubMenuTimeout = null;
 
   useEffect(() => {
     if (subMenuRef.current && servicesRef.current) {
@@ -22,7 +15,7 @@ const Header = ({ data }) => {
       subMenuRef.current.style.left = `${rect.left}px`;
       subMenuRef.current.style.top = `${rect.bottom}px`;
     }
-  }, [openSubMenu]);
+  }, []);
 
   // Filtrar los elementos de navegación que no quieres mostrar
   const filteredNavigation = navigation.filter((item) => {
@@ -33,19 +26,32 @@ const Header = ({ data }) => {
     return normalizedLabel !== "informacion";
   });
 
+  // Abrir el submenú
+  const handleMouseEnter = () => {
+    clearTimeout(closeSubMenuTimeout); // Evitar cerrar el menú si el usuario está moviéndose hacia el submenú
+    setOpenSubMenu(true);
+  };
+
+  // Cerrar el submenú con retraso
+  const handleMouseLeave = () => {
+    closeSubMenuTimeout = setTimeout(() => {
+      setOpenSubMenu(false);
+    }, 300); // Se da un tiempo de 300ms antes de cerrar
+  };
+
   return (
     <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50 py-4 lg:py-0">
       <div className="contenedor-custom flex justify-between items-end lg:items-center w-full">
         {/* Logo */}
         <div className="logo">
           <a href={logo.link}>
-            <img src={logo.src} alt={logo.alt} className=" w-12" />
+            <img src={logo.src} alt={logo.alt} className="w-12" />
           </a>
         </div>
 
         {/* Menu toggle (hamburger) */}
         <div className="lg:hidden">
-          <a onClick={toggleMenu}>
+          <a onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <img src={logoMenu.src} alt={logo.alt} className="w-8" />
           </a>
         </div>
@@ -64,25 +70,24 @@ const Header = ({ data }) => {
                   item.label === "Servicios" ? "group" : ""
                 }`}
                 ref={item.label === "Servicios" ? servicesRef : null}
+                onMouseEnter={
+                  item.label === "Servicios" ? handleMouseEnter : null
+                }
+                onMouseLeave={
+                  item.label === "Servicios" ? handleMouseLeave : null
+                }
               >
                 <a
-                  href={item.link}
-                  onClick={
-                    item.label === "Servicios"
-                      ? (e) => {
-                          e.preventDefault();
-                          toggleSubMenu(item.label);
-                        }
-                      : undefined
-                  }
+                  href={item.label === "Servicios" ? "#" : item.link} // Solo cambiar el href si es "Servicios"
+                  onClick={(e) =>
+                    item.label === "Servicios" && e.preventDefault()
+                  } // Solo prevenir el clic si es "Servicios"
                   className="flex items-center link-nav"
                 >
                   {item.label}
                   {item.label === "Servicios" && (
                     <svg
-                      className={`ml-2 w-4 h-4 transition-transform duration-300 ${
-                        openSubMenu === item.label ? "rotate-180" : ""
-                      }`}
+                      className="ml-2 w-4 h-4"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -98,10 +103,13 @@ const Header = ({ data }) => {
                   )}
                 </a>
 
-                {item.label === "Servicios" && openSubMenu === item.label && (
+                {/* Submenu */}
+                {item.label === "Servicios" && openSubMenu && (
                   <ul
                     ref={subMenuRef}
-                    className="lg:fixed !top-[4.3rem] lg:shadow-2xl rounded-md w-auto z-50 bg-white flex p-5 gap-x-10"
+                    className="lg:fixed !top-[4.29rem] !left-1/2 transform -translate-x-1/2 lg:shadow-2xl rounded-md z-50 bg-white flex p-5 gap-x-10"
+                    onMouseEnter={handleMouseEnter} // Mantener el menú abierto si se interactúa con el submenú
+                    onMouseLeave={handleMouseLeave} // Cerrar el menú al salir del área del submenú
                   >
                     {item.options.map((option, idx) => (
                       <li
@@ -113,7 +121,6 @@ const Header = ({ data }) => {
                           className="relative flex justify-center items-center text-white transition-all ease-in-out duration-300 bg-[#0099A8] opacity-80 hover:opacity-100 rounded-md"
                         >
                           <img src={option.src} alt="" className="w-44" />
-
                           <span
                             className="absolute inset-0 flex justify-center items-center z-20 text-xl"
                             dangerouslySetInnerHTML={{ __html: option.label }}
