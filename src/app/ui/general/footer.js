@@ -120,7 +120,8 @@ const Footer = ({ data }) => {
       <div className=" bg-[#0099A8] py-1 lg:py-3">
         <div className="contenedor-custom">
           <p className="text-white text-center text-sm lg:text-base">
-            Copyright © 2024 Site developed by MG54. All Rights Reserved.
+            Copyright © 2024 Sitio desarrollado por MG54. Todos los derechos
+            reservados.
           </p>
         </div>
       </div>

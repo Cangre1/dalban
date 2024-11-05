@@ -15,7 +15,7 @@ const VideoHero = () => {
           muted // El video está silenciado
           playsInline // Para que funcione correctamente en dispositivos móviles
         >
-          <source src="assets/video.mp4" type="video/mp4" />
+          <source src="assets/video-pharma-baja.mp4" type="video/mp4" />
           Tu navegador no soporta el video.
         </video>
         <video
@@ -25,7 +25,7 @@ const VideoHero = () => {
           muted // El video está silenciado
           playsInline // Para que funcione correctamente en dispositivos móviles
         >
-          <source src="assets/video.mp4" type="video/mp4" />
+          <source src="assets/video-no-pharma-baja.mp4" type="video/mp4" />
           Tu navegador no soporta el video.
         </video>
       </div>

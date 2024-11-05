@@ -14,7 +14,7 @@ const InformationBanner = ({ data }) => {
       {/* Contenido del banner con mayor z-index para estar por encima del overlay */}
       <div className="contenedor-custom !py-12 lg:!py-36 space-y-10 relative z-20">
         <h1
-          className="text-2xl lg:text-4xl text-black text-center"
+          className="text-2xl lg:text-4xl text-white text-center"
           dangerouslySetInnerHTML={{ __html: informationBanner.title }}
         ></h1>
         <div className="flex justify-center">

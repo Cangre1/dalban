@@ -89,7 +89,7 @@
         "src": "/assets/insights-1.png",
         "category": "Novedades",
         "title": "Dalban",
-        "paragraph": "*Adecuación de Dalban Laplace para recibir productos de temperatura controlada. Contandocon la habitación de la ANMAT.<br>*Habilitación de la Provincia de Buenos Aires, para la ampliación de las ubicaciones.<br>*Damos la Bienvenida a Knight SA, cliente que se integra a la familia Dalban."
+        "paragraph": "*Adecuación de Dalban Laplace para recibir productos de temperatura controlada. Contando con la habilitación de la ANMAT.<br>*Habilitación de la Provincia de Buenos Aires, para la ampliación de las ubicaciones.<br>*Damos la Bienvenida a Knight SA, cliente que se integra a la familia Dalban."
       },
       {
         "src": "/assets/insights-2.png",
@@ -324,7 +324,7 @@
   "full-service": {
     "title": "Full Service",
     "src": "/assets/hero-full-service.png",
-    "paragraph": "Es un concepto pensado en brindar a nuestros clientes, la posibilidad de tener, bajo un mismo proveedor, todo el <span class='font-bold' style='color: #0099A8;'>circuito logístico de manera integrada.</span>",
+    "paragraph": "Brindamos todos los servicios que necesita el <span class='font-bold' style='color: #0099A8;'>proceso de fabricación de los productos,</span> integrando todos los puntos de la cadena de suministro:<br/><br/><div  style='padding: 0 1.2rem' class='text-[#0099A8] font-bold gap-y-2 items-start flex flex-col'><span>Compra por demanda de las materias primas e insumos</span><span>Manejo de proveedores</span><span>Recepción y muestreo</span><span>Abastecimiento a plantas productoras</span><span>Fabricación en Planta Dalban Haedo</span><span>Almacenamiento Dalban Logística</span><span>Entregas finales del Producto terminado</span></div><div style='margin-top: 4rem'><img src='/assets/diagrama.jpg'/></div>",
     "grid": [
       {
         "src": "/assets/grid-fullservice-1.png",
