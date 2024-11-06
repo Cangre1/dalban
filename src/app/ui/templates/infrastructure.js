@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
-import Play from "../../../../public/assets/play.png";
+import PlayBlue from "../../../../public/assets/play-blue.png";
+import PlayTurq from "../../../../public/assets/play-turq.png"; // Asegúrate de tener la ruta correcta para PlayTurq
 import React, { useEffect, useState } from "react";
 
 const Infrastructure = ({ data }) => {
@@ -8,37 +9,28 @@ const Infrastructure = ({ data }) => {
   const [currentData, setCurrentData] = useState(null);
 
   useEffect(() => {
-    // Asegurarse de que el código solo se ejecute en el lado del cliente
     if (typeof window !== "undefined") {
       const currentPath = window.location.pathname;
       let lastPart = currentPath.substring(currentPath.lastIndexOf("/") + 1);
 
-      // Validar y ajustar la última parte de la URL
       if (lastPart === "logistica") {
         lastPart = "logistics";
-      }
-
-      if (lastPart === "sector-farmaceutico-sanitario") {
+      } else if (lastPart === "sector-farmaceutico-sanitario") {
         lastPart = "farma-san";
-      }
-
-      if (lastPart === "contacto") {
+      } else if (lastPart === "contacto") {
         lastPart = "contact";
       }
 
       setLastPartOfUrl(lastPart);
 
-      // Acceder dinámicamente a los datos según la última parte de la URL
       if (data[lastPart]) {
         setCurrentData(data[lastPart]);
       } else {
-        // Manejo del caso en que no se encuentran datos para la clave dada
         setCurrentData(null);
       }
     }
   }, [data]);
 
-  // Si currentData es null, muestra un mensaje de carga o error
   if (!currentData) {
     return <p>Cargando...</p>;
   }
@@ -62,7 +54,6 @@ const Infrastructure = ({ data }) => {
             }}
           ></p>
 
-          {/* Renderizar la lista solo si lastPartOfUrl es 'pharma' */}
           {lastPartOfUrl === "pharma" && (
             <div className="grid grid-cols-2 gap-10">
               <div className="list-disc text-[#0099A8] ">
@@ -90,7 +81,6 @@ const Infrastructure = ({ data }) => {
         </div>
       </div>
       <div className="relative w-full py-40 lg:py-80">
-        {/* Imagen de fondo */}
         <Image
           src={currentData.infrastructure.src}
           alt="Infrastructure Background"
@@ -100,18 +90,16 @@ const Infrastructure = ({ data }) => {
           className="z-0"
         />
 
-        {/* Overlay oscuro */}
         <div
-          className="absolute top-0 left-0 w-full h-full  opacity-50 z-10"
+          className="absolute top-0 left-0 w-full h-full opacity-50 z-10"
           style={{ backgroundColor: gradientColor }}
         ></div>
 
-        {/* Botón de Play */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
           <button className="bg-white w-20 h-20 rounded-full shadow-lg hover:bg-gray-300 transition duration-300 ease-in-out flex justify-center items-center">
             <Image
               className="ml-2"
-              src={Play}
+              src={lastPartOfUrl === "pharma" ? PlayTurq : PlayBlue}
               alt="Play Button"
               width={30}
               height={30}

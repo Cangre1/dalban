@@ -41,9 +41,16 @@ const InformationBanner = ({ data }) => {
             className="btn px-14 py-3 rounded-full text-white text-center hover:!bg-transparent"
             style={{
               backgroundColor: buttonBgColor.backgroundColor,
-              borderWidth: "2px", // Asegúrate de definir un tamaño de borde
-              borderStyle: "solid", // Establecer el estilo del borde
-              borderColor: buttonBorderColor.borderColor, // Establecer el color condicional
+              borderWidth: "2px",
+              borderStyle: "solid",
+              borderColor: buttonBorderColor.borderColor,
+              color: "white", // Color inicial
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.color = buttonBgColor.backgroundColor; // Color de texto en hover
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.color = "white"; // Restaurar color de texto
             }}
           >
             {informationBanner.btn}

@@ -100,7 +100,7 @@ const Footer = ({ data }) => {
                         <li key={idx}>
                           <a
                             href={option.link}
-                            className="text-white  hover:text-[#252969] transition-colors duration-300"
+                            className="text-white transition-colors duration-300 border-b border-b-transparent hover:border-b-white"
                           >
                             <span
                               className="!leading-none text-sm lg:text-base"

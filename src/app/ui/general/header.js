@@ -114,15 +114,19 @@ const Header = ({ data }) => {
                     {item.options.map((option, idx) => (
                       <li
                         key={idx}
-                        className="flex flex-col justify-center items-center space-y-4"
+                        className="flex flex-col justify-center items-center space-y-4 "
                       >
                         <a
                           href={option.link}
-                          className="relative flex justify-center items-center text-white transition-all ease-in-out duration-300 bg-[#252969] opacity-80 hover:opacity-100 rounded-md"
+                          className="relative flex justify-center items-center text-white rounded-md"
                         >
-                          <img src={option.src} alt="" className="w-44" />
+                          <img
+                            src={option.src}
+                            alt=""
+                            className="w-44 rounded-lg"
+                          />
                           <span
-                            className="absolute inset-0 flex justify-center items-center z-20 text-xl"
+                            className="absolute inset-0 flex justify-center items-center z-20 text-xl bg-black bg-opacity-20 hover:bg-opacity-10 transition-all ease-in-out duration-300 my-auto mx-auto"
                             dangerouslySetInnerHTML={{ __html: option.label }}
                           />
                         </a>

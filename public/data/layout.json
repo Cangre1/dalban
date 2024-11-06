@@ -103,12 +103,12 @@
     {
       "platform": "Facebook",
       "link": "https://facebook.com/tuempresa",
-      "icon": "assets/facebook.png"
+      "icon": "assets/facebook-white.png"
     },
     {
       "platform": "Instagram",
       "link": "https://instagram.com/tuempresa",
-      "icon": "assets/instagram.png"
+      "icon": "assets/instagram-white.png"
     }
   ]
 }

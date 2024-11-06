@@ -108,7 +108,7 @@ body {
 }
 
 .link-nav {
-  @apply text-[#111111]  text-lg hover:text-[#252969] transition-colors duration-300;
+  @apply text-[#111111]  text-lg border-b-2 border-b-transparent hover:border-[#252969]  hover:text-[#252969] transition-colors duration-300;
 }
 
 .link-nav-access {
