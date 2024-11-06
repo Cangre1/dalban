@@ -28,17 +28,17 @@
         {
           "label": "Logística",
           "link": "/logistica",
-          "src": "assets/solutions-logistica.png"
+          "src": "assets/solutions-logistica.jpg"
         },
         {
           "label": "Pharma",
           "link": "/pharma",
-          "src": "assets/solutions-pharma.png"
+          "src": "assets/solutions-pharma.jpg"
         },
         {
           "label": "Full Service",
           "link": "/full-service",
-          "src": "assets/solutions-full-service.png"
+          "src": "assets/solutions-full-service.jpg"
         }
       ]
     },
