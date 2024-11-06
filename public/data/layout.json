@@ -1,11 +1,11 @@
 {
   "logo": {
-    "src": "assets/symbol.png",
+    "src": "assets/symbol-blue.png",
     "alt": "Logo de Dalban",
     "link": "/"
   },
   "logoFooter": {
-    "src": "assets/symbol.png",
+    "src": "assets/symbol-blue.png",
     "alt": "Logo de Dalban",
     "link": "/"
   },

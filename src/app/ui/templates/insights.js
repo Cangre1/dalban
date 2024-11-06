@@ -26,7 +26,7 @@ const Insights = ({ data }) => {
             <div
               className="row-span-2 bg-cover bg-center py-24 sm:py-32 relative group shadow-lg hover:shadow-2xl transition-all ease-in-out duration-300 transform hover:-translate-y-1"
               style={{
-                backgroundImage: `linear-gradient(to top, #0099A8 10%, rgba(0,0,0,0) 50%), url(${insights.grid[0].src})`,
+                backgroundImage: `linear-gradient(to top, #252969 10%, rgba(0,0,0,0) 50%), url(${insights.grid[0].src})`,
               }}
             >
               <div className="absolute bottom-0 left-0 w-full text-white p-5 sm:p-10 space-y-2 sm:space-y-4">
@@ -55,7 +55,7 @@ const Insights = ({ data }) => {
             <div
               className="bg-cover bg-center py-24 sm:py-32 relative  shadow-lg hover:shadow-2xl transition-all ease-in-out duration-300 transform hover:-translate-y-1"
               style={{
-                backgroundImage: `linear-gradient(to top, #0099A8 10%, rgba(0,0,0,0) 50%), url(${insights.grid[1].src})`,
+                backgroundImage: `linear-gradient(to top, #252969 10%, rgba(0,0,0,0) 50%), url(${insights.grid[1].src})`,
               }}
             >
               <div className="absolute bottom-0 left-0 w-full text-white p-5 sm:p-10 space-y-2 sm:space-y-4">
@@ -84,7 +84,7 @@ const Insights = ({ data }) => {
             <div
               className="bg-cover bg-center py-24 sm:py-32 relative  shadow-lg hover:shadow-2xl transition-all ease-in-out duration-300 transform hover:-translate-y-1"
               style={{
-                backgroundImage: `linear-gradient(to top, #0099A8 10%, rgba(0,0,0,0) 50%), url(${insights.grid[1].src})`,
+                backgroundImage: `linear-gradient(to top, #252969 10%, rgba(0,0,0,0) 50%), url(${insights.grid[1].src})`,
               }}
             >
               <div className="absolute bottom-0 left-0 w-full text-white p-5 sm:p-10 space-y-2 sm:space-y-4">

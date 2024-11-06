@@ -41,11 +41,14 @@ const Hero = ({ data }) => {
     return <p>Cargando...</p>;
   }
 
+  // Determinar el color del gradient basado en la última parte de la URL
+  const gradientColor = lastPartOfUrl === "pharma" ? "#0099A8" : "#252969";
+
   return (
     <div
       className="h-[60vh] lg:h-screen 2xl:h-[60vh] bg-cover bg-center relative flex items-center"
       style={{
-        backgroundImage: `linear-gradient(to right, #0099A8 10%, rgba(0,0,0,0) 50%), url(${currentData.src})`,
+        backgroundImage: `linear-gradient(to right, ${gradientColor} 10%, rgba(0,0,0,0) 50%), url(${currentData.src})`,
       }}
     >
       {/* Contenedor del título */}

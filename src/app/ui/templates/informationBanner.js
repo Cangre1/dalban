@@ -3,13 +3,31 @@ import bg from "../../../../public/assets/hero-banner.jpg";
 
 const InformationBanner = ({ data }) => {
   const { informationBanner } = data;
+
+  // Verificar si la URL termina con "pharma"
+  const isPharmaPage = window.location.pathname.endsWith("pharma");
+
+  // Estilos condicionales para el botón con !important
+  const buttonBgColor = isPharmaPage
+    ? { backgroundColor: "#0099A8", important: true }
+    : { backgroundColor: "#252969", important: true };
+
+  // Estilos condicionales para el borde con !important
+  const buttonBorderColor = isPharmaPage
+    ? { borderColor: "#0099A8", important: true }
+    : { borderColor: "#252969", important: true };
+
   return (
     <div
       className="bg-cover bg-center relative"
       style={{ backgroundImage: `url(${bg.src})` }}
     >
-      {/* Overlay oscuro */}
-      <div className="absolute top-0 left-0 w-full h-full bg-[#0099A8] opacity-30 z-10"></div>
+      {/* Overlay oscuro con color condicionado */}
+      <div
+        className={`absolute top-0 left-0 w-full h-full z-10 opacity-30 ${
+          isPharmaPage ? "bg-[#0099A8]" : "bg-[#252969]"
+        }`}
+      ></div>
 
       {/* Contenido del banner con mayor z-index para estar por encima del overlay */}
       <div className="contenedor-custom !py-12 lg:!py-36 space-y-10 relative z-20">
@@ -20,7 +38,13 @@ const InformationBanner = ({ data }) => {
         <div className="flex justify-center">
           <a
             href={informationBanner.href}
-            className="btn px-14 py-3 rounded-full text-center"
+            className="btn px-14 py-3 rounded-full text-white text-center hover:!bg-transparent"
+            style={{
+              backgroundColor: buttonBgColor.backgroundColor,
+              borderWidth: "2px", // Asegúrate de definir un tamaño de borde
+              borderStyle: "solid", // Establecer el estilo del borde
+              borderColor: buttonBorderColor.borderColor, // Establecer el color condicional
+            }}
           >
             {informationBanner.btn}
           </a>

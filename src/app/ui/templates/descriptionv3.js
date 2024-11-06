@@ -9,7 +9,7 @@ const Description = ({ data }) => {
         {/* Columna del título */}
         <div>
           <h1
-            className="titles !text-[#0099A8]"
+            className="titles !text-[#252969]"
             dangerouslySetInnerHTML={{ __html: insights.title }}
           ></h1>
         </div>

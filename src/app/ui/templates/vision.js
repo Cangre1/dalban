@@ -11,7 +11,7 @@ const Vision = ({ data }) => {
             }}
           ></h1>
           <p
-            className="titles-secondary !text-[#0099A8] font-bold"
+            className="titles-secondary !text-[#252969] font-bold"
             dangerouslySetInnerHTML={{
               __html: industria.vision.span,
             }}
@@ -34,7 +34,7 @@ const Vision = ({ data }) => {
             </div>
             <div className="flex flex-col w-full lg:w-2/4 gap-y-5 mr-auto justify-center">
               <h1
-                className="titles-secondary !text-[#0099A8] font-bold"
+                className="titles-secondary !text-[#252969] font-bold"
                 dangerouslySetInnerHTML={{
                   __html: industria.vision.src.title,
                 }}

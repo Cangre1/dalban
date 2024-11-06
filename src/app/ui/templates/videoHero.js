@@ -7,7 +7,7 @@ const VideoHero = () => {
     <div>
       <div className="hidden lg:flex h-screen relative">
         {/* Overlay oscuro */}
-        <div className="absolute top-0 left-0 w-full h-full bg-[#0099A8] opacity-30 z-10"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-[#252969] opacity-30 z-10"></div>
         <video
           className=" h-full object-cover w-1/2"
           autoPlay

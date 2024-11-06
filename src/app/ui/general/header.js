@@ -118,7 +118,7 @@ const Header = ({ data }) => {
                       >
                         <a
                           href={option.link}
-                          className="relative flex justify-center items-center text-white transition-all ease-in-out duration-300 bg-[#0099A8] opacity-80 hover:opacity-100 rounded-md"
+                          className="relative flex justify-center items-center text-white transition-all ease-in-out duration-300 bg-[#252969] opacity-80 hover:opacity-100 rounded-md"
                         >
                           <img src={option.src} alt="" className="w-44" />
                           <span

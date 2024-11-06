@@ -43,6 +43,8 @@ const Infrastructure = ({ data }) => {
     return <p>Cargando...</p>;
   }
 
+  const gradientColor = lastPartOfUrl === "pharma" ? "#0099A8" : "#252969";
+
   return (
     <div className="bg-gray-100">
       <div className="contenedor-custom !py-12 lg:!py-28">
@@ -99,7 +101,10 @@ const Infrastructure = ({ data }) => {
         />
 
         {/* Overlay oscuro */}
-        <div className="absolute top-0 left-0 w-full h-full bg-[#0099A8] opacity-50 z-10"></div>
+        <div
+          className="absolute top-0 left-0 w-full h-full  opacity-50 z-10"
+          style={{ backgroundColor: gradientColor }}
+        ></div>
 
         {/* Botón de Play */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">

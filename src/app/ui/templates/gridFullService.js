@@ -18,7 +18,7 @@ const GridFullService = ({ data }) => {
           >
             <div className="flex flex-col w-full lg:w-3/4 gap-y-5 mr-auto justify-center">
               <h1
-                className="text-2xl lg:text-4xl text-[#0099A8] uppercase underline"
+                className="text-2xl lg:text-4xl text-[#252969] uppercase underline"
                 dangerouslySetInnerHTML={{ __html: item.title }}
               ></h1>
               <p

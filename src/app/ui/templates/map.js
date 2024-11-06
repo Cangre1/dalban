@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Map = ({ data }) => {
+  const [isPharmaRoute, setIsPharmaRoute] = useState(false);
+
+  useEffect(() => {
+    // Verificar si la URL termina en '/pharma'
+    if (window.location.pathname.endsWith("/pharma")) {
+      setIsPharmaRoute(true);
+    } else {
+      setIsPharmaRoute(false);
+    }
+  }, []);
+
   return (
     <div className="bg-gray-100">
       <div className="contenedor-custom !py-12 lg:!py-28 space-y-16">
@@ -24,7 +35,11 @@ const Map = ({ data }) => {
 
           {/* Lista a la derecha */}
           <div>
-            <ul className="list-disc pl-5 paragraphs !text-[#0099A8]">
+            <ul
+              className={`list-disc pl-5 paragraphs ${
+                isPharmaRoute ? "!text-[#0099A8]" : "!text-[#252969]"
+              }`}
+            >
               {data.items.map((item, index) => (
                 <li key={index} className="mb-2">
                   {item}
@@ -39,9 +54,9 @@ const Map = ({ data }) => {
         <iframe
           className="w-full h-[500px]"
           src={data.href}
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
     </div>

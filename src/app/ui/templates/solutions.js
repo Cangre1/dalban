@@ -18,7 +18,7 @@ const Solutions = ({ data }) => {
             <a
               href={item.href}
               key={index}
-              className="relative group shadow-lg rounded-2xl hover:shadow-2xl transition-all ease-in-out duration-300 transform hover:-translate-y-1"
+              className="relative group shadow-lg hover:shadow-2xl transition-all ease-in-out duration-300 transform hover:-translate-y-1"
             >
               {/* Imagen */}
               <Image
@@ -27,11 +27,11 @@ const Solutions = ({ data }) => {
                 layout="responsive"
                 width={400}
                 height={250}
-                className="object-cover"
+                className="object-cover rounded-lg"
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-[#0099A8] bg-opacity-80 opacity-50 rounded-2xl group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-[#252969] bg-opacity-80 opacity-50 rounded-lg group-hover:opacity-100 transition-opacity duration-300"></div>
 
               {/* Título y Call to Action */}
               <div className="absolute inset-0 flex flex-col justify-center items-center text-white  transition-opacity duration-300">

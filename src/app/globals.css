@@ -108,11 +108,11 @@ body {
 }
 
 .link-nav {
-  @apply text-[#111111]  text-lg hover:text-[#0099A8] transition-colors duration-300;
+  @apply text-[#111111]  text-lg hover:text-[#252969] transition-colors duration-300;
 }
 
 .link-nav-access {
-  @apply bg-[#0099A8] border border-[#0099A8] text-white py-2 px-6 rounded-lg hover:bg-transparent hover:text-[#0099A8] transition-colors duration-300 shadow-2xl;
+  @apply bg-[#252969] border border-[#252969] text-white py-2 px-6 rounded-lg hover:bg-transparent hover:text-[#252969] transition-colors duration-300 shadow-2xl;
 }
 
 .titles {
@@ -132,7 +132,7 @@ body {
 }
 
 .btn {
-  @apply bg-[#0099A8] text-center  transition duration-300 w-fit uppercase hover:bg-transparent hover:text-[#0099A8] border border-[#0099A8];
+  @apply bg-[#252969] text-center  transition duration-300 w-fit uppercase hover:bg-transparent hover:text-[#252969] border border-[#252969];
 }
 
 .titles-hero-pages {

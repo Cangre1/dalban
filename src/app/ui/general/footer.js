@@ -35,7 +35,7 @@ const Footer = ({ data }) => {
 
   return (
     <footer>
-      <div className="bg-gray-950 text-white py-10 lg:py-28">
+      <div className="bg-[#121536] text-white py-10 lg:py-28">
         <div className="contenedor-custom flex flex-col lg:flex-row gap-y-10 lg:gap-y-0 ">
           <div className="flex flex-col w-full lg:w-1/2 gap-y-2 lg:gap-y-10">
             {/* Footer Logo */}
@@ -50,7 +50,7 @@ const Footer = ({ data }) => {
                     />
                   </a>
                 )}
-                <h1 className="text-xl lg:text-3xl font-bold text-[#0099A8]">
+                <h1 className="text-xl lg:text-3xl font-bold text-white">
                   Dalban
                 </h1>
               </div>
@@ -89,7 +89,7 @@ const Footer = ({ data }) => {
                 >
                   <a
                     href={item.link}
-                    className="text-base lg:text-xl uppercase text-[#0099A8] transition-colors duration-300 font-bold"
+                    className="text-base lg:text-xl uppercase text-white transition-colors duration-300 font-bold"
                     dangerouslySetInnerHTML={{ __html: item.label }}
                   />
 
@@ -100,7 +100,7 @@ const Footer = ({ data }) => {
                         <li key={idx}>
                           <a
                             href={option.link}
-                            className="text-white  hover:text-[#0099A8] transition-colors duration-300"
+                            className="text-white  hover:text-[#252969] transition-colors duration-300"
                           >
                             <span
                               className="!leading-none text-sm lg:text-base"
@@ -117,7 +117,7 @@ const Footer = ({ data }) => {
           </div>
         </div>
       </div>
-      <div className=" bg-[#0099A8] py-1 lg:py-3">
+      <div className=" bg-[#252969] py-1 lg:py-3">
         <div className="contenedor-custom">
           <p className="text-white text-center text-sm lg:text-base">
             Copyright © 2024 Sitio desarrollado por MG54. Todos los derechos

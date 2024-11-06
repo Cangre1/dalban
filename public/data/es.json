@@ -2,7 +2,7 @@
   "aboutUs": {
     "title": "Sobre <span class='font-bold'>Nosotros</span>",
 
-    "paragraph": "La logística es un componente crítico que garantiza el manejo eficiente y seguro de los bienes de nuestros clientes.<br><br>Manejamos productos altamente sensibles y regulados para lo que se requiere una organización precisa de todos nuestros procesos donde se consideran todos los aspectos de la calidad.<br><br> Nuestro concepto en Logística Integral de Mercaderías es pionero y líder en la industria farmacéutica en la República Argentina.<br><br>Nos especializamos en ofrecer <span class='font-bold' style='color: #0099A8;'>soluciones de transporte y logística personalizadas e integradas.</span><br><br>Nuestro enfoque proactivo nos impulsa a buscar constantemente formas de optimizar su cadena de suministro, asegurando así un servicio eficiente y confiable."
+    "paragraph": "La logística es un componente crítico que garantiza el manejo eficiente y seguro de los bienes de nuestros clientes.<br><br>Manejamos productos altamente sensibles y regulados para lo que se requiere una organización precisa de todos nuestros procesos donde se consideran todos los aspectos de la calidad.<br><br> Nuestro concepto en Logística Integral de Mercaderías es pionero y líder en la industria farmacéutica en la República Argentina.<br><br>Nos especializamos en ofrecer <span class='font-bold' style='color: #252969;'>soluciones de transporte y logística personalizadas e integradas.</span><br><br>Nuestro enfoque proactivo nos impulsa a buscar constantemente formas de optimizar su cadena de suministro, asegurando así un servicio eficiente y confiable."
   },
   "stats": {
     "paragraph": "Estadísticas que superamos año a año",
@@ -45,19 +45,19 @@
     "title": "Nuestras <span class='font-bold'>Soluciones</span>",
     "grid1": [
       {
-        "src": "/assets/solutions-logistica.png",
+        "src": "/assets/solutions-logistica.jpg",
         "title": "Logística",
         "btn": "Conocé más",
         "href": "/logistica"
       },
       {
-        "src": "/assets/solutions-pharma.png",
+        "src": "/assets/solutions-pharma.jpg",
         "title": "Pharma",
         "btn": "Conocé más",
         "href": "/pharma"
       },
       {
-        "src": "/assets/solutions-full-service.png",
+        "src": "/assets/solutions-full-service.jpg",
         "title": "Full Service",
         "btn": "Conocé más",
         "href": "/full-service"
@@ -67,17 +67,17 @@
       {
         "src": "/assets/tecnologia.png",
         "title": "Tecnología",
-        "paragraph": "Creemos en el valor de la <span class='font-bold' style='color: #0099A8;'>tecnología</span> en los procesos logísticos y productivos incorporando herramientas que optimicen cada etapa.<br><br> Damos soporte en la información con herramientas de Business Intelligence según las necesidades de cada operación."
+        "paragraph": "Creemos en el valor de la <span class='font-bold' style='color: #252969;'>tecnología</span> en los procesos logísticos y productivos incorporando herramientas que optimicen cada etapa.<br><br> Damos soporte en la información con herramientas de Business Intelligence según las necesidades de cada operación."
       },
       {
         "src": "/assets/calidad.png",
         "title": "Control de Calidad",
-        "paragraph": "Acompañamos la <span class='font-bold' style='color: #0099A8;'>Gestión de Calidad</span> de nuestros clientes con profesionales reconocidos en la industria y procesos robustos que aseguran la gestión integral de la calidad de nuestros clientes.<br><br> Estamos comprometidos a cumplir y superar las expectativas de nuestros clientes y de los clientes de nuestros clientes."
+        "paragraph": "Acompañamos la <span class='font-bold' style='color: #252969;'>Gestión de Calidad</span> de nuestros clientes con profesionales reconocidos en la industria y procesos robustos que aseguran la gestión integral de la calidad de nuestros clientes.<br><br> Estamos comprometidos a cumplir y superar las expectativas de nuestros clientes y de los clientes de nuestros clientes."
       },
       {
         "src": "/assets/logistica.png",
         "title": "Logística",
-        "paragraph": "Brindamos un servicio integral y hecho a la medida de cada cliente con Soluciones modulares, flexibles y escalables acompañando las necesidades del negocio.<br><br>Contamos con los mejores Depósitos para desarrollar nuestras <span class='font-bold' style='color: #0099A8;'>actividades logísticas.</span> Distribuimos a todo el país."
+        "paragraph": "Brindamos un servicio integral y hecho a la medida de cada cliente con Soluciones modulares, flexibles y escalables acompañando las necesidades del negocio.<br><br>Contamos con los mejores Depósitos para desarrollar nuestras <span class='font-bold' style='color: #252969;'>actividades logísticas.</span> Distribuimos a todo el país."
       }
     ]
   },
@@ -168,7 +168,7 @@
     ]
   },
   "jobs": {
-    "title": "Sumate a  <span class='font-bold'>Dalban</span>",
+    "title": "Sumate al <span class='font-bold'>Grupo Dalban</span>",
     "paragraph": "Es nuestro motor y orgullo la vocación de relacionarnos e interactuar con todos aquellos que compartan nuestra pasión por brindar un servicio integral de excelencia.",
     "btn": "Postularme",
     "href": "/",
@@ -176,8 +176,8 @@
   },
   "logistics": {
     "title": "Logística",
-    "src": "/assets/hero-logistics.png",
-    "paragraph": "Desde la infrastructura edilicia propia construida en base a requerimientos Clase A hasta la <span class='font-bold' style='color: #0099A8;'>tecnología de las handhelds</span> aplicadas a la operación, cuenta también con atributos que van más allá de lo material o visible.<br><br> <span class='font-bold' style='color: #0099A8;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente.<br><br> Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #0099A8;'>pick & pack</span> o la <span class='font-bold' style='color: #0099A8;'>distribución de venta directa en Capital, GBA e Interior.</span>",
+    "src": "/assets/hero-logistics.jpg",
+    "paragraph": "Desde la infrastructura edilicia propia construida en base a requerimientos Clase A hasta la <span class='font-bold' style='color: #252969;'>tecnología de las handhelds</span> aplicadas a la operación, cuenta también con atributos que van más allá de lo material o visible.<br><br> <span class='font-bold' style='color: #252969;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente.<br><br> Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #252969;'>pick & pack</span> o la <span class='font-bold' style='color: #252969;'>distribución de venta directa en Capital, GBA e Interior.</span>",
     "infrastructure": {
       "title": "Infrastructura",
       "paragraph": "En nuestra empresa, contamos con una infrastructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
@@ -186,8 +186,8 @@
     },
     "premium": {
       "title": "Servicio <span class='font-bold'>Premium</span>",
-      "subtitle": "“La eficiencia es hacer cosas bien; la efectividad es hacer las cosas correctas”. Peter Drucker.",
-      "paragraph": "Disponibilidad para oficinas operativas y/o administrativas.<br>Contamos con Sistemas de:<br/><br/><div class='list-disc text-[#0099A8] '><li><span class='font-bold text-[#0099A8]'>Gestión de Almacenes (WMS)</span></li><li><span class='font-bold text-[#0099A8]'>Gestión de Transporte (TMS)</span></li><li><span class='font-bold text-[#0099A8]'>Gestión de Playa (YMS)</span></li><li><span class='font-bold text-[#0099A8]'>Gestión en Calle</span></li></div><br>Trazabilidad de Productos.<br><br>Actividades Reguladas por <span class='font-bold' style='color: #0099A8;'>Standard Operating Proceedures (SOPs)</span> & guias escritas en conformidad con parámetros locales e internacionales.",
+      "subtitle": null,
+      "paragraph": "Disponibilidad para oficinas operativas y/o administrativas.<br>Contamos con Sistemas de:<br/><br/><div class='list-disc text-[#252969] '><li><span class='font-bold text-[#252969]'>Gestión de Almacenes (WMS)</span></li><li><span class='font-bold text-[#252969]'>Gestión de Transporte (TMS)</span></li><li><span class='font-bold text-[#252969]'>Gestión de Playa (YMS)</span></li><li><span class='font-bold text-[#252969]'>Gestión en Calle</span></li></div><br>Trazabilidad de Productos.<br><br>Actividades Reguladas por <span class='font-bold' style='color: #252969;'>Standard Operating Proceedures (SOPs)</span> & guias escritas en conformidad con parámetros locales e internacionales.",
       "src": "/assets/bg-infrastructure-logistics.png",
       "stats": [
         {
@@ -277,12 +277,12 @@
       "paragraph": "Con el equipamiento y la infrastructura que posee la Planta, se puede realizar la producción de las siguientes formas farmacéuticas:",
       "src": [
         {
-          "src": "/assets/premium-pharma-1.png",
+          "src": "/assets/premium-pharma-1.jpg",
           "alt": "Acondicionamiento secundario",
           "span": "Acondicionamiento secundario de especialidades medicinales, cosméticos y dispositivos médicos."
         },
         {
-          "src": "/assets/premium-pharma-2.png",
+          "src": "/assets/premium-pharma-2.jpg",
           "alt": "Cremas y Líquidos No Estériles",
           "span": "Cremas y Líquidos No Estériles"
         },
@@ -324,30 +324,30 @@
   "full-service": {
     "title": "Full Service",
     "src": "/assets/hero-full-service.png",
-    "paragraph": "Brindamos todos los servicios que necesita el <span class='font-bold' style='color: #0099A8;'>proceso de fabricación de los productos,</span> integrando todos los puntos de la cadena de suministro:<br/><br/><div  style='padding: 0 1.2rem' class='text-[#0099A8] font-bold gap-y-2 items-start flex flex-col'><span>Compra por demanda de las materias primas e insumos</span><span>Manejo de proveedores</span><span>Recepción y muestreo</span><span>Abastecimiento a plantas productoras</span><span>Fabricación en Planta Dalban Haedo</span><span>Almacenamiento Dalban Logística</span><span>Entregas finales del Producto terminado</span></div><div style='margin-top: 4rem'><img src='/assets/diagrama.jpg'/></div>",
+    "paragraph": "Brindamos todos los servicios que necesita el <span class='font-bold' style='color: #252969;'>proceso de fabricación de los productos,</span> integrando todos los puntos de la cadena de suministro:<br/><br/><div  style='padding: 0 1.2rem' class='text-[#252969] font-bold gap-y-2 items-start flex flex-col'><span>Compra por demanda de las materias primas e insumos</span><span>Manejo de proveedores</span><span>Recepción y muestreo</span><span>Abastecimiento a plantas productoras</span><span>Fabricación en Planta Dalban Haedo</span><span>Almacenamiento Dalban Logística</span><span>Entregas finales del Producto terminado</span></div><div style='margin-top: 4rem'><img src='/assets/diagrama.jpg'/></div>",
     "grid": [
       {
         "src": "/assets/grid-fullservice-1.png",
         "title": "Paso 1: MRP",
-        "paragraph": "<span class='font-bold' style='color: #0099A8;'>Confección del MRP:</span> Según demanda.<br><br><span class='font-bold' style='color: #0099A8;'>Contacto:</span> Con elaboradores calificados y certificados por el cliente.<br><br><span class='font-bold' style='color: #0099A8;'>Generación de Órdenes de Compra para:</span> Proveedores locales y proveedores internacionales.<br><br><span class='font-bold' style='color: #0099A8;'>Coordinación:</span> Fechas de entrega y envíos a Dalban Pharma.<br><br><span class='font-bold' style='color: #0099A8;'>Gestion de Pagos.</span><br><br><span class='font-bold' style='color: #0099A8;'>Rendición de compras realizadas por el cliente.</span>",
+        "paragraph": "<span class='font-bold' style='color: #252969;'>Confección del MRP:</span> Según demanda.<br><br><span class='font-bold' style='color: #252969;'>Contacto:</span> Con elaboradores calificados y certificados por el cliente.<br><br><span class='font-bold' style='color: #252969;'>Generación de Órdenes de Compra para:</span> Proveedores locales y proveedores internacionales.<br><br><span class='font-bold' style='color: #252969;'>Coordinación:</span> Fechas de entrega y envíos a Dalban Pharma.<br><br><span class='font-bold' style='color: #252969;'>Gestion de Pagos.</span><br><br><span class='font-bold' style='color: #252969;'>Rendición de compras realizadas por el cliente.</span>",
         "bg": "#d9d9d9"
       },
       {
         "src": "/assets/grid-fullservice-2.png",
         "title": "Paso 2: SOURCE",
-        "paragraph": "<span class='font-bold' style='color: #0099A8;'>Picking y preparación de órdenes de producción:</span> API’s (fraccionadas), excipientes, materiales empaque primario, materiales empaque secundario, insumos productivos, insumos no productivos.<br><br><span class='font-bold' style='color: #0099A8;'>Envío de órdenes de producción a terceros:</span> Preparación de órdenes de producción según planificación, proceso de picking de materiales e insumos, envíos a terceros productores.<br><br><span class='font-bold' style='color: #0099A8;'>Envío de órdenes de producción a Dalban Pharma (Haedo):</span> Preparación de órdenes de producción según planificación, proceso de picking de materiales e insumos, envíos a Dalban Pharma (Haedo).",
+        "paragraph": "<span class='font-bold' style='color: #252969;'>Picking y preparación de órdenes de producción:</span> API’s (fraccionadas), excipientes, materiales empaque primario, materiales empaque secundario, insumos productivos, insumos no productivos.<br><br><span class='font-bold' style='color: #252969;'>Envío de órdenes de producción a terceros:</span> Preparación de órdenes de producción según planificación, proceso de picking de materiales e insumos, envíos a terceros productores.<br><br><span class='font-bold' style='color: #252969;'>Envío de órdenes de producción a Dalban Pharma (Haedo):</span> Preparación de órdenes de producción según planificación, proceso de picking de materiales e insumos, envíos a Dalban Pharma (Haedo).",
         "bg": "#ffffff"
       },
       {
         "src": "/assets/grid-fullservice-3.png",
         "title": "Paso 3: MAKE",
-        "paragraph": "<span class='font-bold' style='color: #0099A8; text-decoration:underline'>Formas solidas (cápsulas, tabletas y comprimidos)</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento primario</span><br><span class='font-bold' style='color: #0099A8;'>Blisteado de:</span> Comprimidos, Capsulas rígidas y blandeas, productos especiales con blisteras que cuentan con sistemas de visión de control, balanzas dinámicas a final de línea.<br> <span class='font-bold' style='color: #0099A8;'>Materiales de formado:</span> Termoplásticos, PVC, PVdC, PVC-Aclar, etc.<br><span class='font-bold' style='color: #0099A8;'>Cold forming foil.</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento secundario</span><br><span class='font-bold' style='color: #0099A8;'>Estuchado de:</span> Sobres, blisters, frascos, ampollas, jeringas, etc.<br> <span class='font-bold' style='color: #0099A8;'>Etiquetado de:</span> Sobres, blisters, frascos, estuches, etc.<br><span class='font-bold' style='color: #0099A8;'>Codificado de:</span> Estuches, etiquetas, cajas, ampollas, etc.<br><span class='font-bold' style='color: #0099A8;'>Anulado de:</span> Troqueles.<br><span class='font-bold' style='color: #0099A8;'>Codificado de los datos productivos con tecnología Inkjet.<br>Termosellado y Termocontraible.<br>Codificación de Trazabilidad.</span><br><br><span class='font-bold' style='color: #0099A8; text-decoration:underline'>Formas semisolidas (pomadas, pastas cremas y jaleas)</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento secundario</span><br><br><span class='font-bold' style='color: #0099A8; text-decoration:underline'>Formas líquidas (inyectables, jarabes, emulsiones, suspenciones y colirios)</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #0099A8;'>Acondicionamiento secundario</span>",
+        "paragraph": "<span class='font-bold' style='color: #252969; text-decoration:underline'>Formas solidas (cápsulas, tabletas y comprimidos)</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento primario</span><br><span class='font-bold' style='color: #252969;'>Blisteado de:</span> Comprimidos, Capsulas rígidas y blandeas, productos especiales con blisteras que cuentan con sistemas de visión de control, balanzas dinámicas a final de línea.<br> <span class='font-bold' style='color: #252969;'>Materiales de formado:</span> Termoplásticos, PVC, PVdC, PVC-Aclar, etc.<br><span class='font-bold' style='color: #252969;'>Cold forming foil.</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento secundario</span><br><span class='font-bold' style='color: #252969;'>Estuchado de:</span> Sobres, blisters, frascos, ampollas, jeringas, etc.<br> <span class='font-bold' style='color: #252969;'>Etiquetado de:</span> Sobres, blisters, frascos, estuches, etc.<br><span class='font-bold' style='color: #252969;'>Codificado de:</span> Estuches, etiquetas, cajas, ampollas, etc.<br><span class='font-bold' style='color: #252969;'>Anulado de:</span> Troqueles.<br><span class='font-bold' style='color: #252969;'>Codificado de los datos productivos con tecnología Inkjet.<br>Termosellado y Termocontraible.<br>Codificación de Trazabilidad.</span><br><br><span class='font-bold' style='color: #252969; text-decoration:underline'>Formas semisolidas (pomadas, pastas cremas y jaleas)</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento secundario</span><br><br><span class='font-bold' style='color: #252969; text-decoration:underline'>Formas líquidas (inyectables, jarabes, emulsiones, suspenciones y colirios)</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento secundario</span>",
         "bg": "#d9d9d9"
       },
       {
         "src": "/assets/grid-fullservice-3.png",
         "title": "Paso 4: DELIVERY",
-        "paragraph": "<span class='font-bold' style='color: #0099A8;'>Almacenamiento de:</span> Productos terminados.<br><br><span class='font-bold' style='color: #0099A8;'>Picking y preparación de:</span> Órdenes de entrega para clientes.<br><br><span class='font-bold' style='color: #0099A8;'>Control de:</span> Salidas por FIFO, FEFO, etc.<br><br><span class='font-bold' style='color: #0099A8;'>Impresión de:</span> Remitos y Facturas.<br><br><span class='font-bold' style='color: #0099A8;'>Distribución de:</span> Pedidos a nivel nacional.<br><br><span class='font-bold' style='color: #0099A8;'>Control de:</span> Entregas y reportes.<br><br><span class='font-bold' style='color: #0099A8;'>Servicio de:</span> Entregas con contra reembolso.<br><br><span class='font-bold' style='color: #0099A8;'>Rendición de:</span> Remitos conformes y valores.<br><br><span class='font-bold' style='color: #0099A8;'>Retiros y devoluciones.</span>",
+        "paragraph": "<span class='font-bold' style='color: #252969;'>Almacenamiento de:</span> Productos terminados.<br><br><span class='font-bold' style='color: #252969;'>Picking y preparación de:</span> Órdenes de entrega para clientes.<br><br><span class='font-bold' style='color: #252969;'>Control de:</span> Salidas por FIFO, FEFO, etc.<br><br><span class='font-bold' style='color: #252969;'>Impresión de:</span> Remitos y Facturas.<br><br><span class='font-bold' style='color: #252969;'>Distribución de:</span> Pedidos a nivel nacional.<br><br><span class='font-bold' style='color: #252969;'>Control de:</span> Entregas y reportes.<br><br><span class='font-bold' style='color: #252969;'>Servicio de:</span> Entregas con contra reembolso.<br><br><span class='font-bold' style='color: #252969;'>Rendición de:</span> Remitos conformes y valores.<br><br><span class='font-bold' style='color: #252969;'>Retiros y devoluciones.</span>",
         "bg": "#d9d9d9"
       }
     ]
@@ -421,7 +421,7 @@
   },
   "services": {
     "title": "Servicios",
-    "paragraph": "“Calidad de Servicio no es lo que tu das. Es lo que el Cliente recibe.” Peter Drucker.",
+    "paragraph": null,
     "grid": [
       {
         "src": "/assets/icon-depositos.png",

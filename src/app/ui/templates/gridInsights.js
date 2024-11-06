@@ -26,7 +26,7 @@ const GridInsights = ({ data }) => {
           dangerouslySetInnerHTML={{ __html: item.paragraph }}
         ></p>
         <button
-          className="text-[#0099A8] w-fit underline text-xl"
+          className="text-[#252969] w-fit underline text-xl"
           dangerouslySetInnerHTML={{ __html: item.btn.title }}
         ></button>
       </div>
