@@ -172,7 +172,7 @@
     "paragraph": "Es nuestro motor y orgullo la vocación de relacionarnos e interactuar con todos aquellos que compartan nuestra pasión por brindar un servicio integral de excelencia.",
     "btn": "Postularme",
     "href": "/",
-    "src": "/assets/jobs.png"
+    "src": "/assets/jobs-1.jpg"
   },
   "logistics": {
     "title": "Logística",
@@ -354,7 +354,7 @@
   },
   "industria": {
     "title": "Industria",
-    "src": "/assets/hero-contact.png",
+    "src": "/assets/hero-contact-1.jpg",
     "solutions": {
       "title": "Nuestras <span class='font-bold'>Soluciones</span>",
       "paragraph": "Estos son algunos de nuestros servicios más destacados para el almacenamiento, acondicionamiento y cadena de frio de los productos que tratamos.",
@@ -417,7 +417,7 @@
   },
   "contact": {
     "title": "Contacto",
-    "src": "/assets/hero-contact.png"
+    "src": "/assets/hero-contact-2.jpg"
   },
   "services": {
     "title": "Servicios",
