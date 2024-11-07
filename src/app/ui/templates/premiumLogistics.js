@@ -1,12 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
+import ArrowL from "../../../../public/assets/arrow-l.png";
+import ArrowR from "../../../../public/assets/arrow-r.png";
+import Image from "next/image";
 
 const PremiumLogistics = ({ data }) => {
   const { logistics } = data;
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // Array de imágenes, en este caso, con la misma imagen dos veces
+  const images = [logistics.premium.src, logistics.premium.src2];
+
+  const handleNext = () => {
+    setCurrentImageIndex((currentImageIndex + 1) % images.length);
+  };
+
+  const handlePrev = () => {
+    setCurrentImageIndex(
+      (currentImageIndex - 1 + images.length) % images.length
+    );
+  };
+
   return (
-    <div className="contenedor-custom !py-12 lg:!py-28 ">
-      <div className=" flex flex-col items-center gap-y-20">
+    <div className="contenedor-custom !py-12 lg:!py-28">
+      <div className="flex flex-col items-center gap-y-20">
         <div className="space-y-5">
-          {/* Título centrado */}
           <h1
             className="titles text-center"
             dangerouslySetInnerHTML={{ __html: logistics.premium.title }}
@@ -19,22 +36,40 @@ const PremiumLogistics = ({ data }) => {
 
         {/* Contenedor de dos columnas */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 justify-between">
-          {/* Texto y CTA a la izq */}
           <div className="flex flex-col w-full lg:w-3/4 gap-y-5 mr-auto justify-center">
             <p
               className="paragraphs"
               dangerouslySetInnerHTML={{ __html: logistics.premium.paragraph }}
             ></p>
           </div>
-          {/* Imagen a la der */}
-          <div className="">
+
+          {/* Galería de imágenes con flechas */}
+          <div className="relative w-full lg:w-11/12 h-auto rounded-lg shadow-lg ml-auto">
+            {/* Flecha izquierda */}
+            <button
+              onClick={handlePrev}
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-[#252969] text-white h-11 w-11 rounded-full flex justify-center items-center hover:bg-opacity-60 transition-all ease-in-out duration-300"
+            >
+              <Image src={ArrowL} className="w-4" />
+            </button>
+
+            {/* Imagen */}
             <img
-              src={logistics.premium.src}
+              src={images[currentImageIndex]}
               alt="Imagen descriptiva"
-              className=" w-full lg:w-11/12 h-auto rounded-lg shadow-lg ml-auto"
+              className="w-full h-auto rounded-lg"
             />
+
+            {/* Flecha derecha */}
+            <button
+              onClick={handleNext}
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-[#252969] text-white h-11 w-11 rounded-full flex justify-center items-center hover:bg-opacity-60 transition-all ease-in-out duration-300"
+            >
+              <Image src={ArrowR} className="w-4" />
+            </button>
           </div>
         </div>
+
         <div className="flex flex-col lg:flex-row justify-between items-center w-full">
           {logistics.premium.stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center gap-y-2">
