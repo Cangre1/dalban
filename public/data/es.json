@@ -425,7 +425,8 @@
     "paragraph": null,
     "grid": [
       {
-        "src": "/assets/icon-depositos.png",
+        "src": "/assets/depositos.png",
+        "src2": "/assets/depositos-turq.png",
         "title": "Básicos",
         "caracteristics": [
           "Recepción & Almacenamiento",
@@ -438,6 +439,7 @@
       },
       {
         "src": "/assets/icon-adicionales.png",
+        "src2": "/assets/icon-adicionales-turq.png",
         "title": "Adicionales",
         "caracteristics": [
           "Reprocesos de Mercaderías",
@@ -454,6 +456,7 @@
       },
       {
         "src": "/assets/icon-comercio.png",
+        "src2": "/assets/icon-comercio-turq.png",
         "title": "Comercio Exterior",
         "caracteristics": [
           "Desconsolidado de Contenedores",
@@ -470,6 +473,7 @@
     "grid": [
       {
         "src": "/assets/icon-access.png",
+        "src2": "/assets/icon-access-turq.png",
         "title": "Accesilibidad",
         "caracteristics": [
           "Zorras Hidráulicas",
@@ -479,6 +483,7 @@
       },
       {
         "src": "/assets/icon-security.png",
+        "src2": "/assets/icon-security-turq.png",
         "title": "Seguridad",
         "caracteristics": [
           "Red de Incendio (según Normas NFPA Sprinklers).",
@@ -492,6 +497,7 @@
       },
       {
         "src": "/assets/icon-distr.png",
+        "src2": "/assets/icon-distr-turq.png",
         "title": "Distribución",
         "caracteristics": [
           "Sector Segregados",

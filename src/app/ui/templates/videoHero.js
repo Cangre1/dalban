@@ -1,34 +1,65 @@
 import Image from "next/image";
 import Hero from "../../../../public/assets/hero-home.png";
 import Play from "../../../../public/assets/play.png";
+import Logistica from "../../../../public/assets/dalban-logistica.png";
+import Pharma from "../../../../public/assets/dalban-pharma.png";
 
 const VideoHero = () => {
   return (
     <div>
       <div className="hidden lg:flex h-screen relative">
         {/* Overlay oscuro */}
-        <div className="absolute top-0 left-0 w-full h-full bg-[#252969] opacity-30 z-10"></div>
-        <video
-          className=" h-full object-cover w-1/2"
-          autoPlay
-          loop
-          muted // El video está silenciado
-          playsInline // Para que funcione correctamente en dispositivos móviles
-        >
-          <source src="assets/video-pharma-baja.mp4" type="video/mp4" />
-          Tu navegador no soporta el video.
-        </video>
-        <video
-          className="w-1/2 h-full object-cover"
-          autoPlay
-          loop
-          muted // El video está silenciado
-          playsInline // Para que funcione correctamente en dispositivos móviles
-        >
-          <source src="assets/video-no-pharma-baja.mp4" type="video/mp4" />
-          Tu navegador no soporta el video.
-        </video>
+        <div className="absolute top-0 left-0 w-full h-full bg-[#252969] opacity-10 z-10"></div>
+
+        {/* Contenedor del primer video */}
+        <div className="relative w-1/2 h-full">
+          <a
+            href="/logistica"
+            className="btn absolute  left-1/2 transform -translate-x-1/2 bottom-56 z-40  px-4 py-2 rounded-full shadow-lg hover:bg-white transition duration-300 ease-in-out "
+          >
+            Ver Más
+          </a>
+          <video
+            className="h-full object-cover w-full"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src="assets/video-no-pharma-baja.mp4" type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+          {/* Imagen centrada encima del primer video */}
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 flex flex-col items-center">
+            <Image src={Logistica} alt="Overlay Image 1" />
+          </div>
+        </div>
+
+        {/* Contenedor del segundo video */}
+        <div className="relative w-1/2 h-full">
+          <a
+            href="/pharma"
+            className="btn absolute hover:text-[#0099A8] !bg-[#0099A8] !border-[#0099A8]  left-1/2 transform -translate-x-1/2 bottom-56 z-40  px-4 py-2 rounded-full shadow-lg hover:!bg-white transition duration-300 ease-in-out "
+          >
+            Ver Más
+          </a>
+          <video
+            className="h-full object-cover w-full"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src="assets/video-pharma-baja.mp4" type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+          {/* Imagen centrada encima del segundo video */}
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 flex flex-col items-center">
+            <Image src={Pharma} alt="Overlay Image 2" />
+          </div>
+        </div>
       </div>
+
       <div className="relative w-full h-[60vh] lg:hidden">
         {/* Imagen de fondo */}
         <Image
@@ -45,7 +76,7 @@ const VideoHero = () => {
 
         {/* Botón de Play */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 hidden">
-          <button className="bg-white w-20 h-20 rounded-full shadow-lg  hover:bg-gray-300 transition duration-300 ease-in-out flex justify-center items-center">
+          <button className="bg-white w-20 h-20 rounded-full shadow-lg hover:bg-gray-300 transition duration-300 ease-in-out flex justify-center items-center">
             <Image
               className="ml-2"
               src={Play}

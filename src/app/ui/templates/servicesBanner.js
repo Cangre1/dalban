@@ -1,6 +1,16 @@
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
 const ServicesBanner = ({ data }) => {
+  const [isPharma, setIsPharma] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const pathname = window.location.pathname;
+      setIsPharma(pathname.endsWith("/pharma"));
+    }
+  }, []);
+
   return (
     <div className="bg-gray-100">
       <div className="contenedor-custom !py-12 lg:!py-28 space-y-16 lg:space-y-28">
@@ -19,11 +29,11 @@ const ServicesBanner = ({ data }) => {
         {/* Grilla de servicios */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {data.grid.map((item, index) => (
-            <div key={index} className="flex  space-y-4 justify-center">
+            <div key={index} className="flex space-y-4 justify-center">
               {/* Imagen y Título en una misma fila */}
               <div className="flex flex-col lg:flex-row items-center lg:items-start w-full justify-center gap-10 text-center lg:text-start">
                 <Image
-                  src={item.src}
+                  src={isPharma ? item.src2 : item.src}
                   alt={item.title}
                   width={70}
                   height={70}
@@ -32,8 +42,8 @@ const ServicesBanner = ({ data }) => {
                 <div className="space-y-4 text-black">
                   <h3 className="titles-secondary">{item.title}</h3>
                   <ul className="paragraphs-secondary">
-                    {item.caracteristics.map((item, index) => (
-                      <li key={index}>{item}</li>
+                    {item.caracteristics.map((characteristic, index) => (
+                      <li key={index}>{characteristic}</li>
                     ))}
                   </ul>
                 </div>
