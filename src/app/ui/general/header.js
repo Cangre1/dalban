@@ -45,7 +45,15 @@ const Header = ({ data }) => {
         {/* Logo */}
         <div className="logo">
           <a href={logo.link}>
-            <img src={logo.src} alt={logo.alt} className="w-12" />
+            <img
+              src={
+                window.location.pathname.endsWith("/pharma")
+                  ? logo.src2
+                  : logo.src
+              }
+              alt={logo.alt}
+              className="w-12"
+            />
           </a>
         </div>
 
@@ -82,7 +90,11 @@ const Header = ({ data }) => {
                   onClick={(e) =>
                     item.label === "Servicios" && e.preventDefault()
                   } // Solo prevenir el clic si es "Servicios"
-                  className="flex items-center link-nav"
+                  className={`flex items-center ${
+                    window.location.pathname.endsWith("/pharma")
+                      ? "link-nav-pharma"
+                      : "link-nav"
+                  }`}
                 >
                   {item.label}
                   {item.label === "Servicios" && (
@@ -141,7 +153,14 @@ const Header = ({ data }) => {
 
         {/* CTA Button */}
         <div className="hidden lg:block">
-          <a href={ctaButton.link} className="link-nav-access">
+          <a
+            href={ctaButton.link}
+            className={`${
+              window.location.pathname.endsWith("/pharma")
+                ? "link-nav-access-pharma"
+                : "link-nav-access"
+            }`}
+          >
             {ctaButton.text}
           </a>
         </div>

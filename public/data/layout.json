@@ -1,11 +1,13 @@
 {
   "logo": {
     "src": "assets/symbol-blue.png",
+    "src2": "assets/symbol.png",
     "alt": "Logo de Dalban",
     "link": "/"
   },
   "logoFooter": {
     "src": "assets/symbol-blue.png",
+    "src2": "assets/symbol.png",
     "alt": "Logo de Dalban",
     "link": "/"
   },
@@ -55,15 +57,15 @@
       "link": "/contacto",
       "options": [
         {
-          "label": "EE.UU. 5231 - Tortuguitas -<br>Buenos Aires - Argentina",
+          "label": "EE.UU. 5231 - Tortuguitas",
           "link": "#"
         },
         {
-          "label": "Laplace 3554 - Tortuguitas -<br>Buenos Aires - Argentina",
+          "label": "Laplace 3554 - Tortuguitas",
           "link": "https://www.google.com/maps/place/Centro+De+Distribuci%C3%B3n+Dalban/@-34.452349,-58.7134403,15z/data=!4m2!3m1!1s0x0:0x974e2bb0999d951e?sa=X&ved=1t:2428&ictx=111"
         },
         {
-          "label": "Directorio 701 - Haedo -<br>Buenos Aires - Argentina",
+          "label": "Directorio 701 - Haedo",
           "link": "https://www.google.com/maps/place/Dalban+Pharma/@-34.638969,-58.587128,14z/data=!4m6!3m5!1s0x95bcc70edfcf6773:0x2e4421cabcfacd!8m2!3d-34.6389687!4d-58.5871277!16s%2Fg%2F11t75q4yrf?hl=es&entry=ttu&g_ep=EgoyMDI0MDkyNC4wIKXMDSoASAFQAw%3D%3D"
         }
       ]

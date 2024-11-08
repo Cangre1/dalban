@@ -46,14 +46,14 @@ const Hero = ({ data }) => {
 
   return (
     <div
-      className="h-[60vh] lg:h-screen 2xl:h-[60vh] bg-cover bg-center relative flex items-center"
+      className="h-[60vh] lg:h-[70vh] 2xl:h-[60vh] bg-cover bg-center relative flex items-center"
       style={{
         backgroundImage: `linear-gradient(to right, ${gradientColor} 10%, rgba(0,0,0,0) 50%), url(${currentData.src})`,
       }}
     >
       {/* Contenedor del título */}
       <div className="contenedor-custom relative">
-        <div className="absolute right-0 text-white text-center w-full lg:text-left">
+        <div className="mt-10 text-white text-center w-full lg:text-left">
           <h1 className="titles-hero-pages">{currentData.title}</h1>
         </div>
       </div>

@@ -15,7 +15,7 @@ const VideoHero = () => {
         <div className="relative w-1/2 h-full">
           <a
             href="/logistica"
-            className="btn absolute  left-1/2 transform -translate-x-1/2 bottom-56 z-40  px-4 py-2 rounded-full shadow-lg hover:bg-white transition duration-300 ease-in-out "
+            className="btn absolute  left-1/2 transform -translate-x-1/2 lg:bottom-28 xl:bottom-36 2xl:bottom-56 z-40  px-4 py-2 rounded-full shadow-lg hover:bg-white transition duration-300 ease-in-out "
           >
             Ver Más
           </a>
@@ -30,8 +30,12 @@ const VideoHero = () => {
             Tu navegador no soporta el video.
           </video>
           {/* Imagen centrada encima del primer video */}
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 flex flex-col items-center">
-            <Image src={Logistica} alt="Overlay Image 1" />
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 flex flex-col items-center h-60">
+            <Image
+              className="h-full w-full"
+              src={Logistica}
+              alt="Overlay Image 1"
+            />
           </div>
         </div>
 
@@ -39,7 +43,7 @@ const VideoHero = () => {
         <div className="relative w-1/2 h-full">
           <a
             href="/pharma"
-            className="btn absolute hover:text-[#0099A8] !bg-[#0099A8] !border-[#0099A8]  left-1/2 transform -translate-x-1/2 bottom-56 z-40  px-4 py-2 rounded-full shadow-lg hover:!bg-white transition duration-300 ease-in-out "
+            className="btn absolute hover:text-[#0099A8] !bg-[#0099A8] !border-[#0099A8]  left-1/2 transform -translate-x-1/2 lg:bottom-28 xl:bottom-36 2xl:bottom-56 z-40  px-4 py-2 rounded-full shadow-lg hover:!bg-white transition duration-300 ease-in-out "
           >
             Ver Más
           </a>
@@ -54,8 +58,12 @@ const VideoHero = () => {
             Tu navegador no soporta el video.
           </video>
           {/* Imagen centrada encima del segundo video */}
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 flex flex-col items-center">
-            <Image src={Pharma} alt="Overlay Image 2" />
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 flex flex-col items-center h-60">
+            <Image
+              className="h-full w-full object-contain"
+              src={Pharma}
+              alt="Overlay Image 2"
+            />
           </div>
         </div>
       </div>
