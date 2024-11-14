@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Hero from "../../../../public/assets/hero-home.png";
 import Play from "../../../../public/assets/play.png";
-import Logistica from "../../../../public/assets/dalban-logistica.png";
+import Logistica from "../../../../public/assets/dalban-logistica-4.png";
 import Pharma from "../../../../public/assets/dalban-pharma.png";
 
 const VideoHero = () => {
@@ -9,7 +9,7 @@ const VideoHero = () => {
     <div>
       <div className="hidden lg:flex h-screen relative">
         {/* Overlay oscuro */}
-        <div className="absolute top-0 left-0 w-full h-full bg-[#252969] opacity-10 z-10"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-white opacity-50 z-10"></div>
 
         {/* Contenedor del primer video */}
         <div className="relative w-1/2 h-full">
