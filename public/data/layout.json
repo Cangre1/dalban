@@ -16,7 +16,7 @@
     "alt": "Logo de menu",
     "link": "/"
   },
-  "paragraph": "Atributos materiales e inmateriales. Físicos e intangibles.<br/> Sinergia. Combinación que originó Dalban S.A.<br/> Incomparable desde todo punto de vista.",
+  "paragraph": "Atributos materiales e inmateriales. Físicos e<br/>intangibles.Sinergia. Combinación que originó<br/> Dalban S.A. Incomparable desde todo punto de<br/> vista.",
   "copyright": "Copyright © 2024 Sitio desarrollado por MG54. Todos los derechos reservados.",
   "navigation": [
     {
@@ -57,16 +57,24 @@
       "link": "/contacto",
       "options": [
         {
-          "label": "EE.UU. 5231 - Tortuguitas",
-          "link": "#"
+          "label": "<div style='display:flex; align-items:center; gap:4px;'><img style='width:1.2rem' src='assets/map-pin.png'/><span>EE.UU. 5231 - Tortuguitas</span></div>",
+          "link": "https://www.google.com/maps/place/Dalban+Pharma/@-34.4519341,-58.7165272,17z/data=!4m10!1m2!2m1!1sdalban!3m6!1s0x95bca2493d06fbc7:0x5e470f4eff7cb2e8!8m2!3d-34.4544313!4d-58.7023726!15sCgZkYWxiYW6SARRkaXN0cmlidXRpb25fc2VydmljZeABAA!16s%2Fg%2F11c452xpkr?entry=ttu&g_ep=EgoyMDI0MTExMi4wIKXMDSoASAFQAw%3D%3D"
         },
         {
-          "label": "Laplace 3554 - Tortuguitas",
+          "label": "<div style='display:flex; align-items:center; gap:4px;'><img style='width:1.1rem' src='assets/phone.png'/><span>+54 3327 459-400/405</span></div>",
+          "link": null
+        },
+        {
+          "label": "<div style='display:flex; align-items:center; gap:4px;'><img style='width:1.2rem' src='assets/map-pin.png'/><span>Laplace 3554 - Tortuguitas</span></div>",
           "link": "https://www.google.com/maps/place/Centro+De+Distribuci%C3%B3n+Dalban/@-34.452349,-58.7134403,15z/data=!4m2!3m1!1s0x0:0x974e2bb0999d951e?sa=X&ved=1t:2428&ictx=111"
         },
         {
-          "label": "Directorio 701 - Haedo",
-          "link": "https://www.google.com/maps/place/Dalban+Pharma/@-34.638969,-58.587128,14z/data=!4m6!3m5!1s0x95bcc70edfcf6773:0x2e4421cabcfacd!8m2!3d-34.6389687!4d-58.5871277!16s%2Fg%2F11t75q4yrf?hl=es&entry=ttu&g_ep=EgoyMDI0MDkyNC4wIKXMDSoASAFQAw%3D%3D"
+          "label": "<div style='display:flex; align-items:center; gap:4px;'><img style='width:1.1rem' src='assets/phone.png'/><span>+54 3327 411-520/525</span></div>",
+          "link": null
+        },
+        {
+          "label": "<div style='display:flex; align-items:center; gap:4px;'><img style='width:1.2rem' src='assets/map-pin.png'/><span>Directorio 701 - Haedo</span></div>",
+          "link": "https://www.google.com/maps/place/Dalban+Pharma/@-34.4519341,-58.7165272,17z/data=!4m10!1m2!2m1!1sdalban!3m6!1s0x95bca2493d06fbc7:0x5e470f4eff7cb2e8!8m2!3d-34.4544313!4d-58.7023726!15sCgZkYWxiYW6SARRkaXN0cmlidXRpb25fc2VydmljZeABAA!16s%2Fg%2F11c452xpkr?entry=ttu&g_ep=EgoyMDI0MTExMi4wIKXMDSoASAFQAw%3D%3D"
         }
       ]
     },

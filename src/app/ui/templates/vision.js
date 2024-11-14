@@ -3,7 +3,7 @@ const Vision = ({ data }) => {
   return (
     <div className="bg-gray-100">
       <div className="contenedor-custom !py-12 lg:!py-28 space-y-12 lg:space-y-24">
-        <div className="text-center space-y-5">
+        <div className="text-center space-y-5" data-aos="zoom-in">
           <h1
             className="titles"
             dangerouslySetInnerHTML={{
@@ -29,10 +29,14 @@ const Vision = ({ data }) => {
               <img
                 src={industria.vision.src.src} // Cambia esta ruta según tu imagen
                 alt="Imagen descriptiva"
+                data-aos="zoom-in"
                 className="w-full lg:w-10/12 h-auto rounded-lg shadow-lg mr-auto"
               />
             </div>
-            <div className="flex flex-col w-full lg:w-2/4 gap-y-5 mr-auto justify-center">
+            <div
+              className="flex flex-col w-full lg:w-2/4 gap-y-5 mr-auto justify-center"
+              data-aos="zoom-in"
+            >
               <h1
                 className="titles-secondary !text-[#252969] font-bold"
                 dangerouslySetInnerHTML={{

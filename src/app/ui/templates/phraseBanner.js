@@ -18,7 +18,10 @@ const PhraseBanner = ({ data }) => {
 
   return (
     <div>
-      <div className="contenedor-custom !py-12 lg:!py-28 space-y-10 ">
+      <div
+        className="contenedor-custom !py-12 lg:!py-28 space-y-10 "
+        data-aos="zoom-in"
+      >
         <p
           className="text-2xl lg:text-4xl text-center"
           style={{ color: textColor }}

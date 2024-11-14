@@ -4,7 +4,7 @@ const Description = ({ data }) => {
     <div id="nosotros" className="contenedor-custom !py-12 lg:!py-28">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5 lg:gap-y-0">
         {/* Columna del título */}
-        <div>
+        <div data-aos="zoom-in">
           <h1
             className="titles"
             dangerouslySetInnerHTML={{ __html: aboutUs.title }}
@@ -12,7 +12,7 @@ const Description = ({ data }) => {
         </div>
 
         {/* Columna del párrafo */}
-        <div>
+        <div data-aos="zoom-in">
           <p
             className="paragraphs"
             dangerouslySetInnerHTML={{ __html: aboutUs.paragraph }}

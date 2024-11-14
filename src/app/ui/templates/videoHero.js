@@ -33,6 +33,7 @@ const VideoHero = () => {
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 flex flex-col items-center h-60">
             <Image
               className="h-full w-full"
+              data-aos="zoom-in"
               src={Logistica}
               alt="Overlay Image 1"
             />
@@ -61,6 +62,7 @@ const VideoHero = () => {
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 flex flex-col items-center h-60">
             <Image
               className="h-full w-full object-contain"
+              data-aos="zoom-in"
               src={Pharma}
               alt="Overlay Image 2"
             />

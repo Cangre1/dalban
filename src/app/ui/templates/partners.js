@@ -7,7 +7,7 @@ const Partners = ({ data }) => {
   return (
     <div className="bg-[#D9D9D980] py-12 lg:py-28 space-y-24">
       <div className="contenedor-custom">
-        <div className="space-y-5 text-center">
+        <div className="space-y-5 text-center" data-aos="zoom-in">
           <h1
             className="titles"
             dangerouslySetInnerHTML={{ __html: partners.title }}

@@ -12,12 +12,16 @@ const Jobs = ({ data }) => {
             <img
               src={jobs.src}
               alt="Imagen descriptiva"
+              data-aos="zoom-in"
               className=" w-full lg:w-12/12 object-cover aspect-video  h-auto rounded-lg shadow-lg mr-auto"
             />
           </div>
 
           {/* Texto y CTA a la derecha */}
-          <div className="flex flex-col w-full lg:w-3/4  gap-y-5 ml-auto justify-center">
+          <div
+            className="flex flex-col w-full lg:w-3/4  gap-y-5 ml-auto justify-center"
+            data-aos="zoom-in"
+          >
             <h1
               className="titles"
               dangerouslySetInnerHTML={{ __html: jobs.title }}

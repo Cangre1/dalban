@@ -18,6 +18,7 @@ const Map = ({ data }) => {
         {/* Título centrado */}
         <div className="text-center">
           <h1
+            data-aos="zoom-in"
             className="titles"
             dangerouslySetInnerHTML={{ __html: data.title }}
           ></h1>
@@ -28,13 +29,14 @@ const Map = ({ data }) => {
           {/* Párrafo a la izquierda */}
           <div>
             <p
+              data-aos="zoom-in"
               className="paragraphs"
               dangerouslySetInnerHTML={{ __html: data.paragraph }}
             ></p>
           </div>
 
           {/* Lista a la derecha */}
-          <div>
+          <div data-aos="zoom-in">
             <ul
               className={`list-disc pl-5 paragraphs ${
                 isPharmaRoute ? "!text-[#0099A8]" : "!text-[#252969]"

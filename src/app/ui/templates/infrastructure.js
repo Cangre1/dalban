@@ -43,11 +43,13 @@ const Infrastructure = ({ data }) => {
         <div className="flex items-center justify-center flex-col gap-y-10">
           <h1
             className="titles"
+            data-aos="zoom-in"
             dangerouslySetInnerHTML={{
               __html: currentData.infrastructure.title,
             }}
           ></h1>
           <p
+            data-aos="zoom-in"
             className="paragraphs text-center w-full lg:w-2/3 mx-auto"
             dangerouslySetInnerHTML={{
               __html: currentData.infrastructure.paragraph,
@@ -55,7 +57,7 @@ const Infrastructure = ({ data }) => {
           ></p>
 
           {lastPartOfUrl === "pharma" && (
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid grid-cols-2 gap-10" data-aos="zoom-in">
               <div className="list-disc text-[#0099A8] ">
                 {currentData.infrastructure.list
                   .slice(0, 8)
@@ -96,7 +98,10 @@ const Infrastructure = ({ data }) => {
         ></div>
 
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
-          <button className="bg-white w-20 h-20 rounded-full shadow-lg hover:bg-gray-300 transition duration-300 ease-in-out flex justify-center items-center">
+          <button
+            data-aos="zoom-in"
+            className="bg-white w-20 h-20 rounded-full shadow-lg hover:bg-gray-300 transition duration-300 ease-in-out flex justify-center items-center"
+          >
             <Image
               className="ml-2"
               src={lastPartOfUrl === "pharma" ? PlayTurq : PlayBlue}

@@ -69,7 +69,7 @@ const Footer = ({ data }) => {
             </div>
 
             <p
-              className="text-white text-sm lg:text-base  xl:text-lg text-justify"
+              className="text-white text-sm lg:text-base  xl:text-base text-justify"
               dangerouslySetInnerHTML={{ __html: paragraph }}
             />
 

@@ -12,6 +12,7 @@ const GridFullService = ({ data }) => {
           }`}
         >
           <div
+            data-aos="zoom-in-down"
             className={`contenedor-custom flex flex-col lg:flex-row w-full gap-y-5 ${
               index === 1 || index === 3 ? "lg:flex-row-reverse" : "lg:flex-row"
             }`}

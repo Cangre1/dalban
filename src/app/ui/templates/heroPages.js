@@ -54,7 +54,9 @@ const Hero = ({ data }) => {
       {/* Contenedor del título */}
       <div className="contenedor-custom relative">
         <div className="mt-10 text-white text-center w-full lg:text-left">
-          <h1 className="titles-hero-pages">{currentData.title}</h1>
+          <h1 className="titles-hero-pages" data-aos="zoom-in">
+            {currentData.title}
+          </h1>
         </div>
       </div>
     </div>

@@ -6,10 +6,12 @@ import Solutions from "./ui/templates/solutions";
 import Insights from "./ui/templates/insights";
 import Jobs from "./ui/templates/jobs";
 import Partners from "./ui/templates/partners";
+import AOSInitializer from "../app/aos/aos";
 
 export default function Home() {
   return (
     <div>
+      <AOSInitializer />
       <VideoHero />
       <Description data={data} />
       <StatisticsBanner data={data} />

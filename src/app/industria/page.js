@@ -5,6 +5,7 @@ import HeroPages from "../ui/templates/heroPages";
 import Vision from "../ui/templates/vision";
 import PremiumPharma from "../ui/templates/premiumPharma";
 import Partners from "../ui/templates/partners";
+import AOSInitializer from "../aos/aos";
 
 export default function Industria() {
   const [isHeroLoaded, setIsHeroLoaded] = useState(false);
@@ -16,6 +17,7 @@ export default function Industria() {
 
   return (
     <div className="!min-h-screen">
+      <AOSInitializer />
       <HeroPages data={data} />
       {isHeroLoaded && (
         <>

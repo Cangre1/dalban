@@ -27,7 +27,10 @@ export default function ContactForm() {
   return (
     <div className="flex flex-col lg:flex-row  !py-12 lg:!py-28 contenedor-custom gap-y-10">
       <div className="w-full lg:w-1/2">
-        <p className=" text-xl lg:text-3xl font-bold text-black">
+        <p
+          className=" text-xl lg:text-3xl font-bold text-black"
+          data-aos="zoom-in"
+        >
           Dejanos tu consulta.<br></br> Un especialista se pondrá<br></br> en
           contacto con vos.
         </p>
@@ -35,6 +38,7 @@ export default function ContactForm() {
       <form
         onSubmit={handleSubmit}
         className="w-full lg:w-1/2 space-y-5 lg:space-y-10"
+        data-aos="zoom-in"
       >
         <div className="flex flex-col lg:flex-row gap-y-5 lg:gap-y-0 gap-x-5 lg:gap-x-10">
           <div className=" w-full">

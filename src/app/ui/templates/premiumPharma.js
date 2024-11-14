@@ -1,10 +1,23 @@
-import React from "react";
+"use client";
+
 import Image from "next/image";
+import React, { useEffect, useState } from "react";
 
 const PremiumPharma = ({ data }) => {
+  const [isIndustriaPage, setIsIndustriaPage] = useState(false);
+
+  useEffect(() => {
+    // Verifica si el pathname termina en "/industria"
+    if (typeof window !== "undefined") {
+      setIsIndustriaPage(window.location.pathname.endsWith("/industria"));
+    }
+  }, []);
   return (
     <div className="contenedor-custom !py-12 lg:!py-28 space-y-16 ">
-      <div className="flex items-center justify-center flex-col gap-y-10 ">
+      <div
+        className="flex items-center justify-center flex-col gap-y-10 "
+        data-aos="zoom-in"
+      >
         <h1
           className="titles"
           dangerouslySetInnerHTML={{
@@ -18,7 +31,10 @@ const PremiumPharma = ({ data }) => {
           }}
         ></p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-10">
+      <div
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-10"
+        data-aos="zoom-in"
+      >
         {data.src.map((item, index) => (
           <div
             key={index}
@@ -42,7 +58,11 @@ const PremiumPharma = ({ data }) => {
             {/* Contenido de la tarjeta */}
             <div className="p-3">
               <div
-                className="font-semibold text-gray-800 text-base mb-2 transition-colors duration-300 group-hover:text-[#0099A8]"
+                className={`font-semibold text-gray-800 text-base mb-2 transition-colors duration-300 ${
+                  isIndustriaPage
+                    ? "group-hover:text-[#252969]"
+                    : "group-hover:text-[#0099A8]"
+                }`}
                 dangerouslySetInnerHTML={{
                   __html: item.span,
                 }}
@@ -50,7 +70,11 @@ const PremiumPharma = ({ data }) => {
             </div>
 
             {/* Borde inferior sutil */}
-            <div className="absolute bottom-0 left-0 w-full h-0.5 bg-[#0099A8] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+            <div
+              className={`absolute bottom-0 left-0 w-full h-0.5 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ${
+                isIndustriaPage ? "bg-[#252969]" : "bg-[#0099A8]"
+              }`}
+            />
           </div>
         ))}
       </div>

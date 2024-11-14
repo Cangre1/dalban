@@ -43,7 +43,10 @@ const Descriptionv2 = ({ data }) => {
 
   return (
     <div className="contenedor-custom !py-12 lg:!py-28">
-      <div className="flex items-center justify-center flex-col">
+      <div
+        className="flex items-center justify-center flex-col"
+        data-aos="zoom-in"
+      >
         <p
           className="paragraphs text-center w-full lg:w-2/3 mx-auto"
           dangerouslySetInnerHTML={{ __html: currentData.paragraph }}

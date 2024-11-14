@@ -9,6 +9,7 @@ const GridInsights = ({ data }) => {
       href="/"
       key={index}
       className="flex flex-col w-full mx-auto bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 ease-in-out"
+      data-aos="zoom-in"
     >
       {/* Imagen de fondo con padding fijo en móviles y dinámico en pantallas grandes */}
       <div

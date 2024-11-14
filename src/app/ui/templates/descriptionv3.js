@@ -5,7 +5,10 @@ const Description = ({ data }) => {
       id="nosotros"
       className="contenedor-custom !pb-12 !pt-32 lg:!pb-28 lg:!pt-40"
     >
-      <div className="flex flex-col justify-center items-center gap-y-5 lg:gap-y-10">
+      <div
+        className="flex flex-col justify-center items-center gap-y-5 lg:gap-y-10"
+        data-aos="zoom-in"
+      >
         {/* Columna del título */}
         <div>
           <h1

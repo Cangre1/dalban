@@ -23,7 +23,7 @@ const PremiumLogistics = ({ data }) => {
   return (
     <div className="contenedor-custom !py-12 lg:!py-28">
       <div className="flex flex-col items-center gap-y-20">
-        <div className="space-y-5">
+        <div className="space-y-5" data-aos="zoom-in">
           <h1
             className="titles text-center"
             dangerouslySetInnerHTML={{ __html: logistics.premium.title }}
@@ -39,12 +39,16 @@ const PremiumLogistics = ({ data }) => {
           <div className="flex flex-col w-full lg:w-3/4 gap-y-5 mr-auto justify-center">
             <p
               className="paragraphs"
+              data-aos="zoom-in"
               dangerouslySetInnerHTML={{ __html: logistics.premium.paragraph }}
             ></p>
           </div>
 
           {/* Galería de imágenes con flechas */}
-          <div className="relative w-full lg:w-11/12 h-auto rounded-lg shadow-lg ml-auto">
+          <div
+            className="relative w-full lg:w-11/12 h-auto rounded-lg shadow-lg ml-auto"
+            data-aos="zoom-in"
+          >
             {/* Flecha izquierda */}
             <button
               onClick={handlePrev}
@@ -70,7 +74,10 @@ const PremiumLogistics = ({ data }) => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+        <div
+          className="flex flex-col lg:flex-row justify-between items-center w-full"
+          data-aos="zoom-in"
+        >
           {logistics.premium.stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center gap-y-2">
               <span className="stats-number">{stat.number}</span>

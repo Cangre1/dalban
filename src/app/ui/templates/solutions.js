@@ -9,11 +9,15 @@ const Solutions = ({ data }) => {
         {/* Titular centrado */}
         <h1
           className="titles text-center"
+          data-aos="zoom-in"
           dangerouslySetInnerHTML={{ __html: solutions.title }}
         ></h1>
 
         {/* Primera Grilla - 3 columnas */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div
+          className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16"
+          data-aos="zoom-in"
+        >
           {solutions.grid1.map((item, index) => (
             <a
               href={item.href}
@@ -45,7 +49,10 @@ const Solutions = ({ data }) => {
         </div>
 
         {/* Segunda Grilla - 3 columnas */}
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div
+          className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8"
+          data-aos="zoom-in"
+        >
           {solutions.grid2.map((item, index) => (
             <div key={index} className="flex flex-col space-y-4">
               {/* Imagen y Título en una misma fila */}

@@ -7,10 +7,15 @@ const StatisticsBanner = ({ data }) => {
     <div className="bg-gray-100">
       <div className="contenedor-custom !py-12 lg:!py-28 space-y-16 lg:space-y-28">
         {/* Párrafo centrado */}
-        <h1 className="titles lg:text-center">{stats.paragraph}</h1>
+        <h1 className="titles lg:text-center" data-aos="zoom-in">
+          {stats.paragraph}
+        </h1>
 
         {/* Grilla de estadísticas */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8  text-center">
+        <div
+          className="grid grid-cols-2 md:grid-cols-4 gap-8  text-center"
+          data-aos="zoom-in"
+        >
           {stats.stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center">
               <div className="h-24">

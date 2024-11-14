@@ -5,7 +5,10 @@ const Insights = ({ data }) => {
   return (
     <div className="bg-gray-100">
       <div className="contenedor-custom !py-12 lg:!py-28 space-y-16">
-        <div className="flex flex-col items-center justify-center text-center gap-y-5">
+        <div
+          className="flex flex-col items-center justify-center text-center gap-y-5"
+          data-aos="zoom-in"
+        >
           {/* Título centrado */}
           <h1
             className="titles"
@@ -21,7 +24,10 @@ const Insights = ({ data }) => {
 
         {/* Grilla principal */}
         <div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 grid-rows-2 gap-3">
+          <div
+            className="grid grid-cols-1 sm:grid-cols-2 grid-rows-2 gap-3"
+            data-aos="zoom-in"
+          >
             {/* Primer elemento de la grilla con gradiente */}
             <div
               className="row-span-2 bg-cover bg-center py-24 sm:py-32 relative group shadow-lg hover:shadow-2xl transition-all ease-in-out duration-300 transform hover:-translate-y-1"

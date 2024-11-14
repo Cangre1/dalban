@@ -9,6 +9,7 @@ import Infrastructure from "../ui/templates/infrastructure";
 import Map from "../ui/templates/map";
 import PhraseBanner from "../ui/templates/phraseBanner";
 import InformationBanner from "../ui/templates/informationBanner";
+import AOSInitializer from "../aos/aos";
 
 export default function Pharma() {
   const [isHeroLoaded, setIsHeroLoaded] = useState(false);
@@ -20,6 +21,7 @@ export default function Pharma() {
 
   return (
     <div className="!min-h-screen">
+      <AOSInitializer />
       <HeroPages data={data} />
       {isHeroLoaded && (
         <>
