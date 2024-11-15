@@ -7,15 +7,15 @@ import Pharma from "../../../../public/assets/dalban-pharma.png";
 const VideoHero = () => {
   return (
     <div>
-      <div className="hidden lg:flex h-screen relative">
+      <div className="flex flex-col lg:flex-row h-[60vh] lg:h-screen relative mt-16 ">
         {/* Overlay oscuro */}
         <div className="absolute top-0 left-0 w-full h-full bg-white opacity-50 z-10"></div>
 
         {/* Contenedor del primer video */}
-        <div className="relative w-1/2 h-full">
+        <div className="relative w-full lg:w-1/2 h-full">
           <a
             href="/logistica"
-            className="btn absolute  left-1/2 transform -translate-x-1/2 lg:bottom-28 xl:bottom-36 2xl:bottom-56 z-40  px-4 py-2 rounded-full shadow-lg hover:bg-white transition duration-300 ease-in-out "
+            className="btn absolute text-xs lg:text-base left-1/2 transform -translate-x-1/2 bottom-4 lg:bottom-28 xl:bottom-36 2xl:bottom-56 z-40  px-4 py-2 rounded-full shadow-lg hover:bg-white transition duration-300 ease-in-out "
           >
             Ver Más
           </a>
@@ -32,7 +32,7 @@ const VideoHero = () => {
           {/* Imagen centrada encima del primer video */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 flex flex-col items-center h-60">
             <Image
-              className="h-full w-full"
+              className="h-full w-full object-contain"
               data-aos="zoom-in"
               src={Logistica}
               alt="Overlay Image 1"
@@ -41,10 +41,10 @@ const VideoHero = () => {
         </div>
 
         {/* Contenedor del segundo video */}
-        <div className="relative w-1/2 h-full">
+        <div className="relative w-full lg:w-1/2 h-full">
           <a
             href="/pharma"
-            className="btn absolute hover:text-[#0099A8] !bg-[#0099A8] !border-[#0099A8]  left-1/2 transform -translate-x-1/2 lg:bottom-28 xl:bottom-36 2xl:bottom-56 z-40  px-4 py-2 rounded-full shadow-lg hover:!bg-white transition duration-300 ease-in-out "
+            className="btn absolute text-xs lg:text-base hover:text-[#0099A8] !bg-[#0099A8] !border-[#0099A8]  left-1/2 transform -translate-x-1/2 bottom-4 lg:bottom-28 xl:bottom-36 2xl:bottom-56 z-40  px-4 py-2 rounded-full shadow-lg hover:!bg-white transition duration-300 ease-in-out "
           >
             Ver Más
           </a>
@@ -70,7 +70,7 @@ const VideoHero = () => {
         </div>
       </div>
 
-      <div className="relative w-full h-[60vh] lg:hidden">
+      <div className="relative w-full h-[60vh] hidden">
         {/* Imagen de fondo */}
         <Image
           src={Hero}
