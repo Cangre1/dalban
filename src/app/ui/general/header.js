@@ -61,7 +61,11 @@ const Header = ({ data }) => {
         {/* Menu toggle (hamburger) */}
         <div className="lg:hidden">
           <a onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            <img src={logoMenu.src} alt={logo.alt} className="w-8" />
+            <img
+              src={isPharma ? logoMenu.src2 : logoMenu.src}
+              alt={logo.alt}
+              className="w-8"
+            />
           </a>
         </div>
 
@@ -118,7 +122,7 @@ const Header = ({ data }) => {
                 {item.label === "Servicios" && openSubMenu && (
                   <ul
                     ref={subMenuRef}
-                    className="lg:fixed !top-[4.29rem] !left-1/2 transform -translate-x-1/2 lg:shadow-2xl rounded-md z-50 bg-white flex p-5 gap-x-10"
+                    className="lg:fixed lg:!top-[4.29rem] lg:!left-1/2 lg:transform lg:-translate-x-1/2 lg:shadow-2xl rounded-md z-50  gap-x-4 pt-2 lg:pt-0 bg-white flex lg:p-5 lg:gap-x-10 "
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                   >
@@ -137,7 +141,7 @@ const Header = ({ data }) => {
                             className="w-44 rounded-lg"
                           />
                           <span
-                            className="absolute inset-0 flex justify-center items-center z-20 text-xl bg-black bg-opacity-20 hover:bg-opacity-10 transition-all ease-in-out duration-300 my-auto mx-auto"
+                            className="absolute inset-0 flex justify-center items-center z-20 text-base  lg:text-xl bg-black bg-opacity-20 hover:bg-opacity-10 transition-all ease-in-out duration-300 my-auto mx-auto"
                             dangerouslySetInnerHTML={{ __html: option.label }}
                           />
                         </a>

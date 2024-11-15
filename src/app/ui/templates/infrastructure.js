@@ -57,7 +57,10 @@ const Infrastructure = ({ data }) => {
           ></p>
 
           {lastPartOfUrl === "pharma" && (
-            <div className="grid grid-cols-2 gap-10" data-aos="zoom-in">
+            <div
+              className="grid grid-cols-1 lg:grid-cols-2 gap-10"
+              data-aos="zoom-in"
+            >
               <div className="list-disc text-[#0099A8] ">
                 {currentData.infrastructure.list
                   .slice(0, 8)

@@ -22,7 +22,7 @@ const PremiumLogistics = ({ data }) => {
 
   return (
     <div className="contenedor-custom !py-12 lg:!py-28">
-      <div className="flex flex-col items-center gap-y-20">
+      <div className="flex flex-col items-center gap-y-8 lg:gap-y-20">
         <div className="space-y-5" data-aos="zoom-in">
           <h1
             className="titles text-center"
@@ -75,7 +75,7 @@ const PremiumLogistics = ({ data }) => {
         </div>
 
         <div
-          className="flex flex-col lg:flex-row justify-between items-center w-full"
+          className="flex flex-col lg:flex-row justify-between items-center w-full gap-y-5 lg:gap-y-0"
           data-aos="zoom-in"
         >
           {logistics.premium.stats.map((stat, index) => (

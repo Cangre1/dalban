@@ -14,7 +14,7 @@ const Map = ({ data }) => {
 
   return (
     <div className="bg-gray-100">
-      <div className="contenedor-custom !py-12 lg:!py-28 space-y-16">
+      <div className="contenedor-custom !py-12 lg:!py-28 space-y-5 lg:space-y-16">
         {/* Título centrado */}
         <div className="text-center">
           <h1

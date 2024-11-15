@@ -13,7 +13,7 @@ const ServicesBanner = ({ data }) => {
 
   return (
     <div className="bg-gray-100">
-      <div className="contenedor-custom !py-12 lg:!py-28 space-y-16 lg:space-y-28">
+      <div className="contenedor-custom !py-12 lg:!py-28 space-y-8 lg:space-y-28">
         <div className="space-y-5" data-aos="zoom-in">
           {/* Párrafo centrado */}
           <h1

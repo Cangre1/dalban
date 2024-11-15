@@ -30,7 +30,7 @@ const Insights = ({ data }) => {
           >
             {/* Primer elemento de la grilla con gradiente */}
             <div
-              className="row-span-2 bg-cover bg-center py-24 sm:py-32 relative group shadow-lg hover:shadow-2xl transition-all ease-in-out duration-300 transform hover:-translate-y-1"
+              className="row-span-2 bg-cover bg-center py-32 relative group shadow-lg hover:shadow-2xl transition-all ease-in-out duration-300 transform hover:-translate-y-1 bg-red-800"
               style={{
                 backgroundImage: `linear-gradient(to top, #252969 10%, rgba(0,0,0,0) 50%), url(${insights.grid[0].src})`,
               }}

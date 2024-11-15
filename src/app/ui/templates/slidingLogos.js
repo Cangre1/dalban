@@ -66,7 +66,7 @@ const SlidingLogos = () => {
   const logosDuplicatedB = duplicateLogosB(logosB, 3); // Duplicar los logos suficientes veces para cubrir el ancho
 
   return (
-    <div className="overflow-hidden space-y-24" data-aos="zoom-in">
+    <div className="overflow-hidden space-y-5 lg:space-y-24" data-aos="zoom-in">
       <div className="space-y-10">
         <div className="flex animate-scroll-custom items-center gap-x-16">
           {logosDuplicatedA.map((logo, index) => (

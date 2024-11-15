@@ -526,13 +526,8 @@
   "mapHaedo": {
     "title": "Ubicación",
     "paragraph": "Contamos con una excelente ubicación y accesibilidad para la conexión con nuestros proveedores, clientes y servicios de transporte para el cumpliemiento de nuestras actividades y servicios.",
-    "items": [
-      "Lorem ipsum",
-      "Lorem ipsum",
-      "Latitud: completar",
-      "Longitud: completar"
-    ],
-    "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13130.491604068848!2d-58.5871277!3d-34.6389687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc70edfcf6773%3A0x2e4421cabcfacd!2sDalban%20Pharma!5e0!3m2!1ses!2sar!4v1727451103783!5m2!1ses!2sar"
+    "items": ["Excelente ubicación", "Facil acceso"],
+    "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3289.9100444691844!2d-58.70494752065431!3d-34.454431299999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca2493d06fbc7%3A0x5e470f4eff7cb2e8!2sDalban%20Pharma!5e0!3m2!1ses!2sar!4v1731682756491!5m2!1ses!2sar"
   },
   "informationBanner": {
     "title": "¿Necesitas más información sobre nuestros servicios?",

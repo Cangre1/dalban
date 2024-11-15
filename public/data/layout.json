@@ -12,7 +12,8 @@
     "link": "/"
   },
   "logoMenu": {
-    "src": "assets/icon-menu.png",
+    "src": "assets/menu-dalban.png",
+    "src2": "assets/menu-pharma.png",
     "alt": "Logo de menu",
     "link": "/"
   },

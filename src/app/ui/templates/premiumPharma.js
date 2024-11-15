@@ -78,7 +78,7 @@ const PremiumPharma = ({ data }) => {
           </div>
         ))}
       </div>
-      <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+      <div className="flex flex-col lg:flex-row justify-between items-center w-full gap-y-5 lg:gap-y-0">
         {data.stats.map((stat, index) => (
           <div
             key={index}
