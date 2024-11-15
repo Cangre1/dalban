@@ -40,7 +40,7 @@ const ServicesBanner = ({ data }) => {
                   alt={item.title}
                   width={70}
                   height={70}
-                  className="mr-4"
+                  className="lg:mr-4"
                 />
                 <div className="space-y-4 text-black">
                   <h3 className="titles-secondary">{item.title}</h3>
