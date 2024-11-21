@@ -513,7 +513,7 @@
     ]
   },
   "map": {
-    "title": "Ubicación",
+    "title": "Ubicaciónes",
     "paragraph": "Contamos con una excelente ubicación y accesibilidad para la conexión con nuestros proveedores, clientes y servicios de transporte para el cumpliemiento de nuestras actividades y servicios.",
     "items": [
       "Excelente Accesibilidad por Ambos Ramales de la Autopista Panamericana.",
@@ -523,11 +523,12 @@
     ],
     "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13159.968308910808!2d-58.7134403!3d-34.452349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca23ff6a4e93f%3A0x974e2bb0999d951e!2sCentro%20De%20Distribuci%C3%B3n%20Dalban!5e0!3m2!1ses!2sar!4v1727457799444!5m2!1ses!2sar"
   },
+
   "mapHaedo": {
     "title": "Ubicación",
     "paragraph": "Contamos con una excelente ubicación y accesibilidad para la conexión con nuestros proveedores, clientes y servicios de transporte para el cumpliemiento de nuestras actividades y servicios.",
     "items": ["Excelente ubicación", "Facil acceso"],
-    "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3289.9100444691844!2d-58.70494752065431!3d-34.454431299999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca2493d06fbc7%3A0x5e470f4eff7cb2e8!2sDalban%20Pharma!5e0!3m2!1ses!2sar!4v1731682756491!5m2!1ses!2sar"
+    "href": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6221529353843!2d-58.5871611!3d-34.63898760000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc788f55dae5f%3A0xc953fa91c9c121c0!2sDirectorio%20701%2C%20B1706BPI%20Haedo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204337158!5m2!1ses!2sar"
   },
   "informationBanner": {
     "title": "¿Necesitas más información sobre nuestros servicios?",
