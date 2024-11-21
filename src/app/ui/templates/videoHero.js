@@ -7,15 +7,15 @@ import Pharma from "../../../../public/assets/dalban-pharma.png";
 const VideoHero = () => {
   return (
     <div>
-      <div className="flex flex-col lg:flex-row h-[60vh] lg:h-screen relative mt-16 ">
+      <div className="flex flex-col lg:flex-row h-[60vh] lg:h-[70vh] relative mt-16 ">
         {/* Overlay oscuro */}
-        <div className="absolute top-0 left-0 w-full h-full bg-white opacity-50 z-10"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-white opacity-0 z-10"></div>
 
         {/* Contenedor del primer video */}
         <div className="relative w-full lg:w-1/2 h-full">
           <a
             href="/logistica"
-            className="btn absolute text-xs lg:text-base left-1/2 transform -translate-x-1/2 bottom-4 lg:bottom-28 xl:bottom-36 2xl:bottom-56 z-40  px-4 py-2 rounded-full shadow-lg hover:bg-white transition duration-300 ease-in-out "
+            className="btn absolute text-xs lg:text-base left-1/2 transform -translate-x-1/2 bottom-4 lg:bottom-28 xl:bottom-20 2xl:bottom-36 z-40  px-4 py-2 rounded-full shadow-lg hover:bg-white transition duration-300 ease-in-out "
           >
             Ver Más
           </a>
@@ -44,7 +44,7 @@ const VideoHero = () => {
         <div className="relative w-full lg:w-1/2 h-full">
           <a
             href="/pharma"
-            className="btn absolute text-xs lg:text-base hover:text-[#0099A8] !bg-[#0099A8] !border-[#0099A8]  left-1/2 transform -translate-x-1/2 bottom-4 lg:bottom-28 xl:bottom-36 2xl:bottom-56 z-40  px-4 py-2 rounded-full shadow-lg hover:!bg-white transition duration-300 ease-in-out "
+            className="btn absolute text-xs lg:text-base hover:text-[#0099A8] !bg-[#0099A8] !border-[#0099A8]  left-1/2 transform -translate-x-1/2 bottom-4 lg:bottom-28 xl:bottom-20 2xl:bottom-36 z-40  px-4 py-2 rounded-full shadow-lg hover:!bg-white transition duration-300 ease-in-out "
           >
             Ver Más
           </a>

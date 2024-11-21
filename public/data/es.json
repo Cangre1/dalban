@@ -177,7 +177,7 @@
   "logistics": {
     "title": "Logística",
     "src": "/assets/hero-logistics.jpg",
-    "paragraph": "Desde la infrastructura edilicia propia construida en base a requerimientos Clase A hasta la <span class='font-bold' style='color: #252969;'>tecnología de las handhelds</span> aplicadas a la operación, cuenta también con atributos que van más allá de lo material o visible.<br><br> <span class='font-bold' style='color: #252969;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente.<br><br> Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #252969;'>pick & pack</span> o la <span class='font-bold' style='color: #252969;'>distribución de venta directa en Capital, GBA e Interior.</span>",
+    "paragraph": "Desde la infraestructura edilicia propia, construida en base a <span class='font-bold' style='color: #252969;'>requerimientos Clase A</span>, hasta la utilización de las últimas tecnologías aplicadas a la operación.<br><br> <span class='font-bold' style='color: #252969;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente.<br><br> Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #252969;'>pick & pack</span> o la <span class='font-bold' style='color: #252969;'>distribución de venta directa en Capital, GBA e Interior.</span>",
     "infrastructure": {
       "title": "Infrastructura",
       "paragraph": "En nuestra empresa, contamos con una infrastructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
@@ -187,7 +187,7 @@
     "premium": {
       "title": "Servicio <span class='font-bold'>Premium</span>",
       "subtitle": null,
-      "paragraph": "Disponibilidad para oficinas operativas y/o administrativas.<br>Contamos con Sistemas de:<br/><br/><div class='list-disc text-[#252969] '><li><span class='font-bold text-[#252969]'>Gestión de Almacenes (WMS)</span></li><li><span class='font-bold text-[#252969]'>Gestión de Transporte (TMS)</span></li><li><span class='font-bold text-[#252969]'>Gestión de Playa (YMS)</span></li><li><span class='font-bold text-[#252969]'>Gestión en Calle</span></li></div><br>Trazabilidad de Productos.<br><br>Actividades Reguladas por <span class='font-bold' style='color: #252969;'>Standard Operating Proceedures (SOPs)</span> & guias escritas en conformidad con parámetros locales e internacionales.",
+      "paragraph": "Disponibilidad para oficinas operativas y/o administrativas.<br>Contamos con Sistemas de:<br/><br/><div class='list-disc text-[#252969] '><li><span class='font-bold text-[#252969]'>Gestión de Almacenes (WMS)</span></li><li><span class='font-bold text-[#252969]'>Gestión de Transporte (TMS)</span></li><li><span class='font-bold text-[#252969]'>Gestión de Playa (YMS)</span></li><li><span class='font-bold text-[#252969]'>Trazabilidad de Entregas</span></li><li><span class='font-bold text-[#252969]'>Trazabilidad de Medicamentos (Verifarma - SNT)</span></li></div><br>Trazabilidad de Productos.<br><br>Actividades Reguladas por <span class='font-bold' style='color: #252969;'>Standard Operating Proceedures (SOPs)</span> & guias escritas en conformidad con parámetros locales e internacionales.",
       "src": "/assets/bg-infrastructure-logistics.png",
       "src2": "/assets/camara-frio.jpg",
       "stats": [
@@ -204,8 +204,8 @@
           "text": "Playa de maniobras"
         },
         {
-          "number": "18.500",
-          "text": "Capacidad de palets"
+          "number": "50.630",
+          "text": "Capacidad de pallets"
         },
         {
           "number": "10 mts",
@@ -313,7 +313,7 @@
         },
         {
           "number": "930",
-          "text": "Capacidad de palets"
+          "text": "Capacidad de pallets"
         },
         {
           "number": "10 mts",
