@@ -15,7 +15,7 @@ const VideoHero = () => {
         <div className="relative w-full lg:w-1/2 h-full">
           <a
             href="/logistica"
-            className="btn absolute !text-white text-xs lg:text-base left-1/2 transform -translate-x-1/2 bottom-4 lg:bottom-28 xl:bottom-20 2xl:bottom-36 z-40  px-4 py-2 rounded-full shadow-lg hover:bg-white transition duration-300 ease-in-out "
+            className="btn absolute text-white text-xs lg:text-base left-1/2 transform -translate-x-1/2 bottom-4 lg:bottom-28 xl:bottom-20 2xl:bottom-36 z-40  px-4 py-2 rounded-full shadow-lg hover:bg-white transition duration-300 ease-in-out "
           >
             Ver Más
           </a>
@@ -44,7 +44,7 @@ const VideoHero = () => {
         <div className="relative w-full lg:w-1/2 h-full">
           <a
             href="/pharma"
-            className="btn absolute !text-white text-xs lg:text-base hover:text-[#0099A8] !bg-[#0099A8] !border-[#0099A8]  left-1/2 transform -translate-x-1/2 bottom-4 lg:bottom-28 xl:bottom-20 2xl:bottom-36 z-40  px-4 py-2 rounded-full shadow-lg hover:!bg-white transition duration-300 ease-in-out "
+            className="btn absolute text-white text-xs lg:text-base hover:text-[#0099A8] !bg-[#0099A8] !border-[#0099A8]  left-1/2 transform -translate-x-1/2 bottom-4 lg:bottom-28 xl:bottom-20 2xl:bottom-36 z-40  px-4 py-2 rounded-full shadow-lg hover:!bg-white transition duration-300 ease-in-out "
           >
             Ver Más
           </a>
