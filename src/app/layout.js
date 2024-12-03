@@ -24,6 +24,36 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className=" scroll-smooth">
+      <head>
+        {/* Meta básico */}
+        <meta
+          name="description"
+          content="Nos especializamos en ofrecer soluciones de transporte y logística personalizadas e integradas."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="UTF-8" />
+
+        <link rel="icon" href="https://i.ibb.co/9q9SNL5/symbol-blue.png" />
+
+        {/* SEO */}
+        <meta
+          name="keywords"
+          content="empresa, servicios, Grupo Dalban, logistica, transporte, pilar, pharma"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="" />
+
+        {/* Redes sociales */}
+        <meta property="og:title" content="Grupo Dalban" />
+        <meta
+          property="og:description"
+          content="Nos especializamos en ofrecer soluciones de transporte y logística personalizadas e integradas."
+        />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="es_ES" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
