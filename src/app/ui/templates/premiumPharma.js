@@ -12,6 +12,7 @@ const PremiumPharma = ({ data }) => {
       setIsIndustriaPage(window.location.pathname.endsWith("/industria"));
     }
   }, []);
+
   return (
     <div className="contenedor-custom !py-12 lg:!py-28 space-y-16 ">
       <div
@@ -25,7 +26,7 @@ const PremiumPharma = ({ data }) => {
           }}
         ></h1>
         <p
-          className="paragraphs text-center w-2/3 mx-auto"
+          className="paragraphs text-center lg:w-2/3 mx-auto"
           dangerouslySetInnerHTML={{
             __html: data.paragraph,
           }}
@@ -44,7 +45,7 @@ const PremiumPharma = ({ data }) => {
             {/* Imagen */}
             <div className="p-2">
               {/* Padding en un contenedor externo para evitar que se escale */}
-              <div className="relative w-full aspect-square overflow-hidden  rounded-lg">
+              <div className="relative w-full aspect-square overflow-hidden rounded-lg">
                 <Image
                   src={item.src}
                   alt={item.alt}
@@ -78,17 +79,20 @@ const PremiumPharma = ({ data }) => {
           </div>
         ))}
       </div>
-      <div className="flex flex-col lg:flex-row justify-between items-center w-full gap-y-5 lg:gap-y-0">
-        {data.stats.map((stat, index) => (
-          <div
-            key={index}
-            className="flex flex-col gap-y-2 items-center lg:items-center"
-          >
-            <span className="stats-number">{stat.number}</span>
-            <span className="stats-text">{stat.text}</span>
-          </div>
-        ))}
-      </div>
+      {/* Bloque oculto si es /industria */}
+      {!isIndustriaPage && (
+        <div className="flex flex-col lg:flex-row justify-between items-center w-full gap-y-5 lg:gap-y-0">
+          {data.stats.map((stat, index) => (
+            <div
+              key={index}
+              className="flex flex-col gap-y-2 items-center lg:items-center"
+            >
+              <span className="stats-number">{stat.number}</span>
+              <span className="stats-text">{stat.text}</span>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

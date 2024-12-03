@@ -54,7 +54,7 @@ const Map = ({ data }) => {
       {/* Iframe de Google Maps */}
       <div>
         <iframe
-          className="w-full h-[500px]"
+          className="w-full h-[250px] lg:h-[500px]"
           src={data.href}
           allowFullScreen=""
           loading="lazy"
