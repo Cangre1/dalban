@@ -179,8 +179,8 @@
     "src": "/assets/hero-logistics.jpg",
     "paragraph": "Desde la infraestructura edilicia propia, construida en base a <span class='font-bold' style='color: #252969;'>requerimientos Clase A</span>, hasta la utilización de las últimas tecnologías aplicadas a la operación.<br><br> <span class='font-bold' style='color: #252969;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente.<br><br> Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #252969;'>pick & pack</span> o la <span class='font-bold' style='color: #252969;'>distribución de venta directa en Capital, GBA e Interior.</span>",
     "infrastructure": {
-      "title": "Infrastructura",
-      "paragraph": "En nuestra empresa, contamos con una infrastructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
+      "title": "infraestructura",
+      "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
       "list": null,
       "src": "/assets/bg-infrastructure-pharma.png"
     },
@@ -219,8 +219,8 @@
     "src": "/assets/hero-pharma.png",
     "paragraph": "Dalban Pharma S.A. se formó en el año 2020, con el fin de dedicarse a la <span class='font-bold' style='color: #0099A8;'>elaboración, envasado y acondicionamiento de especialidades medicinales, productos médicos y cosméticos</span> para terceros.<br><br> Nuestra planta fabril se encuentra ubicada en Haedo - PBA, contando con manufactura propia, depósitos y oficinas administrativas.",
     "infrastructure": {
-      "title": "Infrastructura",
-      "paragraph": "En nuestra empresa, contamos con una infrastructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
+      "title": "infraestructura",
+      "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
       "list": [
         {
           "span": "Estuchadora CAM AV con Balanza dinámica Termo Scientific."
@@ -275,7 +275,7 @@
     },
     "premium": {
       "title": "Servicio <span class='font-bold'>Premium</span>",
-      "paragraph": "Con el equipamiento y la infrastructura que posee la Planta, se puede realizar la producción de las siguientes formas farmacéuticas:",
+      "paragraph": "Con el equipamiento y la infraestructura que posee la Planta, se puede realizar la producción de las siguientes formas farmacéuticas:",
       "src": [
         {
           "src": "/assets/premium-pharma-1.jpg",
