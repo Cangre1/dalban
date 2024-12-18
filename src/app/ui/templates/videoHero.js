@@ -26,7 +26,7 @@ const VideoHero = () => {
             muted
             playsInline
           >
-            <source src="assets/video-no-pharma-baja.mp4" type="video/mp4" />
+            <source src="assets/video-logistica.mp4" type="video/mp4" />
             Tu navegador no soporta el video.
           </video>
           {/* Imagen centrada encima del primer video */}
@@ -55,7 +55,7 @@ const VideoHero = () => {
             muted
             playsInline
           >
-            <source src="assets/video-pharma-baja.mp4" type="video/mp4" />
+            <source src="assets/video-pharma.mp4" type="video/mp4" />
             Tu navegador no soporta el video.
           </video>
           {/* Imagen centrada encima del segundo video */}
