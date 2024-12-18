@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const Map = ({ data }) => {
   const [isPharmaRoute, setIsPharmaRoute] = useState(false);
+  const [isLogisticaRoute, setIsLogisticaRoute] = useState(false);
 
   useEffect(() => {
     // Verificar si la URL termina en '/pharma'
@@ -9,6 +10,13 @@ const Map = ({ data }) => {
       setIsPharmaRoute(true);
     } else {
       setIsPharmaRoute(false);
+    }
+
+    // Verificar si la URL termina en '/logistica'
+    if (window.location.pathname.endsWith("/logistica")) {
+      setIsLogisticaRoute(true);
+    } else {
+      setIsLogisticaRoute(false);
     }
   }, []);
 
@@ -51,8 +59,9 @@ const Map = ({ data }) => {
           </div>
         </div>
       </div>
+
       {/* Iframe de Google Maps */}
-      <div>
+      <div className={isLogisticaRoute ? "hidden" : ""}>
         <iframe
           className="w-full h-[250px] lg:h-[500px]"
           src={data.href}

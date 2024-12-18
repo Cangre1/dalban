@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import data from "../../../public/data/es.json";
-import HeroPages from "../ui/templates/heroPages";
+import HeroPages from "../ui/templates/heroPagesServicios";
 import Descriptionv2 from "../ui/templates/descriptionv2";
 import ServicesBanner from "../ui/templates/servicesBanner";
 import PremiumPharma from "../ui/templates/premiumPharma";
