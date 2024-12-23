@@ -49,10 +49,7 @@
       "label": "Industria",
       "link": "/industria"
     },
-    {
-      "label": "Insights",
-      "link": "/insights"
-    },
+
     {
       "label": "Contacto",
       "link": "/contacto",
@@ -100,10 +97,7 @@
           "label": "Industria",
           "link": "/industria"
         },
-        {
-          "label": "Insights",
-          "link": "/insights"
-        },
+
         {
           "label": "Contacto",
           "link": "/contacto"

@@ -1,5 +1,6 @@
 import React from "react";
-import bg from "../../../../public/assets/hero-banner.jpg";
+import bgLogistica from "../../../../public/assets/hero-banner.jpg";
+import bgPharma from "../../../../public/assets/hero-pharma.png";
 
 const InformationBanner = ({ data }) => {
   const { informationBanner } = data;
@@ -20,7 +21,11 @@ const InformationBanner = ({ data }) => {
   return (
     <div
       className="bg-cover bg-center relative"
-      style={{ backgroundImage: `url(${bg.src})` }}
+      style={{
+        backgroundImage: `url(${
+          isPharmaPage ? bgPharma.src : bgLogistica.src
+        })`,
+      }}
     >
       {/* Overlay oscuro con color condicionado */}
       <div
