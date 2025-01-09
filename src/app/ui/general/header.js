@@ -44,12 +44,18 @@ const Header = ({ data }) => {
     }, 300);
   };
 
+  // Función auxiliar para añadir .html a las URLs
+  const formatUrl = (url) => {
+    if (url === '#' || url === '/') return url;
+    return url.endsWith('.html') ? url : `${url}.html`;
+  };
+
   return (
     <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50 py-4 lg:py-0">
       <div className="contenedor-custom flex justify-between items-end lg:items-center w-full">
         {/* Logo */}
         <div className="logo">
-          <a href={logo.link}>
+          <a href={formatUrl(logo.link)}>
             <img
               src={isPharma ? logo.src2 : logo.src}
               alt={logo.alt}
@@ -91,7 +97,7 @@ const Header = ({ data }) => {
                 }
               >
                 <a
-                  href={item.label === "Servicios" ? "#" : item.link}
+                  href={item.label === "Servicios" ? "#" : formatUrl(item.link)}
                   onClick={(e) =>
                     item.label === "Servicios" && e.preventDefault()
                   }
@@ -132,7 +138,7 @@ const Header = ({ data }) => {
                         className="flex flex-col justify-center items-center space-y-4"
                       >
                         <a
-                          href={option.link}
+                          href={formatUrl(option.link)}
                           className="relative flex justify-center items-center text-white rounded-md"
                         >
                           <img
@@ -155,9 +161,9 @@ const Header = ({ data }) => {
         </nav>
 
         {/* CTA Button */}
-        <div className="hidden lg:block">
+        <div className="hidden ">
           <a
-            href={ctaButton.link}
+            href={formatUrl(ctaButton.link)}
             className={`${
               isPharma ? "link-nav-access-pharma" : "link-nav-access"
             }`}

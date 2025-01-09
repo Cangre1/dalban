@@ -36,31 +36,33 @@ export default function ContactForm() {
         </p>
       </div>
       <form
-        onSubmit={handleSubmit}
+        action="https://formsubmit.co/ochoa.mariano90@gmail.com"
+        method="POST"
         className="w-full lg:w-1/2 space-y-5 lg:space-y-10"
         data-aos="zoom-in"
       >
+        <input type="hidden" name="_subject" value="Nuevo contacto desde el sitio web" />
+        <input type="hidden" name="_next" value="https://http://dalban.com.ar/contacto" />
+        <input type="hidden" name="_captcha" value="true" />
+        <input type="hidden" name="_template" value="table" />
+        
+        <input type="text" name="_honey" style={{display: 'none'}} />
+
         <div className="flex flex-col lg:flex-row gap-y-5 lg:gap-y-0 gap-x-5 lg:gap-x-10">
-          <div className=" w-full">
+          <div className="w-full">
             <input
               type="text"
-              id="name"
               name="name"
-              value={formData.name}
-              onChange={handleChange}
               placeholder="Nombre y Apellido"
               className="w-full px-3 py-2 border-b border-[#252969] focus:outline-none text-lg placeholder:text-gray-400 text-gray-400"
               required
             />
           </div>
-
-          <div className=" w-full">
+          
+          <div className="w-full">
             <input
               type="email"
-              id="email"
               name="email"
-              value={formData.email}
-              onChange={handleChange}
               placeholder="Mail"
               className="w-full px-3 py-2 border-b border-[#252969] focus:outline-none text-lg placeholder:text-gray-400 text-gray-400"
               required
@@ -69,21 +71,17 @@ export default function ContactForm() {
         </div>
 
         <div className="flex flex-col lg:flex-row gap-y-5 lg:gap-y-0 gap-x-5 lg:gap-x-10">
-          <div className=" w-full">
+          <div className="w-full">
             <input
               type="tel"
-              id="phone"
               name="phone"
-              value={formData.phone}
-              onChange={handleChange}
               placeholder="Teléfono"
               className="w-full px-3 py-2 border-b border-[#252969] focus:outline-none text-lg placeholder:text-gray-400 text-gray-400"
               required
             />
           </div>
-          <div className=" w-full">
+          <div className="w-full">
             <select
-              id="service"
               name="service"
               value={formData.service}
               onChange={handleChange}
@@ -91,19 +89,16 @@ export default function ContactForm() {
               required
             >
               <option value="">Servicio</option>
-              <option value="service1">Servicio 1</option>
-              <option value="service2">Servicio 2</option>
-              <option value="service3">Servicio 3</option>
+              <option value="logistica">Logística</option>
+              <option value="pharma">Pharma</option>
+              <option value="fullservice">Full Service</option>
             </select>
           </div>
         </div>
 
         <div className="">
           <textarea
-            id="message"
             name="message"
-            value={formData.message}
-            onChange={handleChange}
             placeholder="Mensaje"
             className="w-full px-3 py-2 border-2 rounded-lg border-[#252969] focus:outline-none text-lg placeholder:text-gray-400 text-black"
             rows="5"

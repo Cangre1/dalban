@@ -16,7 +16,7 @@ export default function Home() {
       <Description data={data} />
       <StatisticsBanner data={data} />
       <Solutions data={data} />
-      <Insights data={data} />
+      {/* <Insights data={data} /> */}
       <Jobs data={data} />
       <Partners data={data} />
     </div>
