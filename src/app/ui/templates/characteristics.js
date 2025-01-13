@@ -11,7 +11,7 @@ const Characteristics = ({ data }) => {
           {services.grid.map((item, index) => (
             <div key={index} className="flex  space-y-4 justify-center">
               {/* Imagen y Título en una misma fila */}
-              <div className="flex items-start w-full justify-center gap-x-10">
+              <div className="flex items-start w-full justify-center gap-x-12">
                 <Image
                   src={item.src}
                   alt={item.title}
