@@ -6,7 +6,7 @@ const InformationBanner = ({ data }) => {
   const { informationBanner } = data;
 
   // Verificar si la URL termina con "pharma"
-  const isPharmaPage = window.location.pathname.endsWith("pharma");
+  const isPharmaPage = window.location.pathname.endsWith("pharma.html");
 
   // Estilos condicionales para el botón con !important
   const buttonBgColor = isPharmaPage

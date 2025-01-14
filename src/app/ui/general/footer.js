@@ -10,7 +10,7 @@ const Footer = ({ data }) => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const pathname = window.location.pathname;
-      setIsPharma(pathname.endsWith("/pharma"));
+      setIsPharma(pathname.endsWith("/pharma.html"));
     }
   }, []);
 
@@ -40,6 +40,37 @@ const Footer = ({ data }) => {
         .toLowerCase();
       return order.indexOf(normalizedA) - order.indexOf(normalizedB);
     });
+
+  // Función para normalizar cadenas eliminando tildes y caracteres especiales
+  const normalizeText = (text) =>
+    text
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase();
+
+  // Función auxiliar para añadir .html a las URLs según ciertas condiciones
+  const formatUrl = (url, label) => {
+    // Lista de labels para los que se aplica la lógica
+    const labelsWithHtml = [
+      "logistica",
+      "pharma",
+      "full service",
+      "industria",
+      "contacto",
+    ];
+
+    // Normalizar el label antes de comparar
+    const normalizedLabel = normalizeText(label);
+
+    // Si el label normalizado está en la lista, aplica la lógica de agregar .html
+    if (labelsWithHtml.includes(normalizedLabel)) {
+      if (url === "#" || url === "/") return url;
+      return url.endsWith(".html") ? url : `${url}.html`;
+    }
+
+    // Para el resto, retorna la URL sin cambios
+    return url;
+  };
 
   return (
     <footer>
@@ -111,11 +142,11 @@ const Footer = ({ data }) => {
                       {item.options.map((option, idx) => (
                         <li key={idx}>
                           <a
-                            href={option.link}
+                            href={formatUrl(option.link, option.label)} // Pasar también el label aquí
                             className="text-white transition-colors duration-300 border-b border-b-transparent hover:border-b-white"
                           >
                             <span
-                              className="!leading-none text-sm  xl:text-base"
+                              className="!leading-none text-sm xl:text-base"
                               dangerouslySetInnerHTML={{
                                 __html: option.label,
                               }}

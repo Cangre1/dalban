@@ -13,7 +13,7 @@ const Header = ({ data }) => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const pathname = window.location.pathname;
-      setIsPharma(pathname.endsWith("/pharma"));
+      setIsPharma(pathname.endsWith("/pharma.html"));
     }
   }, []);
 
@@ -46,8 +46,8 @@ const Header = ({ data }) => {
 
   // Función auxiliar para añadir .html a las URLs
   const formatUrl = (url) => {
-    if (url === '#' || url === '/') return url;
-    return url.endsWith('.html') ? url : `${url}.html`;
+    if (url === "#" || url === "/") return url;
+    return url.endsWith(".html") ? url : `${url}.html`;
   };
 
   return (

@@ -6,14 +6,14 @@ const Map = ({ data }) => {
 
   useEffect(() => {
     // Verificar si la URL termina en '/pharma'
-    if (window.location.pathname.endsWith("/pharma")) {
+    if (window.location.pathname.endsWith("/pharma.html")) {
       setIsPharmaRoute(true);
     } else {
       setIsPharmaRoute(false);
     }
 
     // Verificar si la URL termina en '/logistica'
-    if (window.location.pathname.endsWith("/logistica")) {
+    if (window.location.pathname.endsWith("/logistica.html")) {
       setIsLogisticaRoute(true);
     } else {
       setIsLogisticaRoute(false);

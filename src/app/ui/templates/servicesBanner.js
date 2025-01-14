@@ -7,7 +7,7 @@ const ServicesBanner = ({ data }) => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const pathname = window.location.pathname;
-      setIsPharma(pathname.endsWith("/pharma"));
+      setIsPharma(pathname.endsWith("/pharma.html"));
     }
   }, []);
 

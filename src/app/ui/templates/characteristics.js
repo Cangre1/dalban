@@ -4,7 +4,7 @@ const Characteristics = ({ data }) => {
   const { services } = data;
 
   return (
-    <div className="bg-red-500">
+    <div>
       <div className="contenedor-custom !py-12 lg:!py-28 space-y-16 lg:space-y-28">
         {/* Grilla de servicios */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

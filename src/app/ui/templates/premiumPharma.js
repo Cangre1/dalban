@@ -9,7 +9,7 @@ const PremiumPharma = ({ data }) => {
   useEffect(() => {
     // Verifica si el pathname termina en "/industria"
     if (typeof window !== "undefined") {
-      setIsIndustriaPage(window.location.pathname.endsWith("/industria"));
+      setIsIndustriaPage(window.location.pathname.endsWith("/industria.html"));
     }
   }, []);
 

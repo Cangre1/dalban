@@ -15,8 +15,12 @@ const Infrastructure = ({ data }) => {
 
       if (lastPart === "logistica") {
         lastPart = "logistics";
-      } else if (lastPart === "sector-farmaceutico-sanitario") {
-        lastPart = "farma-san";
+      } else if (lastPart === "pharma.html") {
+        lastPart = "pharma";
+      } else if (lastPart === "full-service.html") {
+        lastPart = "full-service";
+      } else if (lastPart === "contacto") {
+        lastPart = "contact";
       } else if (lastPart === "contacto") {
         lastPart = "contact";
       }

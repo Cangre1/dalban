@@ -10,7 +10,7 @@ const PhraseBanner = ({ data }) => {
       const lastPart = currentPath.substring(currentPath.lastIndexOf("/") + 1);
 
       // Cambiar el color si la URL termina en "pharma"
-      if (lastPart === "pharma") {
+      if (lastPart === "pharma.html") {
         setTextColor("#0099A8");
       }
     }

@@ -12,16 +12,28 @@ const Hero = ({ data }) => {
       let lastPart = currentPath.substring(currentPath.lastIndexOf("/") + 1);
 
       // Validar y ajustar la última parte de la URL
-      if (lastPart === "logistica") {
+      if (lastPart === "logistica.html") {
         lastPart = "logistics";
+      }
+
+      if (lastPart === "pharma.html") {
+        lastPart = "pharma";
+      }
+
+      if (lastPart === "full-service.html") {
+        lastPart = "full-service";
       }
 
       if (lastPart === "sector-farmaceutico-sanitario") {
         lastPart = "farma-san";
       }
 
-      if (lastPart === "contacto") {
+      if (lastPart === "contacto.html") {
         lastPart = "contact";
+      }
+
+      if (lastPart === "industria.html") {
+        lastPart = "industria";
       }
 
       setLastPartOfUrl(lastPart);
