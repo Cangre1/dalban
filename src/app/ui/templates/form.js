@@ -36,7 +36,7 @@ export default function ContactForm() {
         </p>
       </div>
       <form
-        action="https://formsubmit.co/ochoa.mariano90@gmail.com"
+        action="https://formsubmit.co/rrhh@dalban.com.ar"
         method="POST"
         className="w-full lg:w-1/2 space-y-5 lg:space-y-10"
         data-aos="zoom-in"
