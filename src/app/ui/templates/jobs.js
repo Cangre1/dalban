@@ -1,7 +1,14 @@
 import React from "react";
 
+// Función auxiliar para añadir .html a las URLs
+const formatUrl = (url) => {
+  if (url === "#" || url === "/") return url;
+  return url.endsWith(".html") ? url : `${url}.html`;
+};
+
 const Jobs = ({ data }) => {
   const { jobs } = data;
+
   return (
     <div className="contenedor-custom !py-12 lg:!py-28 ">
       <div className=" flex flex-col items-center gap-y-20">
@@ -31,7 +38,7 @@ const Jobs = ({ data }) => {
               dangerouslySetInnerHTML={{ __html: jobs.paragraph }}
             ></p>
             <a
-              href={jobs.href}
+              href={formatUrl(jobs.href)} // Aplicar la función formatUrl aquí
               className="btn px-14 py-3 rounded-full text-white"
             >
               {jobs.btn}
