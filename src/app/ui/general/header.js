@@ -45,8 +45,14 @@ const Header = ({ data }) => {
   };
 
   // Función auxiliar para añadir .html a las URLs
-  const formatUrl = (url) => {
+  const formatUrl = (url, label) => {
+    // Si el label es "Nosotros", no añadir .html
+    if (label === "Nosotros") return url;
+
+    // Si la URL es "#" o "/", no añadir .html
     if (url === "#" || url === "/") return url;
+
+    // Si no termina en .html, agregar .html
     return url.endsWith(".html") ? url : `${url}.html`;
   };
 
@@ -97,7 +103,11 @@ const Header = ({ data }) => {
                 }
               >
                 <a
-                  href={item.label === "Servicios" ? "#" : formatUrl(item.link)}
+                  href={
+                    item.label === "Servicios"
+                      ? "#"
+                      : formatUrl(item.link, item.label)
+                  }
                   onClick={(e) =>
                     item.label === "Servicios" && e.preventDefault()
                   }

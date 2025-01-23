@@ -1,5 +1,11 @@
 import Image from "next/image";
 
+// Función auxiliar para añadir .html a las URLs
+const formatUrl = (url) => {
+  if (url === "#" || url === "/") return url;
+  return url.endsWith(".html") ? url : `${url}.html`;
+};
+
 const Solutions = ({ data }) => {
   const { solutions } = data;
 
@@ -20,7 +26,7 @@ const Solutions = ({ data }) => {
         >
           {solutions.grid1.map((item, index) => (
             <a
-              href={item.href}
+              href={formatUrl(item.href)} // Aplicar la función formatUrl aquí
               key={index}
               className="relative group shadow-lg hover:shadow-2xl transition-all ease-in-out duration-300 transform hover:-translate-y-1"
             >
@@ -38,7 +44,7 @@ const Solutions = ({ data }) => {
               <div className="absolute inset-0 bg-[#252969] bg-opacity-80 opacity-50 rounded-lg group-hover:opacity-100 transition-opacity duration-300"></div>
 
               {/* Título y Call to Action */}
-              <div className="absolute inset-0 flex flex-col justify-center items-center text-white  transition-opacity duration-300">
+              <div className="absolute inset-0 flex flex-col justify-center items-center text-white transition-opacity duration-300">
                 <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
                 <span className=" text-white hover:underline text-lg ">
                   {item.btn}

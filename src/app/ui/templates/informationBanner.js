@@ -2,6 +2,12 @@ import React from "react";
 import bgLogistica from "../../../../public/assets/hero-banner.jpg";
 import bgPharma from "../../../../public/assets/hero-pharma.png";
 
+// Función auxiliar para añadir .html a las URLs
+const formatUrl = (url) => {
+  if (url === "#" || url === "/") return url;
+  return url.endsWith(".html") ? url : `${url}.html`;
+};
+
 const InformationBanner = ({ data }) => {
   const { informationBanner } = data;
 
@@ -45,7 +51,7 @@ const InformationBanner = ({ data }) => {
         ></h1>
         <div className="flex justify-center">
           <a
-            href={informationBanner.href}
+            href={formatUrl(informationBanner.href)} // Aplicar la función formatUrl aquí
             className="btn px-14 py-3 rounded-full text-white text-center hover:!bg-transparent"
             style={{
               backgroundColor: buttonBgColor.backgroundColor,
