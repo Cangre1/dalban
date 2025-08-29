@@ -6,8 +6,8 @@ import Descriptionv2 from "../ui/templates/descriptionv2";
 import ServicesBanner from "../ui/templates/servicesBanner";
 import PremiumPharma from "../ui/templates/premiumPharma";
 import Infrastructure from "../ui/templates/infrastructure";
-import Map from "../ui/templates/map";
 import PhraseBanner from "../ui/templates/phraseBanner";
+import Map from "../ui/templates/map";
 import InformationBanner from "../ui/templates/informationBanner";
 import AOSInitializer from "../aos/aos";
 

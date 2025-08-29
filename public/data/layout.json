@@ -49,6 +49,27 @@
       "label": "Industria",
       "link": "/industria"
     },
+    {
+      "label": "Ubicación",
+      "link": "/ubicacion",
+      "options": [
+        {
+          "label": "Logística Laplace",
+          "link": "https://maps.app.goo.gl/bpVFSREmBY39JRd27",
+          "src": "assets/solutions-logistica.jpg"
+        },
+        {
+          "label": "Logística EEUU",
+          "link": "https://maps.app.goo.gl/e5v8GPCLbfyvBmyL8",
+          "src": "assets/solutions-logistica.jpg"
+        },
+        {
+          "label": "Pharma Directorio",
+          "link": "https://maps.app.goo.gl/iuijncveFhDtDU3X9",
+          "src": "assets/solutions-pharma.jpg"
+        }
+      ]
+    },
 
     {
       "label": "Contacto",

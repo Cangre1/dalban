@@ -12,15 +12,15 @@ const Hero = ({ data }) => {
       let lastPart = currentPath.substring(currentPath.lastIndexOf("/") + 1);
 
       // Validar y ajustar la última parte de la URL
-      if (lastPart === "logistica.html") {
+      if (lastPart === "logistica" || lastPart === "logistica.html") {
         lastPart = "logistics";
       }
 
-      if (lastPart === "pharma.html") {
+      if (lastPart === "pharma" || lastPart === "pharma.html") {
         lastPart = "pharma";
       }
 
-      if (lastPart === "full-service.html") {
+      if (lastPart === "full-service" || lastPart === "full-service.html") {
         lastPart = "full-service";
       }
 
@@ -79,6 +79,24 @@ const Hero = ({ data }) => {
           <h1 className="titles-hero-pages" data-aos="zoom-in">
             {currentData.title}
           </h1>
+
+          {/* Botones de ubicación solo para LOGISTICA y PHARMA */}
+          {currentData.ubicacion &&
+            (lastPartOfUrl === "logistics" || lastPartOfUrl === "pharma") && (
+              <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center lg:justify-start">
+                {currentData.ubicacion.map((ubicacion, index) => (
+                  <a
+                    key={index}
+                    className="btn !bg-white text-black hover:!bg-transparent hover:!text-white !border !border-white text-xs lg:text-sm px-3 py-0.5 rounded-full shadow-lg transition duration-300 ease-in-out hover:scale-105"
+                    href={ubicacion.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {ubicacion.nombre}
+                  </a>
+                ))}
+              </div>
+            )}
         </div>
       </div>
     </div>

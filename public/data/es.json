@@ -178,6 +178,16 @@
     "title": "Logística",
     "src": "/assets/video-logistica.mp4",
     "paragraph": "Desde la infraestructura edilicia propia, construida en base a <span class='font-bold' style='color: #252969;'>requerimientos Clase A</span>, hasta la utilización de las últimas tecnologías aplicadas a la operación.<br><br> <span class='font-bold' style='color: #252969;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente.<br><br> Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #252969;'>pick & pack</span> o la <span class='font-bold' style='color: #252969;'>distribución de venta directa en Capital, GBA e Interior.</span>",
+    "ubicacion": [
+      {
+        "nombre": "Ubicación LAPLACE - TORTUGUITAS",
+        "link": "https://maps.app.goo.gl/bpVFSREmBY39JRd27"
+      },
+      {
+        "nombre": "Ubicación EEUU - TORTUGUITAS",
+        "link": "https://maps.app.goo.gl/e5v8GPCLbfyvBmyL8"
+      }
+    ],
     "infrastructure": {
       "title": "infraestructura",
       "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
@@ -218,6 +228,12 @@
     "title": "Pharma",
     "src": "/assets/video-pharma.mp4",
     "paragraph": "Dalban Pharma S.A. se formó en el año 2020, con el fin de dedicarse a la <span class='font-bold' style='color: #0099A8;'>elaboración, envasado y acondicionamiento de especialidades medicinales, productos médicos y cosméticos</span> para terceros.<br><br> Nuestra planta fabril se encuentra ubicada en Haedo - PBA, contando con manufactura propia, depósitos y oficinas administrativas.",
+    "ubicacion": [
+      {
+        "nombre": "Ubicación DIRECTORIO - HAEDO",
+        "link": "https://maps.app.goo.gl/iuijncveFhDtDU3X9"
+      }
+    ],
     "infrastructure": {
       "title": "infraestructura",
       "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",

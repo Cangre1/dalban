@@ -29,19 +29,6 @@ const PhraseBanner = ({ data }) => {
         ></p>
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-y-5 lg:gap-y-0 gap-x-10">
           <a
-            href={phraseBanner.btnA.href}
-            className="btn px-14 hover:!bg-transparent py-3 rounded-full text-center"
-            style={{
-              backgroundColor: textColor,
-              borderColor: textColor,
-              color: "#FFFFFF",
-            }}
-            onMouseEnter={(e) => (e.currentTarget.style.color = textColor)}
-            onMouseLeave={(e) => (e.currentTarget.style.color = "#FFFFFF")}
-          >
-            {phraseBanner.btnA.text}
-          </a>
-          <a
             href={phraseBanner.btnB.href}
             className="btn px-14 hover:!bg-transparent py-3 rounded-full text-center"
             style={{
