@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import bgLogistica from "../../../../public/assets/hero-banner.jpg";
 import bgPharma from "../../../../public/assets/hero-pharma.png";
 
@@ -10,19 +10,17 @@ const formatUrl = (url) => {
 
 const InformationBanner = ({ data }) => {
   const { informationBanner } = data;
+  const [isPharmaPage, setIsPharmaPage] = useState(false);
 
-  // Verificar si la URL termina con "pharma"
-  const isPharmaPage = window.location.pathname.endsWith("pharma.html");
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const path = window.location.pathname;
+      setIsPharmaPage(path.endsWith("pharma.html") || path.endsWith("pharma"));
+    }
+  }, []);
 
-  // Estilos condicionales para el botón con !important
-  const buttonBgColor = isPharmaPage
-    ? { backgroundColor: "#0099A8", important: true }
-    : { backgroundColor: "#252969", important: true };
-
-  // Estilos condicionales para el borde con !important
-  const buttonBorderColor = isPharmaPage
-    ? { borderColor: "#0099A8", important: true }
-    : { borderColor: "#252969", important: true };
+  // Estilos condicionales para el botón
+  const buttonBgColor = isPharmaPage ? "#0099A8" : "#252969";
 
   return (
     <div
@@ -40,7 +38,7 @@ const InformationBanner = ({ data }) => {
         }`}
       ></div>
 
-      {/* Contenido del banner con mayor z-index para estar por encima del overlay */}
+      {/* Contenido del banner con mayor z-index */}
       <div
         className="contenedor-custom !py-12 lg:!py-36 space-y-10 relative z-20"
         data-aos="zoom-in"
@@ -51,20 +49,20 @@ const InformationBanner = ({ data }) => {
         ></h1>
         <div className="flex justify-center">
           <a
-            href={formatUrl(informationBanner.href)} // Aplicar la función formatUrl aquí
+            href={formatUrl(informationBanner.href)}
             className="btn px-14 py-3 rounded-full text-white text-center hover:!bg-transparent"
             style={{
-              backgroundColor: buttonBgColor.backgroundColor,
+              backgroundColor: buttonBgColor,
               borderWidth: "2px",
               borderStyle: "solid",
-              borderColor: buttonBorderColor.borderColor,
-              color: "white", // Color inicial
+              borderColor: buttonBgColor,
+              color: "white",
             }}
             onMouseEnter={(e) => {
-              e.target.style.color = buttonBgColor.backgroundColor; // Color de texto en hover
+              e.target.style.color = buttonBgColor;
             }}
             onMouseLeave={(e) => {
-              e.target.style.color = "white"; // Restaurar color de texto
+              e.target.style.color = "white";
             }}
           >
             {informationBanner.btn}

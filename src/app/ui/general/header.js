@@ -7,6 +7,7 @@ const Header = ({ data }) => {
   const [openSubMenu, setOpenSubMenu] = useState(false);
   const [openUbicacionSubMenu, setOpenUbicacionSubMenu] = useState(false);
   const [isPharma, setIsPharma] = useState(false); // Estado para verificar si la ruta termina en "/pharma"
+  const [isMobile, setIsMobile] = useState(false); // Estado para detectar si es móvil
   const subMenuRef = useRef(null);
   const ubicacionSubMenuRef = useRef(null);
   const servicesRef = useRef(null);
@@ -17,7 +18,19 @@ const Header = ({ data }) => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const pathname = window.location.pathname;
-      setIsPharma(pathname.endsWith("/pharma.html"));
+      setIsPharma(
+        pathname.endsWith("/pharma.html") || pathname.endsWith("/pharma")
+      );
+
+      // Detectar si es móvil
+      const checkIsMobile = () => {
+        setIsMobile(window.innerWidth < 1024); // lg breakpoint de Tailwind
+      };
+
+      checkIsMobile();
+      window.addEventListener("resize", checkIsMobile);
+
+      return () => window.removeEventListener("resize", checkIsMobile);
     }
   }, []);
 
@@ -37,6 +50,36 @@ const Header = ({ data }) => {
     }
   }, []);
 
+  // Cerrar submenús al hacer click fuera (útil para móvil)
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (isMobile) {
+        if (
+          subMenuRef.current &&
+          !subMenuRef.current.contains(event.target) &&
+          servicesRef.current &&
+          !servicesRef.current.contains(event.target)
+        ) {
+          setOpenSubMenu(false);
+        }
+
+        if (
+          ubicacionSubMenuRef.current &&
+          !ubicacionSubMenuRef.current.contains(event.target) &&
+          ubicacionRef.current &&
+          !ubicacionRef.current.contains(event.target)
+        ) {
+          setOpenUbicacionSubMenu(false);
+        }
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isMobile]);
+
   const filteredNavigation = navigation.filter((item) => {
     const normalizedLabel = item.label
       .normalize("NFD")
@@ -46,25 +89,56 @@ const Header = ({ data }) => {
   });
 
   const handleMouseEnter = () => {
-    clearTimeout(closeSubMenuTimeout);
-    setOpenSubMenu(true);
+    if (!isMobile) {
+      clearTimeout(closeSubMenuTimeout);
+      setOpenSubMenu(true);
+    }
   };
 
   const handleMouseLeave = () => {
-    closeSubMenuTimeout = setTimeout(() => {
-      setOpenSubMenu(false);
-    }, 300);
+    if (!isMobile) {
+      closeSubMenuTimeout = setTimeout(() => {
+        setOpenSubMenu(false);
+      }, 300);
+    }
   };
 
   const handleUbicacionMouseEnter = () => {
-    clearTimeout(closeUbicacionSubMenuTimeout);
-    setOpenUbicacionSubMenu(true);
+    if (!isMobile) {
+      clearTimeout(closeUbicacionSubMenuTimeout);
+      setOpenUbicacionSubMenu(true);
+    }
   };
 
   const handleUbicacionMouseLeave = () => {
-    closeUbicacionSubMenuTimeout = setTimeout(() => {
-      setOpenUbicacionSubMenu(false);
-    }, 300);
+    if (!isMobile) {
+      closeUbicacionSubMenuTimeout = setTimeout(() => {
+        setOpenUbicacionSubMenu(false);
+      }, 300);
+    }
+  };
+
+  // Funciones para manejar clicks en móvil
+  const handleServicesClick = (e) => {
+    if (isMobile) {
+      e.preventDefault();
+      setOpenSubMenu(!openSubMenu);
+      // Cerrar el otro submenú si está abierto
+      if (openUbicacionSubMenu) {
+        setOpenUbicacionSubMenu(false);
+      }
+    }
+  };
+
+  const handleUbicacionClick = (e) => {
+    if (isMobile) {
+      e.preventDefault();
+      setOpenUbicacionSubMenu(!openUbicacionSubMenu);
+      // Cerrar el otro submenú si está abierto
+      if (openSubMenu) {
+        setOpenSubMenu(false);
+      }
+    }
   };
 
   // Función auxiliar para añadir .html a las URLs
@@ -147,20 +221,37 @@ const Header = ({ data }) => {
                       ? "#"
                       : formatUrl(item.link, item.label)
                   }
-                  onClick={(e) =>
-                    (item.label === "Servicios" ||
-                      item.label === "Ubicación") &&
-                    e.preventDefault()
-                  }
+                  onClick={(e) => {
+                    if (item.label === "Servicios") {
+                      if (!isMobile) {
+                        e.preventDefault();
+                      } else {
+                        handleServicesClick(e);
+                      }
+                    } else if (item.label === "Ubicación") {
+                      if (!isMobile) {
+                        e.preventDefault();
+                      } else {
+                        handleUbicacionClick(e);
+                      }
+                    }
+                  }}
                   className={`flex items-center ${
-                    isPharma ? "link-nav-pharma" : "link-nav"
+                    item.label === "Ubicación"
+                      ? isPharma
+                        ? "bg-[#0099A8] w-fit px-2 rounded-full text-white border border-[#0099A8] hover:bg-transparent hover:text-[#0099A8] transition-all duration-200"
+                        : "bg-[#252969] w-fit px-2 rounded-full text-white border border-[#252969] hover:bg-transparent hover:text-[#252969] transition-all duration-200"
+                      : isPharma
+                      ? "link-nav-pharma"
+                      : "link-nav"
                   }`}
                 >
                   {item.label}
-                  {(item.label === "Servicios" ||
-                    item.label === "Ubicación") && (
+                  {item.label === "Servicios" && (
                     <svg
-                      className="ml-2 w-4 h-4"
+                      className={`ml-2 w-4 h-4 transition-transform duration-200 ${
+                        openSubMenu ? "rotate-180" : ""
+                      }`}
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -180,27 +271,37 @@ const Header = ({ data }) => {
                 {item.label === "Servicios" && openSubMenu && (
                   <ul
                     ref={subMenuRef}
-                    className="lg:fixed lg:!top-[4.4rem] lg:!left-1/2 lg:transform lg:-translate-x-1/2 lg:shadow-2xl rounded-md rounded-t-none z-50  gap-x-4 pt-2  bg-white flex lg:p-5 lg:gap-x-5 "
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
+                    className={`${
+                      isMobile
+                        ? "relative w-full mt-4 shadow-lg rounded-md bg-white p-4 flex gap-x-2"
+                        : "lg:fixed lg:!top-[4.4rem] lg:!left-1/2 lg:transform lg:-translate-x-1/2 lg:shadow-2xl rounded-md rounded-t-none bg-white flex lg:p-5 lg:gap-x-5 w-3/4 2xl:w-auto mx-auto justify-center items-center"
+                    } z-50 gap-x-4 pt-2`}
+                    onMouseEnter={!isMobile ? handleMouseEnter : undefined}
+                    onMouseLeave={!isMobile ? handleMouseLeave : undefined}
                   >
                     {item.options.map((option, idx) => (
                       <li
                         key={idx}
-                        className="flex flex-col justify-center items-center space-y-4"
+                        className={`flex flex-col justify-center items-center space-y-4 ${
+                          isMobile ? "flex-1" : ""
+                        }`}
                       >
                         <a
                           href={formatUrl(option.link)}
                           className="relative flex justify-center items-center text-white"
                         >
-                          <img src={option.src} alt="" className="w-56" />
+                          <img
+                            src={option.src}
+                            alt=""
+                            className={`${isMobile ? "w-full" : "w-64"}`}
+                          />
                           <span
                             className="absolute inset-0 flex justify-center items-center z-20 text-base lg:text-xl bg-black bg-opacity-25 hover:bg-opacity-10 transition-all ease-in-out duration-300 my-auto mx-auto"
                             dangerouslySetInnerHTML={{ __html: option.label }}
                           />
                         </a>
                         <a
-                          className={`btn text-white text-xs lg:text-sm px-3 py-0.5 rounded-full shadow-lg transition duration-300 ease-in-out ${
+                          className={`btn text-white text-xs lg:text-base px-3 py-0.5 rounded-full shadow-lg transition duration-300 ease-in-out !lowercase ${
                             idx === 1
                               ? "hover:text-[#0099A8] !bg-[#0099A8] !border-[#0099A8] hover:!bg-white"
                               : "hover:bg-white"
@@ -218,27 +319,41 @@ const Header = ({ data }) => {
                 {item.label === "Ubicación" && openUbicacionSubMenu && (
                   <ul
                     ref={ubicacionSubMenuRef}
-                    className="lg:fixed lg:!top-[4.4rem] lg:!left-1/2 lg:transform lg:-translate-x-1/2 lg:shadow-2xl rounded-md rounded-t-none z-50  gap-x-4 pt-2  bg-white flex lg:p-5 lg:gap-x-5 "
-                    onMouseEnter={handleUbicacionMouseEnter}
-                    onMouseLeave={handleUbicacionMouseLeave}
+                    className={`${
+                      isMobile
+                        ? "relative w-full mt-4 shadow-lg rounded-md bg-white p-4 flex gap-x-2"
+                        : "lg:fixed lg:!top-[4.4rem] lg:!left-1/2 lg:transform lg:-translate-x-1/2 lg:shadow-2xl rounded-md rounded-t-none bg-white flex lg:p-5 lg:gap-x-5 w-3/4 2xl:w-auto mx-auto justify-center items-center"
+                    } z-50 gap-x-4 pt-2`}
+                    onMouseEnter={
+                      !isMobile ? handleUbicacionMouseEnter : undefined
+                    }
+                    onMouseLeave={
+                      !isMobile ? handleUbicacionMouseLeave : undefined
+                    }
                   >
                     {item.options.map((option, idx) => (
                       <li
                         key={idx}
-                        className="flex flex-col justify-center items-center space-y-4"
+                        className={`flex flex-col justify-center items-center space-y-4 ${
+                          isMobile ? "flex-1" : ""
+                        }`}
                       >
                         <a
                           href={option.link}
                           className="relative flex justify-center items-center text-white"
                         >
-                          <img src={option.src} alt="" className="w-56" />
+                          <img
+                            src={option.src}
+                            alt=""
+                            className={`${isMobile ? "w-full" : "w-64"}`}
+                          />
                           <span
-                            className="absolute inset-0 flex justify-center items-center z-20 text-base lg:text-xl bg-black bg-opacity-25 hover:bg-opacity-10 transition-all ease-in-out duration-300 my-auto mx-auto"
+                            className="absolute inset-0 flex justify-center items-center z-20 text-base lg:text-xl bg-black bg-opacity-25 hover:bg-opacity-10 transition-all ease-in-out duration-300 my-auto mx-auto text-center"
                             dangerouslySetInnerHTML={{ __html: option.label }}
                           />
                         </a>
                         <a
-                          className={`btn text-white text-xs lg:text-sm px-3 py-0.5 rounded-full shadow-lg transition duration-300 ease-in-out ${
+                          className={`btn text-white text-xs lg:text-base px-3 py-0.5 rounded-full shadow-lg transition duration-300 ease-in-out !lowercase ${
                             idx === 2
                               ? "hover:text-[#0099A8] !bg-[#0099A8] !border-[#0099A8] hover:!bg-white"
                               : "hover:bg-white"

@@ -50,28 +50,6 @@
       "link": "/industria"
     },
     {
-      "label": "Ubicación",
-      "link": "/ubicacion",
-      "options": [
-        {
-          "label": "Logística Laplace",
-          "link": "https://maps.app.goo.gl/bpVFSREmBY39JRd27",
-          "src": "assets/solutions-logistica.jpg"
-        },
-        {
-          "label": "Logística EEUU",
-          "link": "https://maps.app.goo.gl/e5v8GPCLbfyvBmyL8",
-          "src": "assets/solutions-logistica.jpg"
-        },
-        {
-          "label": "Pharma Directorio",
-          "link": "https://maps.app.goo.gl/iuijncveFhDtDU3X9",
-          "src": "assets/solutions-pharma.jpg"
-        }
-      ]
-    },
-
-    {
       "label": "Contacto",
       "link": "/contacto",
       "options": [
@@ -99,6 +77,27 @@
         {
           "label": "<div style='display:flex; align-items:center; gap:4px;'><img style='width:1.2rem' src='assets/map-pin.png'/><span>Directorio 701 - Haedo</span></div>",
           "link": "https://www.google.com.ar/maps/place/Directorio+701,+B1706BPI+Haedo,+Provincia+de+Buenos+Aires/@-34.6389832,-58.589736,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcc788f55dae5f:0xc953fa91c9c121c0!8m2!3d-34.6389876!4d-58.5871611!16s%2Fg%2F11thnm51xk?entry=ttu&g_ep=EgoyMDI0MTExOC4wIKXMDSoASAFQAw%3D%3D"
+        }
+      ]
+    },
+    {
+      "label": "Ubicación",
+      "link": "/ubicacion",
+      "options": [
+        {
+          "label": "Logística Laplace",
+          "link": "https://maps.app.goo.gl/bpVFSREmBY39JRd27",
+          "src": "assets/solutions-logistica.jpg"
+        },
+        {
+          "label": "Logística EEUU",
+          "link": "https://maps.app.goo.gl/e5v8GPCLbfyvBmyL8",
+          "src": "assets/solutions-logistica.jpg"
+        },
+        {
+          "label": "Pharma Directorio",
+          "link": "https://maps.app.goo.gl/iuijncveFhDtDU3X9",
+          "src": "assets/solutions-pharma.jpg"
         }
       ]
     },

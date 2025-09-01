@@ -180,11 +180,11 @@
     "paragraph": "Desde la infraestructura edilicia propia, construida en base a <span class='font-bold' style='color: #252969;'>requerimientos Clase A</span>, hasta la utilización de las últimas tecnologías aplicadas a la operación.<br><br> <span class='font-bold' style='color: #252969;'>Flexibilidad, innovación, pluralidad, capacidad de adaptación y, por sobretodo, experiencia</span> en una industria tan profesional y exigente como la Farmacéutica, hacen que la oferta de servicios sea prácticamente a la medida de cada cliente.<br><br> Desde la simple recepción y almacenamiento de materias prima, semielaborados o productos terminados hasta la complejidad del <span class='font-bold' style='color: #252969;'>pick & pack</span> o la <span class='font-bold' style='color: #252969;'>distribución de venta directa en Capital, GBA e Interior.</span>",
     "ubicacion": [
       {
-        "nombre": "Ubicación LAPLACE - TORTUGUITAS",
+        "nombre": "Laplace - Tortuguitas",
         "link": "https://maps.app.goo.gl/bpVFSREmBY39JRd27"
       },
       {
-        "nombre": "Ubicación EEUU - TORTUGUITAS",
+        "nombre": "EE.UU - Tortuguitas",
         "link": "https://maps.app.goo.gl/e5v8GPCLbfyvBmyL8"
       }
     ],
@@ -192,7 +192,8 @@
       "title": "infraestructura",
       "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
       "list": null,
-      "src": "/assets/bg-infrastructure-pharma.png"
+      "src": "/assets/bg-infrastructure-logistics2.jpg",
+      "video": "/assets/video-logistica.mp4"
     },
     "premium": {
       "title": "Servicio <span class='font-bold'>Premium</span>",
@@ -227,15 +228,15 @@
   "pharma": {
     "title": "Pharma",
     "src": "/assets/video-pharma.mp4",
-    "paragraph": "Dalban Pharma S.A. se formó en el año 2020, con el fin de dedicarse a la <span class='font-bold' style='color: #0099A8;'>elaboración, envasado y acondicionamiento de especialidades medicinales, productos médicos y cosméticos</span> para terceros.<br><br> Nuestra planta fabril se encuentra ubicada en Haedo - PBA, contando con manufactura propia, depósitos y oficinas administrativas.",
+    "paragraph": "<span class='font-bold' style='color: #0099A8;'>Dalban Pharma S.A.</span> se formó en el año <span class='font-bold' style='color: #0099A8;'>2020</span>, con el objetivo de dedicarse a la <span class='font-bold' style='color: #0099A8;'>elaboración, envasado y acondicionamiento de especialidades medicinales, productos médicos y cosméticos</span> para terceros.<br><br>Nuestra planta industrial se encuentra ubicada en <span class='font-bold' style='color: #0099A8;'>Haedo, Provincia de Buenos Aires</span>, y cuenta con <span class='font-bold' style='color: #0099A8;'>manufactura propia, depósitos y oficinas administrativas</span>.",
     "ubicacion": [
       {
-        "nombre": "Ubicación DIRECTORIO - HAEDO",
+        "nombre": "Directorio- Haedo",
         "link": "https://maps.app.goo.gl/iuijncveFhDtDU3X9"
       }
     ],
     "infrastructure": {
-      "title": "infraestructura",
+      "title": "Infraestructura",
       "paragraph": "En nuestra empresa, contamos con una infraestructura de primera generación respaldada por maquinaria de última tecnología, que cumple con los más altos estándares de seguridad y monitoreo.",
       "list": [
         {
@@ -287,31 +288,49 @@
           "span": "Dobladora de Prospectos."
         }
       ],
-      "src": "/assets/bg-infrastructure-pharma.png"
+      "src": "/assets/solutions-pharma.jpg",
+      "video": "/assets/video-pharma.mp4"
     },
     "premium": {
-      "title": "Servicio <span class='font-bold'>Premium</span>",
+      "title": "Servicios",
       "paragraph": "Con el equipamiento y la infraestructura que posee la Planta, se puede realizar la producción de las siguientes formas farmacéuticas:",
       "src": [
         {
-          "src": "/assets/premium-pharma-1.jpg",
+          "src": [
+            "/assets/pharma-servicio-1a.jpg",
+            "/assets/pharma-servicio-1b.jpg"
+          ],
           "alt": "Acondicionamiento secundario",
-          "span": "Acondicionamiento secundario de especialidades medicinales, cosméticos y dispositivos médicos."
+          "span": "Acondicionamiento secundario de especialidades medicinales, cosméticos y dispositivos médicos.",
+          "content": "Contamos con dos líneas independientes diseñadas para el acondicionamiento secundario de especialidades medicinales, productos médicos y cosméticos.<br/><br/><strong>Línea 1 – Productos Médicos y Especialidades Medicinales</strong><br/><br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Estuchadora CAM AV<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Balanza dinámica Termo Scientific<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Etiquetadora NERI<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Enfardadora CAM ASB38<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Capacidad: 55 unidades/minuto<br/><br/><strong>Línea 2 – Especialidades Medicinales y Cosméticos</strong><br/><br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Estuchadora CAM AV<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Balanza dinámica Termo Scientific<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Etiquetadora NERI Capacidad: 50 unidades/minuto"
         },
         {
-          "src": "/assets/premium-pharma-2.jpg",
+          "src": [
+            "/assets/pharma-servicio-2a.jpg",
+            "/assets/pharma-servicio-2b.jpg"
+          ],
           "alt": "Cremas y Líquidos No Estériles",
-          "span": "Cremas y Líquidos No Estériles"
+          "span": "Cremas y Líquidos No Estériles - Proceso integral de producción",
+          "content": "<strong>Elaboración y Envasado de Líquidos No Estériles</strong><br/><br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Sopladora de Frascos CAM TS1000<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Llenadora CAM LA Capacidad: 55 unidades/minuto<br/><br><strong>Elaboración y Envasado de Cremas y Semisólidos</strong><br/><br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Llenadora COMADIS 960 (pomos de aluminio) — Capacidad: 50 unidades/minuto<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Llenadora COMADIS 1060 (pomos plásticos trilaminados) — Capacidad: 50 unidades/minuto<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Llenadora de potes PALMAC — Capacidad: 25 unidades/minuto"
         },
         {
-          "src": "/assets/premium-pharma-3.png",
+          "src": [
+            "/assets/pharma-servicio-3a.jpg",
+            "/assets/pharma-servicio-3b.jpg"
+          ],
           "alt": "Acondicionamiento primario y secundario de Sólidos",
-          "span": "Acondicionamiento primario y secundario de Sólidos"
+          "span": "Sólidos - Acondicionamiento primario (Blisteado) y secundario",
+          "content": "<span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Blistera CAM NMX<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Estuchadora CAM HV/1<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Balanza dinámica Termo Scientific<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Etiquetadora NERI<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Enfardadora CAM ASB38"
         },
         {
-          "src": "/assets/premium-pharma-4.png",
+          "src": [
+            "/assets/pharma-servicio-4a.jpg",
+            "/assets/pharma-servicio-4b.jpg",
+            "/assets/pharma-servicio-4c.jpg"
+          ],
           "alt": "Líquidos estériles inyectables",
-          "span": "Líquidos estériles inyectables: Ampollas - Frasco Ampolla"
+          "span": "Líquidos Estériles: ampollas y frascos – Proceso integral bajo condiciones asépticas",
+          "content": "Elaboración y dosificado de ampollas y frascos bajo condiciones asépticas, cumpliendo con los más altos estándares de calidad y trazabilidad.<br/><br/><strong>Equipamiento principal:</strong><br/><br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Lavadora Dual de Ampollas y Frascos STERILINE RC-V4<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Túnel de Despirogenado STERILINE ST3<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Llenadora Dual GF-INDUSTRIES VLM 300<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Reactores y Tanques PFAUDLER (500 L y 100 L)<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Autoclave de Esterilización Terminal GETINGE<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Destilador BRAM-COR (2.000 L/h, 8 cilindros)<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Generador de Vapor BRAM-COR CPSG ST 500<br/><br/><strong>Revisión, Etiquetado y Empaque de Líquidos Estériles:</strong><br/><br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Revisadora de Ampollas OPTREL MCA 200<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Revisadora de Frascos EISAI MACHINERY<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Control de Hermeticidad OPTREL<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Etiquetadora de Ampollas y Frascos"
         }
       ],
       "stats": [
@@ -340,29 +359,30 @@
   },
   "full-service": {
     "title": "Full Service",
+    "subtitle": "Solución Integral de Logística y Producción",
     "src": "/assets/hero-full-service.png",
-    "paragraph": "Brindamos todos los servicios que necesita el <span class='font-bold' style='color: #252969;'>proceso de fabricación de los productos,</span> integrando todos los puntos de la cadena de suministro:<br/><br/><div  style='padding: 0 1.2rem' class='text-[#252969] font-bold gap-y-2 items-start flex flex-col'><span>Compra por demanda de las materias primas e insumos</span><span>Manejo de proveedores</span><span>Recepción y muestreo</span><span>Abastecimiento a plantas productoras</span><span>Fabricación en Planta Dalban Haedo</span><span>Almacenamiento Dalban Logística</span><span>Entregas finales del Producto terminado</span></div><div style='margin-top: 4rem'><img src='/assets/diagrama.jpg'/></div>",
+    "paragraph": "Ofrecemos un modelo de <span class='font-bold' style='color: #252969;'>servicio integral</span> que cubre todas las etapas del proceso productivo y de logística, desde la gestión de insumos hasta la entrega del producto terminado, integrando eficientemente toda la cadena de suministro:<br/><br/><div  style='padding: 0 1.2rem; text-align:left;' class='text-[#252969] font-bold gap-y-2 items-start flex flex-col'><span>- Gestión de compras bajo demanda y especificaciones de nuestros clientes: Materias primas e insumos.</span><span>- Selección y manejo de proveedores certificados.</span><span>- Recepción, muestreo y control de calidad de materias primas y materiales.</span><span>- Almacenamiento y abastecimiento eficiente a las líneas de producción.</span><span>- Fabricación en planta propia: Dalban Pharma – Haedo (PBA).</span><span>- Almacenamiento estratégico en nuestro centro logístico.</span><span>- Distribución final del producto terminado a clientes o centros de distribución.</span></div><br/>Contamos con la infraestructura, el personal calificado y los procesos para brindar un servicio confiable, trazable y alineado con los más altos estándares regulatorios.<div style='margin-top: 4rem'><img src='/assets/diagrama.jpg'/></div>",
     "grid": [
       {
-        "src": "/assets/grid-fullservice-1.png",
+        "src": "/assets/full-service-paso-1-a.png",
         "title": "Paso 1: MRP",
         "paragraph": "<span class='font-bold' style='color: #252969;'>Confección del MRP:</span> Según demanda.<br><br><span class='font-bold' style='color: #252969;'>Contacto:</span> Con elaboradores calificados y certificados por el cliente.<br><br><span class='font-bold' style='color: #252969;'>Generación de Órdenes de Compra para:</span> Proveedores locales y proveedores internacionales.<br><br><span class='font-bold' style='color: #252969;'>Coordinación:</span> Fechas de entrega y envíos a Dalban Pharma.<br><br><span class='font-bold' style='color: #252969;'>Gestion de Pagos.</span><br><br><span class='font-bold' style='color: #252969;'>Rendición de compras realizadas por el cliente.</span>",
         "bg": "#d9d9d9"
       },
       {
-        "src": "/assets/grid-fullservice-2.png",
+        "src": "/assets/full-service-paso-2-a.png",
         "title": "Paso 2: SOURCE",
         "paragraph": "<span class='font-bold' style='color: #252969;'>Picking y preparación de órdenes de producción:</span> API’s (fraccionadas), excipientes, materiales empaque primario, materiales empaque secundario, insumos productivos, insumos no productivos.<br><br><span class='font-bold' style='color: #252969;'>Envío de órdenes de producción a terceros:</span> Preparación de órdenes de producción según planificación, proceso de picking de materiales e insumos, envíos a terceros productores.<br><br><span class='font-bold' style='color: #252969;'>Envío de órdenes de producción a Dalban Pharma (Haedo):</span> Preparación de órdenes de producción según planificación, proceso de picking de materiales e insumos, envíos a Dalban Pharma (Haedo).",
         "bg": "#ffffff"
       },
       {
-        "src": "/assets/grid-fullservice-3.png",
+        "src": "/assets/full-service-paso-3-a.png",
         "title": "Paso 3: MAKE",
         "paragraph": "<span class='font-bold' style='color: #252969; text-decoration:underline'>Formas solidas (cápsulas, tabletas y comprimidos)</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento primario</span><br><span class='font-bold' style='color: #252969;'>Blisteado de:</span> Comprimidos, Capsulas rígidas y blandeas, productos especiales con blisteras que cuentan con sistemas de visión de control, balanzas dinámicas a final de línea.<br> <span class='font-bold' style='color: #252969;'>Materiales de formado:</span> Termoplásticos, PVC, PVdC, PVC-Aclar, etc.<br><span class='font-bold' style='color: #252969;'>Cold forming foil.</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento secundario</span><br><span class='font-bold' style='color: #252969;'>Estuchado de:</span> Sobres, blisters, frascos, ampollas, jeringas, etc.<br> <span class='font-bold' style='color: #252969;'>Etiquetado de:</span> Sobres, blisters, frascos, estuches, etc.<br><span class='font-bold' style='color: #252969;'>Codificado de:</span> Estuches, etiquetas, cajas, ampollas, etc.<br><span class='font-bold' style='color: #252969;'>Anulado de:</span> Troqueles.<br><span class='font-bold' style='color: #252969;'>Codificado de los datos productivos con tecnología Inkjet.<br>Termosellado y Termocontraible.<br>Codificación de Trazabilidad.</span><br><br><span class='font-bold' style='color: #252969; text-decoration:underline'>Formas semisolidas (pomadas, pastas cremas y jaleas)</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento secundario</span><br><br><span class='font-bold' style='color: #252969; text-decoration:underline'>Formas líquidas (inyectables, jarabes, emulsiones, suspenciones y colirios)</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento secundario</span>",
         "bg": "#d9d9d9"
       },
       {
-        "src": "/assets/grid-fullservice-3.png",
+        "src": "/assets/full-service-paso-4-a.png",
         "title": "Paso 4: DELIVERY",
         "paragraph": "<span class='font-bold' style='color: #252969;'>Almacenamiento de:</span> Productos terminados.<br><br><span class='font-bold' style='color: #252969;'>Picking y preparación de:</span> Órdenes de entrega para clientes.<br><br><span class='font-bold' style='color: #252969;'>Control de:</span> Salidas por FIFO, FEFO, etc.<br><br><span class='font-bold' style='color: #252969;'>Impresión de:</span> Remitos y Facturas.<br><br><span class='font-bold' style='color: #252969;'>Distribución de:</span> Pedidos a nivel nacional.<br><br><span class='font-bold' style='color: #252969;'>Control de:</span> Entregas y reportes.<br><br><span class='font-bold' style='color: #252969;'>Servicio de:</span> Entregas con contra reembolso.<br><br><span class='font-bold' style='color: #252969;'>Rendición de:</span> Remitos conformes y valores.<br><br><span class='font-bold' style='color: #252969;'>Retiros y devoluciones.</span>",
         "bg": "#d9d9d9"

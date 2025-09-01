@@ -4,7 +4,7 @@ import data from "../../../public/data/es.json";
 import HeroPages from "../ui/templates/heroPagesServicios";
 import Descriptionv2 from "../ui/templates/descriptionv2";
 import ServicesBanner from "../ui/templates/servicesBanner";
-import PremiumPharma from "../ui/templates/premiumPharma";
+import PremiumPharma from "../ui/templates/premiumPharmaV3";
 import Infrastructure from "../ui/templates/infrastructure";
 import PhraseBanner from "../ui/templates/phraseBanner";
 import Map from "../ui/templates/map";
@@ -26,10 +26,10 @@ export default function Pharma() {
       {isHeroLoaded && (
         <>
           <Descriptionv2 data={data} />
-          <ServicesBanner data={data.services} />
-          <PremiumPharma data={data.pharma.premium} />
+          <div className="-mt-24">
+            <PremiumPharma data={data.pharma.premium} />
+          </div>
           <Infrastructure data={data} />
-          <ServicesBanner data={data.characteristics} />
           <PhraseBanner data={data} />
           <Map data={data.mapHaedo} />
           <InformationBanner data={data} />

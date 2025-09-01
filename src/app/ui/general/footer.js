@@ -10,7 +10,9 @@ const Footer = ({ data }) => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const pathname = window.location.pathname;
-      setIsPharma(pathname.endsWith("/pharma.html"));
+      setIsPharma(
+        pathname.endsWith("/pharma.html") || pathname.endsWith("/pharma")
+      );
     }
   }, []);
 
@@ -48,9 +50,8 @@ const Footer = ({ data }) => {
       .replace(/[\u0300-\u036f]/g, "")
       .toLowerCase();
 
-  // Función auxiliar para añadir .html a las URLs según ciertas condiciones
+  // Función auxiliar para añadir .html a las URLs solo en producción
   const formatUrl = (url, label) => {
-    // Lista de labels para los que se aplica la lógica
     const labelsWithHtml = [
       "logistica",
       "pharma",
@@ -59,16 +60,19 @@ const Footer = ({ data }) => {
       "contacto",
     ];
 
-    // Normalizar el label antes de comparar
     const normalizedLabel = normalizeText(label);
 
-    // Si el label normalizado está en la lista, aplica la lógica de agregar .html
+    // En desarrollo → nunca agregar .html
+    if (process.env.NODE_ENV === "development") {
+      return url;
+    }
+
+    // En producción → aplicar la lógica de .html
     if (labelsWithHtml.includes(normalizedLabel)) {
       if (url === "#" || url === "/") return url;
       return url.endsWith(".html") ? url : `${url}.html`;
     }
 
-    // Para el resto, retorna la URL sin cambios
     return url;
   };
 

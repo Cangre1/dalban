@@ -10,7 +10,7 @@ const Jobs = ({ data }) => {
   const { jobs } = data;
 
   return (
-    <div className="contenedor-custom !py-12 lg:!py-28 ">
+    <div className="contenedor-custom !py-12 lg:!py-28">
       <div className=" flex flex-col items-center gap-y-20">
         {/* Contenedor de dos columnas */}
         <div className="grid md:grid-cols-2 gap-10 w-full">

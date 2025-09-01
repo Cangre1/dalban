@@ -7,14 +7,17 @@ const PremiumPharma = ({ data }) => {
   const [isIndustriaPage, setIsIndustriaPage] = useState(false);
 
   useEffect(() => {
-    // Verifica si el pathname termina en "/industria"
     if (typeof window !== "undefined") {
-      setIsIndustriaPage(window.location.pathname.endsWith("/industria.html"));
+      const path = window.location.pathname;
+      // Verifica si el pathname termina en "/industria" o "/industria.html"
+      setIsIndustriaPage(
+        path.endsWith("/industria") || path.endsWith("/industria.html")
+      );
     }
   }, []);
 
   return (
-    <div className="contenedor-custom !py-12 lg:!py-28 space-y-16 ">
+    <div className="contenedor-custom !py-12 lg:!py-28 space-y-16">
       <div
         className="flex items-center justify-center flex-col gap-y-10 "
         data-aos="zoom-in"

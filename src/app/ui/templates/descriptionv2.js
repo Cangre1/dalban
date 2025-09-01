@@ -6,39 +6,45 @@ const Descriptionv2 = ({ data }) => {
   const [currentData, setCurrentData] = useState(null);
 
   useEffect(() => {
-    // Asegurarse de que el código solo se ejecute en el lado del cliente
     if (typeof window !== "undefined") {
       const currentPath = window.location.pathname;
       let lastPart = currentPath.substring(currentPath.lastIndexOf("/") + 1);
 
-      // Validar y ajustar la última parte de la URL
-      if (lastPart === "logistica.html") {
-        lastPart = "logistics";
-      }
+      switch (lastPart) {
+        case "logistica.html":
+        case "logistica":
+          lastPart = "logistics";
+          break;
 
-      if (lastPart === "pharma.html") {
-        lastPart = "pharma";
-      }
+        case "pharma.html":
+        case "pharma":
+          lastPart = "pharma";
+          break;
 
-      if (lastPart === "full-service.html") {
-        lastPart = "full-service";
-      }
+        case "full-service.html":
+        case "full-service":
+          lastPart = "full-service";
+          break;
 
-      if (lastPart === "sector-farmaceutico-sanitario.html") {
-        lastPart = "farma-san";
-      }
+        case "sector-farmaceutico-sanitario.html":
+        case "sector-farmaceutico-sanitario":
+          lastPart = "farma-san";
+          break;
 
-      if (lastPart === "contacto.html") {
-        lastPart = "contact";
+        case "contacto.html":
+        case "contacto":
+          lastPart = "contact";
+          break;
+
+        default:
+          break;
       }
 
       setLastPartOfUrl(lastPart);
 
-      // Acceder dinámicamente a los datos según la última parte de la URL
       if (data[lastPart]) {
         setCurrentData(data[lastPart]);
       } else {
-        // Manejo del caso en que no se encuentran datos para la clave dada
         setCurrentData(null);
       }
     }

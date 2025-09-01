@@ -83,15 +83,32 @@ const Hero = ({ data }) => {
           {/* Botones de ubicación solo para LOGISTICA y PHARMA */}
           {currentData.ubicacion &&
             (lastPartOfUrl === "logistics" || lastPartOfUrl === "pharma") && (
-              <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center lg:justify-start">
+              <div
+                className="flex flex-col sm:flex-row gap-4 mt-8 justify-center lg:justify-start"
+                data-aos="zoom-in"
+              >
                 {currentData.ubicacion.map((ubicacion, index) => (
                   <a
                     key={index}
-                    className="btn !bg-white text-black hover:!bg-transparent hover:!text-white !border !border-white text-xs lg:text-sm px-3 py-0.5 rounded-full shadow-lg transition duration-300 ease-in-out hover:scale-105"
+                    className="btn !bg-white flex items-center group gap-x-1 text-black hover:!bg-transparent hover:!text-white !border !border-white text-xs lg:text-sm px-3 py-0.5 rounded-full shadow-lg transition duration-300 ease-in-out hover:scale-105"
                     href={ubicacion.link}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                    <svg
+                      className="!stroke-black group-hover:!stroke-white transition duration-300 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
                     {ubicacion.nombre}
                   </a>
                 ))}

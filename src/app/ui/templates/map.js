@@ -5,15 +5,17 @@ const Map = ({ data }) => {
   const [isLogisticaRoute, setIsLogisticaRoute] = useState(false);
 
   useEffect(() => {
-    // Verificar si la URL termina en '/pharma'
-    if (window.location.pathname.endsWith("/pharma.html")) {
+    const path = window.location.pathname;
+
+    // Verificar si la URL termina en '/pharma' o '/pharma.html'
+    if (path.endsWith("/pharma") || path.endsWith("/pharma.html")) {
       setIsPharmaRoute(true);
     } else {
       setIsPharmaRoute(false);
     }
 
-    // Verificar si la URL termina en '/logistica'
-    if (window.location.pathname.endsWith("/logistica.html")) {
+    // Verificar si la URL termina en '/logistica' o '/logistica.html'
+    if (path.endsWith("/logistica") || path.endsWith("/logistica.html")) {
       setIsLogisticaRoute(true);
     } else {
       setIsLogisticaRoute(false);
