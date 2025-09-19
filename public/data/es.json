@@ -331,6 +331,12 @@
           "alt": "Líquidos estériles inyectables",
           "span": "Líquidos Estériles: ampollas y frascos – Proceso integral bajo condiciones asépticas",
           "content": "Elaboración y dosificado de ampollas y frascos bajo condiciones asépticas, cumpliendo con los más altos estándares de calidad y trazabilidad.<br/><br/><strong>Equipamiento principal:</strong><br/><br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Lavadora Dual de Ampollas y Frascos STERILINE RC-V4<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Túnel de Despirogenado STERILINE ST3<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Llenadora Dual GF-INDUSTRIES VLM 300<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Reactores y Tanques PFAUDLER (500 L y 100 L)<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Autoclave de Esterilización Terminal GETINGE<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Destilador BRAM-COR (2.000 L/h, 8 cilindros)<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Generador de Vapor BRAM-COR CPSG ST 500<br/><br/><strong>Revisión, Etiquetado y Empaque de Líquidos Estériles:</strong><br/><br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Revisadora de Ampollas OPTREL MCA 200<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Revisadora de Frascos EISAI MACHINERY<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Control de Hermeticidad OPTREL<br/><span style='color: #0099A8; font-size: 1.2em; font-weight: bold;'>●</span> Etiquetadora de Ampollas y Frascos"
+        },
+        {
+          "src": ["/assets/pharma-servicio-5a.jpg"],
+          "alt": "Área de Dispensación ",
+          "span": "Central de Pesada SABELLA",
+          "content": null
         }
       ],
       "stats": [
@@ -376,7 +382,7 @@
         "bg": "#ffffff"
       },
       {
-        "src": "/assets/full-service-paso-3-a.png",
+        "src": "/assets/full-service-paso-3-b.png",
         "title": "Paso 3: MAKE",
         "paragraph": "<span class='font-bold' style='color: #252969; text-decoration:underline'>Formas solidas (cápsulas, tabletas y comprimidos)</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento primario</span><br><span class='font-bold' style='color: #252969;'>Blisteado de:</span> Comprimidos, Capsulas rígidas y blandeas, productos especiales con blisteras que cuentan con sistemas de visión de control, balanzas dinámicas a final de línea.<br> <span class='font-bold' style='color: #252969;'>Materiales de formado:</span> Termoplásticos, PVC, PVdC, PVC-Aclar, etc.<br><span class='font-bold' style='color: #252969;'>Cold forming foil.</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento secundario</span><br><span class='font-bold' style='color: #252969;'>Estuchado de:</span> Sobres, blisters, frascos, ampollas, jeringas, etc.<br> <span class='font-bold' style='color: #252969;'>Etiquetado de:</span> Sobres, blisters, frascos, estuches, etc.<br><span class='font-bold' style='color: #252969;'>Codificado de:</span> Estuches, etiquetas, cajas, ampollas, etc.<br><span class='font-bold' style='color: #252969;'>Anulado de:</span> Troqueles.<br><span class='font-bold' style='color: #252969;'>Codificado de los datos productivos con tecnología Inkjet.<br>Termosellado y Termocontraible.<br>Codificación de Trazabilidad.</span><br><br><span class='font-bold' style='color: #252969; text-decoration:underline'>Formas semisolidas (pomadas, pastas cremas y jaleas)</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento secundario</span><br><br><span class='font-bold' style='color: #252969; text-decoration:underline'>Formas líquidas (inyectables, jarabes, emulsiones, suspenciones y colirios)</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento primario</span><br><br><span class='font-bold' style='color: #252969;'>Acondicionamiento secundario</span>",
         "bg": "#d9d9d9"

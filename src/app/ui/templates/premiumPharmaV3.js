@@ -98,7 +98,7 @@ const PremiumPharma = ({ data }) => {
             }`}
           >
             {/* Imagen */}
-            <div className="w-full lg:w-1/2 h-64 lg:h-full">
+            <div className="w-full lg:w-1/2 h-64 lg:h-[450px]">
               {/* Padding en un contenedor externo para evitar que se escale */}
               <div className="relative w-full overflow-hidden rounded-lg h-full">
                 {item.src.length === 1 ? (
@@ -107,10 +107,14 @@ const PremiumPharma = ({ data }) => {
                     alt={item.alt}
                     width={1000}
                     height={1000}
-                    className="w-full h-full object-cover"
+                    className="w-full object-cover"
                   />
                 ) : (
-                  <ImageSlider images={item.src} alt={item.alt} />
+                  <ImageSlider
+                    images={item.src}
+                    alt={item.alt}
+                    className="aspect-video object-cover"
+                  />
                 )}
               </div>
             </div>

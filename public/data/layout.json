@@ -45,10 +45,7 @@
         }
       ]
     },
-    {
-      "label": "Industria",
-      "link": "/industria"
-    },
+
     {
       "label": "Contacto",
       "link": "/contacto",
@@ -113,11 +110,6 @@
           "label": "Servicios",
           "link": "/#servicios"
         },
-        {
-          "label": "Industria",
-          "link": "/industria"
-        },
-
         {
           "label": "Contacto",
           "link": "/contacto"

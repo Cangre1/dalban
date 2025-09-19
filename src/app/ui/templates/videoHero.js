@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Hero from "../../../../public/assets/hero-home.png";
 import Play from "../../../../public/assets/play.png";
-import Logistica from "../../../../public/assets/dalban-logistica-5.png";
-import Pharma from "../../../../public/assets/dalban-pharma.png";
+import Logistica from "../../../../public/assets/dalban-logistica-sa.png";
+import Pharma from "../../../../public/assets/dalban-pharma-sa.png";
 
 const VideoHero = () => {
   return (

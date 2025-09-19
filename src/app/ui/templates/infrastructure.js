@@ -65,7 +65,7 @@ const Infrastructure = ({ data }) => {
 
   return (
     <div className="bg-gray-100">
-      <div className="contenedor-custom !py-12 lg:!py-28">
+      <div className="contenedor-custom !py-12 lg:!py-28 hidden">
         <div className="flex items-center justify-center flex-col gap-y-10">
           <h1
             className="titles"

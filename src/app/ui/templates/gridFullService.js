@@ -31,7 +31,7 @@ const GridFullService = ({ data }) => {
               <img
                 src={item.src}
                 alt="Imagen descriptiva"
-                className={`w-full lg:w-11/12 h-auto rounded-lg  shadow-lg ${
+                className={`w-full lg:w-11/12  rounded-lg  shadow-lg aspect-video object-cover  ${
                   index === 1 || index === 3 ? "mr-auto" : "ml-auto"
                 }`}
               />
